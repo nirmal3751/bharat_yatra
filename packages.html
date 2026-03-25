@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive Holiday Packages | Bharat Yatra</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #ff5722;
+            --secondary: #2c3e50;
+            --accent: #00d2ff;
+            --white: #ffffff;
+            --bg: #f4f7f6;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+        body { background-color: var(--bg); color: var(--secondary); line-height: 1.6; }
+
+        /* --- Navbar --- */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background: var(--white);
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: bold; color: var(--primary); cursor: pointer; }
+        .back-btn { text-decoration: none; color: var(--secondary); font-weight: 600; border: 2px solid var(--secondary); padding: 8px 20px; border-radius: 50px; transition: 0.3s; }
+        .back-btn:hover { background: var(--secondary); color: white; }
+
+        /* --- Hero Section --- */
+        .pkg-hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 10%;
+            text-align: center;
+            color: white;
+            clip-path: ellipse(150% 100% at 50% 0%);
+        }
+        .pkg-hero h1 { font-family: 'Playfair Display', serif; font-size: 3.5rem; margin-bottom: 10px; }
+        .pkg-hero p { font-size: 1.2rem; opacity: 0.9; }
+
+        /* --- Package Grid --- */
+        .pkg-section { padding: 80px 8%; }
+        .pkg-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 40px;
+        }
+
+        /* --- Package Card --- */
+        .pkg-card {
+            background: var(--white);
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+        }
+        .pkg-card:hover { transform: translateY(-15px); box-shadow: 0 20px 50px rgba(0,0,0,0.15); }
+
+        .pkg-img-container { position: relative; height: 250px; overflow: hidden; }
+        .pkg-img { width: 100%; height: 100%; object-fit: cover; transition: 0.5s; }
+        .pkg-card:hover .pkg-img { transform: scale(1.1); }
+
+        .pkg-badge {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: var(--primary);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .pkg-content { padding: 30px; }
+        .pkg-duration { color: var(--primary); font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; }
+        .pkg-title { font-size: 1.6rem; margin: 10px 0; color: var(--secondary); }
+        
+        .pkg-features { list-style: none; margin: 20px 0; }
+        .pkg-features li { display: flex; align-items: center; gap: 10px; font-size: 0.95rem; color: #555; margin-bottom: 8px; }
+        .pkg-features li i { color: #2ecc71; }
+
+        .pkg-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            margin-top: 10px;
+        }
+        .pkg-price { font-size: 1.5rem; font-weight: 700; color: var(--secondary); }
+        .pkg-price span { font-size: 0.9rem; color: #888; font-weight: 400; }
+
+        .enquire-btn {
+            background: var(--secondary);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .enquire-btn:hover { background: var(--primary); transform: scale(1.05); }
+
+        /* --- Responsive --- */
+        @media (max-width: 768px) {
+            .pkg-hero h1 { font-size: 2.2rem; }
+            .navbar { padding: 15px 5%; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo" onclick="location.href='index.html'">BHARAT YATRA</div>
+        <a href="index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Home</a>
+    </nav>
+
+    <header class="pkg-hero">
+        <h1>Dream Holiday Deals</h1>
+        <p>Premium travel experiences curated by Nirmal Rajput.</p>
+    </header>
+
+    <section class="pkg-section">
+        <div class="pkg-grid">
+            
+            <div class="pkg-card">
+                <div class="pkg-img-container">
+                    <span class="pkg-badge">Trending</span>
+                    <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600" class="pkg-img" alt="Goa">
+                </div>
+                <div class="pkg-content">
+                    <span class="pkg-duration">3 Nights / 4 Days</span>
+                    <h3 class="pkg-title">Goa Beach Extravaganza</h3>
+                    <ul class="pkg-features">
+                        <li><i class="fas fa-check-circle"></i> 4-Star Beach Resort</li>
+                        <li><i class="fas fa-check-circle"></i> Breakfast & Dinner</li>
+                        <li><i class="fas fa-check-circle"></i> South Goa Sightseeing</li>
+                    </ul>
+                    <div class="pkg-footer">
+                        <div class="pkg-price">₹12,499 <span>/ person</span></div>
+                        <button class="enquire-btn" onclick="sendToWhatsApp('Goa Beach Extravaganza', '12,499')">
+                            <i class="fab fa-whatsapp"></i> Book
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pkg-card">
+                <div class="pkg-img-container">
+                    <span class="pkg-badge">Popular</span>
+                    <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600" class="pkg-img" alt="Manali">
+                </div>
+                <div class="pkg-content">
+                    <span class="pkg-duration">4 Nights / 5 Days</span>
+                    <h3 class="pkg-title">Magical Manali & Rohtang</h3>
+                    <ul class="pkg-features">
+                        <li><i class="fas fa-check-circle"></i> Cozy Mountain Cottage</li>
+                        <li><i class="fas fa-check-circle"></i> Private Cab for Transfer</li>
+                        <li><i class="fas fa-check-circle"></i> Solang Valley Tour</li>
+                    </ul>
+                    <div class="pkg-footer">
+                        <div class="pkg-price">₹8,999 <span>/ person</span></div>
+                        <button class="enquire-btn" onclick="sendToWhatsApp('Magical Manali', '8,999')">
+                            <i class="fab fa-whatsapp"></i> Book
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pkg-card">
+                <div class="pkg-img-container">
+                    <span class="pkg-badge">Luxury</span>
+                    <img src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=600" class="pkg-img" alt="Kashmir">
+                </div>
+                <div class="pkg-content">
+                    <span class="pkg-duration">5 Nights / 6 Days</span>
+                    <h3 class="pkg-title">Heavenly Kashmir Valley</h3>
+                    <ul class="pkg-features">
+                        <li><i class="fas fa-check-circle"></i> Deluxe Houseboat Stay</li>
+                        <li><i class="fas fa-check-circle"></i> Shikara Ride Included</li>
+                        <li><i class="fas fa-check-circle"></i> Gulmarg & Pahalgam</li>
+                    </ul>
+                    <div class="pkg-footer">
+                        <div class="pkg-price">₹18,500 <span>/ person</span></div>
+                        <button class="enquire-btn" onclick="sendToWhatsApp('Heavenly Kashmir', '18,500')">
+                            <i class="fab fa-whatsapp"></i> Book
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        function sendToWhatsApp(pkgName, price) {
+            const phoneNumber = "919009629736";
+            const message = `Hello Nirmal! 👋%0A%0AI am interested in the *${pkgName}* package.%0A💰 *Price:* ₹${price}/-%0A%0APlease share more details and availability.`;
+            const url = `https://wa.me/${phoneNumber}?text=${message}`;
+            window.open(url, '_blank');
+        }
+    </script>
+
+</body>
+</html>

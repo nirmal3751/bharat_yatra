@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenticate | Bharat Yatra - Your Travel Partner</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* 🌌 MODERN MESH GRADIENT BACKGROUND */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f172a;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(255, 87, 34, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(33, 150, 243, 0.15) 0px, transparent 50%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        /* Premium Glassmorphism Card */
+        .auth-container {
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            padding: 40px;
+            border-radius: 30px;
+            width: 90%;
+            max-width: 420px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+            text-align: center;
+            color: #ffffff;
+            transition: 0.5s ease;
+            position: relative;
+        }
+
+        .brand-logo {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #ff5722;
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        /* Animation for Switching Forms */
+        .form-box {
+            display: none;
+            animation: fadeIn 0.4s ease-out;
+        }
+        .form-box.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            margin-bottom: 25px;
+            font-weight: 500;
+            color: rgba(255,255,255,0.9);
+        }
+
+        /* Professional Input Fields */
+        .input-wrapper {
+            position: relative;
+            margin-bottom: 18px;
+            text-align: left;
+        }
+
+        .input-wrapper label {
+            display: block;
+            font-size: 0.75rem;
+            margin-bottom: 6px;
+            color: rgba(255,255,255,0.5);
+            padding-left: 5px;
+        }
+
+        .input-wrapper i {
+            position: absolute;
+            left: 18px;
+            top: 38px;
+            color: #ff5722;
+            font-size: 1rem;
+        }
+
+        .input-wrapper input {
+            width: 100%;
+            padding: 12px 15px 12px 48px;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            color: #fff;
+            font-size: 0.95rem;
+            outline: none;
+            box-sizing: border-box;
+            transition: 0.3s;
+        }
+
+        .input-wrapper input:focus {
+            background: rgba(255, 255, 255, 0.12);
+            border-color: #ff5722;
+            box-shadow: 0 0 15px rgba(255, 87, 34, 0.2);
+        }
+
+        /* Auth Button Styling */
+        .btn-auth {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(90deg, #ff5722, #ff7043);
+            border: none;
+            border-radius: 12px;
+            color: white;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            margin-top: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-auth:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(255, 87, 34, 0.3);
+        }
+
+        /* Footer Toggle Links */
+        .auth-footer {
+            margin-top: 25px;
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.6);
+        }
+
+        .auth-footer span {
+            color: #ff5722;
+            cursor: pointer;
+            font-weight: 600;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .auth-footer span:hover {
+            text-decoration: underline;
+            color: #fff;
+        }
+
+        /* Back Navigation */
+        .back-link {
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            color: rgba(255,255,255,0.5);
+            text-decoration: none;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: 0.3s;
+        }
+
+        .back-link:hover { color: #fff; }
+
+        /* Mobile Fixes */
+        @media (max-width: 480px) {
+            .auth-container { padding: 35px 25px; }
+            .brand-logo { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-link">
+        <i class="fas fa-arrow-left"></i> Return to Explorer
+    </a>
+
+    <div class="auth-container">
+        <div class="brand-logo">BHARAT YATRA</div>
+
+        <div id="login-box" class="form-box active">
+            <h2>Sign In to Account</h2>
+            <form onsubmit="handleAuth(event, 'Welcome Back!')">
+                <div class="input-wrapper">
+                    <label>Registered Email</label>
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="email@example.com" required>
+                </div>
+                
+                <div class="input-wrapper">
+                    <label>Secure Password</label>
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="••••••••" required>
+                </div>
+
+                <button type="submit" class="btn-auth">Authenticate</button>
+            </form>
+            <div class="auth-footer">
+                New to Bharat Yatra? <span onclick="toggleAuth('register-box')">Create Account</span>
+            </div>
+        </div>
+
+        <div id="register-box" class="form-box">
+            <h2>Create New Profile</h2>
+            <form onsubmit="handleAuth(event, 'Account Created Successfully!')">
+                <div class="input-wrapper">
+                    <label>Full Name</label>
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+
+                <div class="input-wrapper">
+                    <label>Email Address</label>
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="name@example.com" required>
+                </div>
+
+                <div class="input-wrapper">
+                    <label>Mobile Number</label>
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" placeholder="+91 00000 00000" required>
+                </div>
+                
+                <div class="input-wrapper">
+                    <label>Set Secure Password</label>
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="••••••••" required>
+                </div>
+
+                <button type="submit" class="btn-auth">Register Now</button>
+            </form>
+            <div class="auth-footer">
+                Already a member? <span onclick="toggleAuth('login-box')">Sign In Instead</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Toggle between Login and Register Forms
+        function toggleAuth(boxId) {
+            document.querySelectorAll('.form-box').forEach(box => {
+                box.classList.remove('active');
+            });
+            document.getElementById(boxId).classList.add('active');
+        }
+
+        // Handle Authentication
+        function handleAuth(e, message) {
+            e.preventDefault();
+            alert(message);
+            window.location.href = "index.html";
+        }
+    </script>
+
+</body>
+</html>

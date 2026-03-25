@@ -1,0 +1,2644 @@
+[
+  {
+    "id": 1,
+    "name": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1590491000780-877f0d0e68f3?w=1200",
+    "description": "Visakhapatnam, popularly known as Vizag, is a spectacular coastal city nestled between the lush Eastern Ghats and the azure Bay of Bengal. As the largest city in Andhra Pradesh, it is a major industrial hub but maintains a soulful charm with its golden beaches and hilltop parks. It is home to India's oldest shipyard and the only natural harbor on the east coast, offering travelers a unique blend of naval history, spiritual caves, and a vibrant street life that makes it the 'City of Destiny'.",
+    "summaryFacts": { "foundedBy": "Ancient Era (11th Century)", "population": "2.3 Million", "officialLanguage": "Telugu", "famousFor": "Pristine Beaches & Deep Water Port" },
+    "travelInfo": { "nearestAirport": "Visakhapatnam International (VTZ)", "mainRailway": "Visakhapatnam Jn (VSKP)" },
+    "localFood": [{"name": "Punugulu"}, {"name": "Bamboo Chicken"}, {"name": "Muri Mixture"}, {"name": "Ariselu"}],
+    "places": [{"name": "R.K. Beach", "desc": "The most iconic city beach for evening walks."}, {"name": "Submarine Museum", "desc": "Inside a real decommissioned submarine."}, {"name": "Kailasagiri", "desc": "A beautiful hilltop park offering panoramic views."}, {"name": "Rishikonda", "desc": "Known as the jewel of the East Coast, best for water sports."}]
+  },
+  {
+    "id": 2,
+    "name": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200",
+    "description": "Vijayawada, known as the 'Place of Victory', is a major commercial center located on the banks of the mighty Krishna River. The city is famous for its rich historical heritage, including the ancient rock-cut Undavalli Caves and the legendary Kanaka Durga Temple that sits atop the Indrakeeladri Hill. It is a melting pot of culture and commerce, serving as a vital gateway between North and South India through one of the largest railway junctions in the country.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "1.5 Million", "officialLanguage": "Telugu", "famousFor": "Kanaka Durga Temple & Prakasam Barrage" },
+    "travelInfo": { "nearestAirport": "Vijayawada Airport (VGA)", "mainRailway": "Vijayawada Jn (BZA)" },
+    "localFood": [{"name": "Pesarattu"}, {"name": "Gongura Pachadi"}, {"name": "Babai Idli"}, {"name": "Ulavacharu"}],
+    "places": [{"name": "Kanaka Durga Temple", "desc": "Famous hilltop shrine dedicated to Goddess Durga."}, {"name": "Undavalli Caves", "desc": "7th-century rock-cut architecture carved out of sandstone."}, {"name": "Prakasam Barrage", "desc": "A massive bridge offering stunning views of the Krishna river."}, {"name": "Bhavani Island", "desc": "A peaceful river-island resort perfect for boating."}]
+  },
+  {
+    "id": 3,
+    "name": "Tirupati",
+    "state": "Andhra Pradesh",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Tirupati is the spiritual capital of Andhra Pradesh, world-renowned for the Tirumala Venkateswara Temple, one of the richest and most visited religious sites on Earth. The city is situated at the foot of the sacred Tirumala Hills, offering a serene environment filled with spiritual energy and devotion. Beyond the main temple, Tirupati is surrounded by beautiful waterfalls, ancient forts, and lush forest reserves that attract pilgrims and nature lovers alike.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.8 Million", "officialLanguage": "Telugu", "famousFor": "Lord Venkateswara Temple & Tirumala Laddu" },
+    "travelInfo": { "nearestAirport": "Tirupati Airport (TIR)", "mainRailway": "Tirupati Main (TPTY)" },
+    "localFood": [{"name": "Tirupati Laddu"}, {"name": "Pulihora"}, {"name": "Andhra Vada"}, {"name": "Pongal"}],
+    "places": [{"name": "Tirumala Temple", "desc": "The main sacred hilltop shrine visited by millions."}, {"name": "Chandragiri Fort", "desc": "An 11th-century palace and fort ruins."}, {"name": "Talakona Falls", "desc": "The highest waterfall in Andhra Pradesh."}, {"name": "Silathoranam", "desc": "A rare natural rock arch formation."}]
+  },
+  {
+    "id": 4,
+    "name": "Kurnool",
+    "state": "Andhra Pradesh",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Kurnool is a city steeped in history, often referred to as the 'Gateway to Rayalaseema'. It served as the first capital of Andhra State in the early 1950s. The city is famous for the Konda Reddy Buruju fort and serves as a base for visiting the incredible Belum Caves and the ancient temples of Mahanandi. It is a land of massive rock formations, historic battles, and deep-rooted traditions that define the Rayalaseema region.",
+    "summaryFacts": { "foundedBy": "11th Century", "population": "0.5 Million", "officialLanguage": "Telugu", "famousFor": "Belum Caves & Konda Reddy Buruju" },
+    "travelInfo": { "nearestAirport": "Kurnool Airport (KJB)", "mainRailway": "Kurnool City (KRNT)" },
+    "localFood": [{"name": "Uggani"}, {"name": "Jonna Rotte"}, {"name": "Natukodi Pulusu"}, {"name": "Bajji"}],
+    "places": [{"name": "Konda Reddy Buruju", "desc": "Iconic fortress structure in the heart of the city."}, {"name": "Belum Caves", "desc": "India's second-largest cave system with massive stalactites."}, {"name": "Oravakallu Rocks", "desc": "Igneous rock park with beautiful natural formations."}, {"name": "Mahanandi", "desc": "Ancient Nandi temple with crystal clear water pools."}]
+  },
+  {
+    "id": 5,
+    "name": "Itanagar",
+    "state": "Arunachal Pradesh",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1624515579244-14285220c324?w=1200",
+    "description": "Itanagar, the capital of Arunachal Pradesh, is a land of lush greenery and misty hills. Named after the historical 'Ita Fort' (Fort of Bricks) built in the 14th century, the city is a window into the tribal heritage of the Northeast. It offers a peaceful atmosphere with golden Buddhist monasteries, the sparkling Ganga Lake, and museums that showcase the unique handicrafts and lifestyle of the local tribes.",
+    "summaryFacts": { "foundedBy": "14th Century", "population": "0.1 Million", "officialLanguage": "Hindi/English/Nyishi", "famousFor": "Ita Fort & Gompa Temple" },
+    "travelInfo": { "nearestAirport": "Donyi Polo Airport", "mainRailway": "Naharlagun" },
+    "localFood": [{"name": "Thukpa"}, {"name": "Smoked Pork"}, {"name": "Pika Pila"}, {"name": "Bamboo Shoot"}],
+    "places": [{"name": "Ita Fort", "desc": "Ancient 14th-century historical brick fort."}, {"name": "Theravada Gompa", "desc": "A beautiful Buddhist monastery with a peaceful vibe."}, {"name": "Ganga Lake", "desc": "A scenic lake surrounded by bamboo groves and orchids."}, {"name": "State Museum", "desc": "Showcase of the region's rich tribal culture."}]
+  },
+  {
+    "id": 6,
+    "name": "Tawang",
+    "state": "Arunachal Pradesh",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1542640244-7e672d6cef21?w=1200",
+    "description": "Tawang is a high-altitude paradise tucked away in the Himalayas. Famous for the 400-year-old Tawang Monastery, which is the largest in India, it is a holy land for Buddhists. The town is surrounded by spectacular mountain passes like Sela Pass, frozen lakes, and gushing waterfalls. It is a dream destination for travelers seeking spiritual peace and breathtaking Himalayan landscapes.",
+    "summaryFacts": { "foundedBy": "Monpa Tribe", "population": "0.05 Million", "officialLanguage": "Monpa/Hindi", "famousFor": "Tawang Monastery & Sela Pass" },
+    "travelInfo": { "nearestAirport": "Tezpur (Assam)", "mainRailway": "Bhalukpong" },
+    "localFood": [{"name": "Zan"}, {"name": "Momo"}, {"name": "Khura"}, {"name": "Gyapa Khazi"}],
+    "places": [{"name": "Tawang Monastery", "desc": "The largest spiritual center for Monpa Buddhists."}, {"name": "Sela Pass", "desc": "One of the world's highest motorable mountain passes."}, {"name": "Madhuri Lake", "desc": "A serene lake formed after an earthquake."}, {"name": "Nuranang Falls", "desc": "A gigantic waterfall hidden in the lush green forest."}]
+  },
+  {
+    "id": 7,
+    "name": "Ziro",
+    "state": "Arunachal Pradesh",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200",
+    "description": "Ziro Valley is a stunning UNESCO World Heritage site known for its music festivals and the unique Apatani tribe. The valley is famous for its pine-clad hills, vast rice fields, and traditional tribal houses. Ziro offers an authentic experience of tribal lifestyle, sustainable agriculture, and the world-famous Ziro Music Festival.",
+    "summaryFacts": { "foundedBy": "Apatani Tribe", "population": "12,000", "officialLanguage": "Apatani/Hindi", "famousFor": "Ziro Music Festival & Paddy Fields" },
+    "travelInfo": { "nearestAirport": "Lilabari (Assam)", "mainRailway": "Naharlagun" },
+    "localFood": [{"name": "Bamboo Shoot"}, {"name": "Pehak"}, {"name": "Apong (Rice Beer)"}, {"name": "Marua"}],
+    "places": [{"name": "Talley Valley", "desc": "A beautiful wildlife sanctuary and trekking zone."}, {"name": "Meghna Cave Temple", "desc": "An ancient 5000-year-old rock-cut temple."}, {"name": "Ziro Puto", "desc": "A hilltop offering bird's-eye views of the valley."}, {"name": "Pine Grove", "desc": "A scenic area filled with lush blue pine trees."}]
+  },
+  {
+    "id": 8,
+    "name": "Bomdila",
+    "state": "Arunachal Pradesh",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Bomdila is a serene hill station known for its apple orchards, Buddhist monasteries, and spectacular views of the snow-capped Himalayan peaks. Situated at over 8,000 feet, it is a perfect stopover for travelers headed to Tawang. The town is a mix of tribal cultures and offers a peaceful escape with its misty hills and cool climate.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "10,000", "officialLanguage": "Hindi/English", "famousFor": "Apple Orchards & Himalayan Views" },
+    "travelInfo": { "nearestAirport": "Tezpur", "mainRailway": "Rangapara" },
+    "localFood": [{"name": "Chura Sabji"}, {"name": "Momos"}, {"name": "Thukpa"}, {"name": "Rice with Herbs"}],
+    "places": [{"name": "Bomdila Gompa", "desc": "The main Buddhist monastery and center for monks."}, {"name": "Eaglenest Sanctuary", "desc": "A bird watcher's paradise with rare species."}, {"name": "Apple Orchards", "desc": "Lush green gardens famous for high-quality apples."}, {"name": "Bomdila View Point", "desc": "Offers breathtaking views of the Kameng Valley."}]
+  },
+  {
+    "id": 9,
+    "name": "Guwahati",
+    "state": "Assam",
+    "category": "river",
+    "image": "https://images.unsplash.com/photo-1582294625895-46b772be5691?w=1200",
+    "description": "Guwahati is the largest metropolis in Northeast India and serves as the gateway to the Seven Sister States. Situated on the south bank of the mighty Brahmaputra River, it is a city where ancient history and modern life coexist beautifully. Known as the 'City of Temples', it is home to the sacred Kamakhya Devi shrine.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "1.2 Million", "officialLanguage": "Assamese", "famousFor": "Kamakhya Temple & River" },
+    "travelInfo": { "nearestAirport": "GHY International", "mainRailway": "Guwahati Jn (GHY)" },
+    "localFood": [{"name": "Masor Tenga"}, {"name": "Duck Meat Curry"}, {"name": "Pitha"}, {"name": "Khar"}],
+    "places": [{"name": "Kamakhya Temple", "desc": "One of the oldest Shakti Peeths in India."}, {"name": "Umananda Island", "desc": "The smallest inhabited river island in the world."}, {"name": "Assam State Zoo", "desc": "Largest zoo in the Northeast, home to rhinos."}, {"name": "Alfresco Grand", "desc": "A luxury cruise on the Brahmaputra for sunsets."}]
+  },
+  {
+    "id": 10,
+    "name": "Dibrugarh",
+    "state": "Assam",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1544787210-282aa3773177?w=1200",
+    "description": "Dibrugarh is known as the 'Tea City of India' and is the major hub for tea production in the world. Located on the banks of the Brahmaputra, the city is surrounded by vast, lush green tea estates that stretch as far as the eye can see.",
+    "summaryFacts": { "foundedBy": "Ahom Era", "population": "0.2 Million", "officialLanguage": "Assamese/Hindi", "famousFor": "Tea Gardens & Bogibeel Bridge" },
+    "travelInfo": { "nearestAirport": "Dibrugarh Airport (DIB)", "mainRailway": "Dibrugarh Jn (DBRG)" },
+    "localFood": [{"name": "Assam Tea"}, {"name": "Fish Pitika"}, {"name": "Laru (Coconut Sweet)"}, {"name": "Babori Sak"}],
+    "places": [{"name": "Tea Garden Tours", "desc": "Vast green estates where you can see tea plucking."}, {"name": "Bogibeel Bridge", "desc": "India's longest rail-cum-road bridge over the river."}, {"name": "Dehing Patkai", "desc": "Known as the Amazon of the East, a lush rainforest."}, {"name": "Jokai Botanical Garden", "desc": "A peaceful area with rare medicinal plants."}]
+  },
+  {
+    "id": 11,
+    "name": "Patna",
+    "state": "Bihar",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1541434190180-8735395a16d0?w=1200",
+    "description": "Patna, anciently known as Pataliputra, is one of the oldest continuously inhabited cities in the world. It was the center of power for great Indian empires like the Mauryas and Guptas, and the cradle of Buddhism and Jainism.",
+    "summaryFacts": { "foundedBy": "King Ajatashatru", "population": "2.5 Million", "officialLanguage": "Hindi/Bhojpuri", "famousFor": "Ancient Pataliputra & Golghar" },
+    "travelInfo": { "nearestAirport": "Jay Prakash Narayan (PAT)", "mainRailway": "Patna Jn (PNBE)" },
+    "localFood": [{"name": "Litti Chokha"}, {"name": "Sattu Paratha"}, {"name": "Anarsa"}, {"name": "Thekua"}],
+    "places": [{"name": "Golghar", "desc": "A unique beehive-shaped granary with panoramic views."}, {"name": "Takht Sri Patna Sahib", "desc": "Birthplace of the 10th Sikh Guru."}, {"name": "Bihar Museum", "desc": "A world-class museum showcasing ancient artifacts."}, {"name": "Eco Park", "desc": "A green heart in the city with a lake."}]
+  },
+  {
+    "id": 12,
+    "name": "Gaya",
+    "state": "Bihar",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=1200",
+    "description": "Gaya is a city of profound religious significance, considered sacred by both Hindus and Buddhists. It is home to Bodh Gaya, where Lord Buddha attained enlightenment under the Bodhi tree.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.5 Million", "officialLanguage": "Hindi/Magahi", "famousFor": "Mahabodhi Temple & Enlightenment" },
+    "travelInfo": { "nearestAirport": "Gaya Airport (GAY)", "mainRailway": "Gaya Jn (GAYA)" },
+    "localFood": [{"name": "Tilkut"}, {"name": "Kesariya Peda"}, {"name": "Lai"}, {"name": "Malpua"}],
+    "places": [{"name": "Mahabodhi Temple", "desc": "A UNESCO World Heritage site of enlightenment."}, {"name": "Vishnupad Temple", "desc": "An ancient temple featuring a footprint of Vishnu."}, {"name": "80-Foot Buddha Statue", "desc": "A gigantic and majestic stone statue of Buddha."}, {"name": "Dungeshwari Caves", "desc": "Caves where Buddha meditated before enlightenment."}]
+  },
+  {
+    "id": 13,
+    "name": "Raipur",
+    "state": "Chhattisgarh",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200",
+    "description": "Raipur, the capital of Chhattisgarh, is a rapidly growing city and a major hub for trade. Known as the 'Rice Bowl of India', it blends industrial progress with rich tribal traditions.",
+    "summaryFacts": { "foundedBy": "9th Century", "population": "1.2 Million", "officialLanguage": "Hindi/Chhattisgarhi", "famousFor": "Steel Industries & Tribal Heritage" },
+    "travelInfo": { "nearestAirport": "Swami Vivekananda Airport (RPR)", "mainRailway": "Raipur Jn (R)" },
+    "localFood": [{"name": "Chila"}, {"name": "Fara"}, {"name": "Muthia"}, {"name": "Bore Basi"}],
+    "places": [{"name": "Marine Drive", "desc": "Lakeside walkway with murals."}, {"name": "Purkhauti Muktangan", "desc": "Open-air tribal museum."}, {"name": "Mahant Ghasidas Museum", "desc": "Regional history center."}, {"name": "Swami Vivekananda Sarovar", "desc": "Lake with a massive statue."}]
+  },
+  {
+    "id": 14,
+    "name": "Bilaspur",
+    "state": "Chhattisgarh",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Bilaspur, known as the 'Law Capital' of Chhattisgarh, is famous for its high-quality Kosa silk and ancient ruins. It has a rich historical past from the Kalachuri era.",
+    "summaryFacts": { "foundedBy": "Kalachuri Dynasty", "population": "0.4 Million", "officialLanguage": "Hindi/Chhattisgarhi", "famousFor": "Kosa Silk & Coal Mines" },
+    "travelInfo": { "nearestAirport": "Bilasa Devi Airport (PAB)", "mainRailway": "Bilaspur Jn (BSP)" },
+    "localFood": [{"name": "Sabudana Khichdi"}, {"name": "Badi"}, {"name": "Aamat"}, {"name": "Angakar Roti"}],
+    "places": [{"name": "Ratanpur Fort", "desc": "Ancient fort with intricate carvings."}, {"name": "Khutaghat Dam", "desc": "Scenic dam surrounded by hills."}, {"name": "Achanakmar Sanctuary", "desc": "Dense forest home to tigers."}, {"name": "Talladevi Temple", "desc": "Prominent religious site."}]
+  },
+  {
+    "id": 15,
+    "name": "Jagdalpur",
+    "state": "Chhattisgarh",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1590491000780-877f0d0e68f3?w=1200",
+    "description": "Jagdalpur is the cultural capital of the Bastar district, famous for its Dussehra festival and the spectacular Chitrakoot Falls, the Niagara of India.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.3 Million", "officialLanguage": "Hindi/Halbi", "famousFor": "Chitrakoot Falls & Dussehra" },
+    "travelInfo": { "nearestAirport": "Jagdalpur Airport (JGB)", "mainRailway": "Jagdalpur Station" },
+    "localFood": [{"name": "Chaprah (Ant Chutney)"}, {"name": "Badi"}, {"name": "Dubki Kadhi"}, {"name": "Petha"}],
+    "places": [{"name": "Chitrakoot Falls", "desc": "Widest waterfall in India."}, {"name": "Teerathgarh Falls", "desc": "Stunning milky-white waterfall."}, {"name": "Kanger Valley Park", "desc": "Bio-diversity hotspot."}, {"name": "Bastar Palace", "desc": "Historic royal residence."}]
+  },
+  {
+    "id": 16,
+    "name": "Bhilai",
+    "state": "Chhattisgarh",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1541434190180-8735395a16d0?w=1200",
+    "description": "Bhilai is a major industrial city known as the 'Steel City of Central India'. It is a well-planned educational hub with lush green parks.",
+    "summaryFacts": { "foundedBy": "Modern India", "population": "0.6 Million", "officialLanguage": "Hindi", "famousFor": "Bhilai Steel Plant" },
+    "travelInfo": { "nearestAirport": "Raipur Airport", "mainRailway": "Durg Jn" },
+    "localFood": [{"name": "Moong Dal Halwa"}, {"name": "Samosa"}, {"name": "Jalebi"}, {"name": "Thali"}],
+    "places": [{"name": "Maitri Bagh", "desc": "Zoo and musical fountain garden."}, {"name": "Civic Center", "desc": "Social and shopping hub."}, {"name": "Bhilai Steel Plant", "desc": "Industrial tour site."}, {"name": "Jain Temple", "desc": "Beautiful religious shrine."}]
+  },
+  {
+    "id": 17,
+    "name": "New Delhi",
+    "state": "Delhi",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200",
+    "description": "New Delhi, the heart of India, is a city where every stone tells a story of ancient empires and modern democracy. From grand architecture to world-class food.",
+    "summaryFacts": { "foundedBy": "Mughals/British", "population": "16 Million", "officialLanguage": "Hindi/English", "famousFor": "Monuments & Food" },
+    "travelInfo": { "nearestAirport": "IGI International", "mainRailway": "New Delhi Jn" },
+    "localFood": [{"name": "Chole Bhature"}, {"name": "Butter Chicken"}, {"name": "Aloo Tikki"}, {"name": "Paranthas"}],
+    "places": [{"name": "India Gate", "desc": "Iconic war memorial."}, {"name": "Qutub Minar", "desc": "Tallest brick minaret."}, {"name": "Lotus Temple", "desc": "Flower-shaped worship house."}, {"name": "Red Fort", "desc": "Grand Mughal fortress."}]
+  },
+  {
+    "id": 18,
+    "name": "Old Delhi",
+    "state": "Delhi",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1598376754167-3e3c23568c07?w=1200",
+    "description": "Old Delhi is the historical soul of the capital, famous for its narrow winding lanes and the best Mughlai food in the world.",
+    "summaryFacts": { "foundedBy": "Shah Jahan", "population": "0.5 Million", "officialLanguage": "Hindi/Urdu", "famousFor": "Chandni Chowk" },
+    "travelInfo": { "nearestAirport": "IGI Airport", "mainRailway": "Old Delhi Jn" },
+    "localFood": [{"name": "Nihari"}, {"name": "Daulat Chaat"}, {"name": "Jalebi"}, {"name": "Kebab"}],
+    "places": [{"name": "Jama Masjid", "desc": "Largest mosque in India."}, {"name": "Chandni Chowk", "desc": "Legendary market street."}, {"name": "Raj Ghat", "desc": "Gandhi memorial."}, {"name": "Paranthe Wali Gali", "desc": "Historic food lane."}]
+  },
+  {
+    "id": 19,
+    "name": "Mehrauli",
+    "state": "Delhi",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1544787210-282aa3773177?w=1200",
+    "description": "Mehrauli is an archaeological goldmine with ruins from medieval dynasties, offering a glimpse into Delhi's ancient past.",
+    "summaryFacts": { "foundedBy": "Tomar Dynasty", "population": "0.2 Million", "officialLanguage": "Hindi", "famousFor": "Archaeological Park" },
+    "travelInfo": { "nearestAirport": "IGI Airport", "mainRailway": "Hazrat Nizamuddin" },
+    "localFood": [{"name": "Kebab"}, {"name": "Biryani"}, {"name": "Samosa"}, {"name": "Rabri"}],
+    "places": [{"name": "Archaeological Park", "desc": "Historic ruins and tombs."}, {"name": "Zafar Mahal", "desc": "Summer palace ruins."}, {"name": "Hauz-i-Shamsi", "desc": "Ancient water tank."}, {"name": "Jahaz Mahal", "desc": "Lakeside monument."}]
+  },
+  {
+    "id": 20,
+    "name": "Dwarka",
+    "state": "Delhi",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1599933333394-84bc19d9748f?w=1200",
+    "description": "Dwarka is a modern planned sub-city known for its infrastructure and spiritual sites like the ISKCON temple.",
+    "summaryFacts": { "foundedBy": "Modern DDA", "population": "1 Million", "officialLanguage": "Hindi/English", "famousFor": "Residential Hub" },
+    "travelInfo": { "nearestAirport": "IGI Airport", "mainRailway": "Delhi Cantt" },
+    "localFood": [{"name": "Momos"}, {"name": "Rolls"}, {"name": "South Indian"}, {"name": "Paav Bhaji"}],
+    "places": [{"name": "ISKCON Temple", "desc": "Beautiful Krishna temple."}, {"name": "Vegas Mall", "desc": "Shopping and dining hub."}, {"name": "Lodi Era Baoli", "desc": "Historical stepwell."}, {"name": "Sector 10 Market", "desc": "Busy shopping street."}]
+  },
+  {
+    "id": 21,
+    "name": "Panaji",
+    "state": "Goa",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200",
+    "description": "Panaji, the capital of Goa, is famous for its colorful Portuguese villas and Mediterranean vibe on the Mandovi River.",
+    "summaryFacts": { "foundedBy": "Portuguese", "population": "0.1 Million", "officialLanguage": "Konkani", "famousFor": "Fontainhas" },
+    "travelInfo": { "nearestAirport": "Dabolim/Mopa", "mainRailway": "Karmali" },
+    "localFood": [{"name": "Fish Curry"}, {"name": "Bebinca"}, {"name": "Feni"}, {"name": "Vindaloo"}],
+    "places": [{"name": "Fontainhas", "desc": "Latin Quarter heritage."}, {"name": "Miramar Beach", "desc": "City urban beach."}, {"name": "Dona Paula", "desc": "Sea-view viewpoint."}, {"name": "Mandovi Cruise", "desc": "Riverside casino boat."}]
+  },
+  {
+    "id": 22,
+    "name": "Margao",
+    "state": "Goa",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?w=1200",
+    "description": "Margao is the commercial heart of South Goa, preserving the true essence of Indo-Portuguese lifestyle.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.1 Million", "officialLanguage": "Konkani", "famousFor": "MMC Market" },
+    "travelInfo": { "nearestAirport": "Dabolim", "mainRailway": "Madgaon Jn" },
+    "localFood": [{"name": "Xacuti"}, {"name": "Sorpotel"}, {"name": "Ross Omelette"}, {"name": "Pao"}],
+    "places": [{"name": "Colva Beach", "desc": "White sand beach."}, {"name": "Holy Spirit Church", "desc": "Baroque architecture."}, {"name": "Margao Market", "desc": "Traditional spice market."}, {"name": "Our Lady Grace", "desc": "Historic church square."}]
+  },
+  {
+    "id": 23,
+    "name": "Vasco da Gama",
+    "state": "Goa",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Vasco is the port city of Goa, a major industrial hub with beautiful beaches like Bogmalo nearby.",
+    "summaryFacts": { "foundedBy": "Portuguese", "population": "0.1 Million", "officialLanguage": "Konkani", "famousFor": "Mormugao Port" },
+    "travelInfo": { "nearestAirport": "Dabolim", "mainRailway": "Vasco Jn" },
+    "localFood": [{"name": "Fish Thali"}, {"name": "Fried Prawns"}, {"name": "Kokum Sherbet"}, {"name": "Pork Roast"}],
+    "places": [{"name": "Bogmalo Beach", "desc": "Quiet crescent beach."}, {"name": "Naval Aviation Museum", "desc": "Vintage aircraft display."}, {"name": "Baina Beach", "desc": "Scenic rocky shore."}, {"name": "Japanese Garden", "desc": "Park with sunset view."}]
+  },
+  {
+    "id": 24,
+    "name": "Mapusa",
+    "state": "Goa",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200",
+    "description": "Mapusa is a bustling market town and the gateway to North Goa's famous beaches.",
+    "summaryFacts": { "foundedBy": "Ancient", "population": "0.05 Million", "officialLanguage": "Konkani", "famousFor": "Friday Market" },
+    "travelInfo": { "nearestAirport": "Mopa Airport", "mainRailway": "Thivim Jn" },
+    "localFood": [{"name": "Goan Sausage"}, {"name": "Chana Ros"}, {"name": "Cashew Nuts"}, {"name": "Kulfi"}],
+    "places": [{"name": "Mapusa Market", "desc": "Iconic local market hub."}, {"name": "Bodgeshwar Temple", "desc": "Ancient city temple."}, {"name": "St. Jerome Church", "desc": "Colonial architecture."}, {"name": "Anjuna Beach", "desc": "Famous hippie beach."}]
+  },
+  {
+    "id": 25,
+    "name": "Ahmedabad",
+    "state": "Gujarat",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1599933333394-84bc19d9748f?w=1200",
+    "description": "Ahmedabad is India's first UNESCO World Heritage City, famous for its textiles and Gandhi's Ashram.",
+    "summaryFacts": { "foundedBy": "Ahmed Shah", "population": "7.2 Million", "officialLanguage": "Gujarati", "famousFor": "Sabarmati Ashram" },
+    "travelInfo": { "nearestAirport": "AMD International", "mainRailway": "Ahmedabad Jn" },
+    "localFood": [{"name": "Dhokla"}, {"name": "Thepla"}, {"name": "Khandvi"}, {"name": "Gujarati Thali"}],
+    "places": [{"name": "Sabarmati Ashram", "desc": "Gandhi's home center."}, {"name": "Adalaj Stepwell", "desc": "Rock-cut architecture."}, {"name": "Akshardham", "desc": "Grand stone temple."}, {"name": "Kankaria Lake", "desc": "Urban lake garden."}]
+  },
+  {
+    "id": 26,
+    "name": "Surat",
+    "state": "Gujarat",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1594632128543-9799292c2069?w=1200",
+    "description": "Surat, the 'Diamond City', is famous for polishing 90% of the world's diamonds and its textile markets.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "6 Million", "officialLanguage": "Gujarati", "famousFor": "Diamonds & Silk" },
+    "travelInfo": { "nearestAirport": "Surat Airport", "mainRailway": "Surat Jn" },
+    "localFood": [{"name": "Locho"}, {"name": "Undhiyu"}, {"name": "Ghari"}, {"name": "Sev Khamani"}],
+    "places": [{"name": "Dumas Beach", "desc": "Black sand beach."}, {"name": "Surat Castle", "desc": "16th-century fortress."}, {"name": "Dutch Garden", "desc": "Ancient cemetery park."}, {"name": "Science Centre", "desc": "Modern museum hub."}]
+  },
+  {
+    "id": 27,
+    "name": "Vadodara",
+    "state": "Gujarat",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Vadodara, the cultural capital of Gujarat, is famous for the Laxmi Vilas Palace and grand Garba celebrations.",
+    "summaryFacts": { "foundedBy": "Gaekwad Dynasty", "population": "2 Million", "officialLanguage": "Gujarati", "famousFor": "Laxmi Vilas Palace" },
+    "travelInfo": { "nearestAirport": "Vadodara Airport", "mainRailway": "Vadodara Jn" },
+    "localFood": [{"name": "Sev Usal"}, {"name": "Bhakarwadi"}, {"name": "Kachori"}, {"name": "Lassi"}],
+    "places": [{"name": "Laxmi Vilas Palace", "desc": "Royal residence complex."}, {"name": "Sayaji Baug", "desc": "Large city garden zoo."}, {"name": "EME Temple", "desc": "Aluminum geodesic shrine."}, {"name": "Champaner Park", "desc": "Nearby heritage site."}]
+  },
+  {
+    "id": 28,
+    "name": "Rajkot",
+    "state": "Gujarat",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1590491000780-877f0d0e68f3?w=1200",
+    "description": "Rajkot is a bustling industrial city where Gandhi spent his childhood. It is famous for its silver jewelry.",
+    "summaryFacts": { "foundedBy": "Vibhoji Ajoji", "population": "1.5 Million", "officialLanguage": "Gujarati", "famousFor": "Watson Museum" },
+    "travelInfo": { "nearestAirport": "Rajkot International", "mainRailway": "Rajkot Jn" },
+    "localFood": [{"name": "Fafda Jalebi"}, {"name": "Kathiyawadi Thali"}, {"name": "Gathiya"}, {"name": "Pedas"}],
+    "places": [{"name": "Watson Museum", "desc": "Colonial history hall."}, {"name": "Kaba Gandhi No Delo", "desc": "Gandhi's childhood home."}, {"name": "Pradyuman Park", "desc": "City zoo and garden."}, {"name": "Nyari Dam", "desc": "Scenic sunset spot."}]
+  },
+  {
+    "id": 29,
+    "name": "Gurugram",
+    "state": "Haryana",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1595113333342-974a7373f982?w=1200",
+    "description": "Gurugram is a global IT hub with skyscrapers and luxury malls, defining the modern face of Haryana.",
+    "summaryFacts": { "foundedBy": "Legendary Guru", "population": "1.5 Million", "officialLanguage": "Hindi", "famousFor": "Cyber Hub" },
+    "travelInfo": { "nearestAirport": "IGI Delhi", "mainRailway": "Gurgaon Station" },
+    "localFood": [{"name": "Khichdi"}, {"name": "Haryanvi Thali"}, {"name": "Kachri Sabji"}, {"name": "Lassi"}],
+    "places": [{"name": "Cyber Hub", "desc": "Dining district."}, {"name": "Kingdom of Dreams", "desc": "Theater park."}, {"name": "Sultanpur Park", "desc": "Bird sanctuary."}, {"name": "Leisure Valley", "desc": "City park garden."}]
+  },
+  {
+    "id": 30,
+    "name": "Faridabad",
+    "state": "Haryana",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200",
+    "description": "Faridabad is the largest industrial city in Haryana and famous for the Surajkund Crafts Mela.",
+    "summaryFacts": { "foundedBy": "Sheikh Farid", "population": "1.8 Million", "officialLanguage": "Hindi", "famousFor": "Surajkund Mela" },
+    "travelInfo": { "nearestAirport": "IGI Delhi", "mainRailway": "Faridabad Station" },
+    "localFood": [{"name": "Chole Bhature"}, {"name": "Kulfi Falooda"}, {"name": "Gajar Halwa"}, {"name": "Chai"}],
+    "places": [{"name": "Surajkund Lake", "desc": "Historic reservoir."}, {"name": "Badkhal Lake", "desc": "Former scenic site."}, {"name": "Nahar Singh Palace", "desc": "Historic royal palace."}, {"name": "CITM Lake", "desc": "Hidden quarry lake."}]
+  },
+  {
+    "id": 31,
+    "name": "Panipat",
+    "state": "Haryana",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1541434190180-8735395a16d0?w=1200",
+    "description": "Panipat, the 'City of Weavers', is famous for pivotal historical battles and its textile industry.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.5 Million", "officialLanguage": "Hindi", "famousFor": "Handloom Hub" },
+    "travelInfo": { "nearestAirport": "IGI Delhi", "mainRailway": "Panipat Jn" },
+    "localFood": [{"name": "Paneer Tikka"}, {"name": "Lassi"}, {"name": "Bajra Roti"}, {"name": "Sweets"}],
+    "places": [{"name": "Panipat Museum", "desc": "Battle history gallery."}, {"name": "Ibrahim Lodi Tomb", "desc": "Final resting place."}, {"name": "Kala Amb", "desc": "War memorial site."}, {"name": "Kabuli Bagh", "desc": "Babur's victory monument."}]
+  },
+  {
+    "id": 32,
+    "name": "Hisar",
+    "state": "Haryana",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Hisar is a historic city known for its forts and the massive steel industry of Haryana.",
+    "summaryFacts": { "foundedBy": "Firoz Shah", "population": "0.3 Million", "officialLanguage": "Hindi", "famousFor": "Firoz Shah Fort" },
+    "travelInfo": { "nearestAirport": "Hisar Airport", "mainRailway": "Hisar Jn" },
+    "localFood": [{"name": "Ghee Roti"}, {"name": "Saag"}, {"name": "Rabri"}, {"name": "Curd"}],
+    "places": [{"name": "Firoz Shah Palace", "desc": "Ancient fort palace."}, {"name": "Lat Ki Masjid", "desc": "Tughlaq era mosque."}, {"name": "Deer Park", "desc": "Wildlife area."}, {"name": "Blue Bird Lake", "desc": "Boating spot."}]
+  },
+  {
+    "id": 33,
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1597074866923-dc0589ec55a4?w=1200",
+    "description": "Shimla, the 'Queen of Hills', was the summer capital of British India, famous for its Mall Road.",
+    "summaryFacts": { "foundedBy": "British Era", "population": "0.2 Million", "officialLanguage": "Hindi", "famousFor": "Mall Road" },
+    "travelInfo": { "nearestAirport": "Shimla Airport", "mainRailway": "Kalka Toy Train" },
+    "localFood": [{"name": "Siddu"}, {"name": "Madra"}, {"name": "Thukpa"}, {"name": "Babru"}],
+    "places": [{"name": "The Ridge", "desc": "Mountain open space."}, {"name": "Jakhu Temple", "desc": "Hilltop temple."}, {"name": "Viceregal Lodge", "desc": "Baronial palace."}, {"name": "Mall Road", "desc": "Shopping street."}]
+  },
+  {
+  "id": 34,
+  "name": "Manali",
+  "state": "Himachal Pradesh",
+  "category": "hill",
+  "image": "https://d3gz7d9rg09miz.cloudfront.net/travel/1762306582668-346470908.jpg",
+  
+  "currentTemp": "12°C", 
+  "lat": 32.2432, 
+  "lng": 77.1892,
+  "videoFile": "videos/manali_reel.mp4", 
+  "shareLink": "https://nirmalify.github.io/bharat-yatra/city.html?id=34",
+
+  "description": "Manali is a high-altitude Himalayan resort town, famous as a honeymoon destination and an adventure hub. It serves as the gateway to Solang Valley and the high mountain passes of Lahaul and Spiti.",
+  "rating": 4.9,
+  "bestTime": "March to June & December for Snow",
+  "idealDays": "3-4 Days",
+
+  "weather": {
+    "summer": "10°C - 25°C",
+    "winter": "-5°C - 15°C",
+    "monsoon": "Risk of Landslides (July-Aug)"
+  },
+
+  "summaryFacts": {
+    "foundedBy": "Ancient Era / Legend of Manu",
+    "population": "0.01M",
+    "officialLanguage": "Hindi & Pahari",
+    "famousFor": "Solang Valley & Rohtang Pass"
+  },
+
+  "famousFor": [
+    "Snowcapped Mountains",
+    "Adventure Sports",
+    "Riverside Cafes",
+    "Apple Orchards"
+  ],
+
+  "thingsToDo": [
+    "Paragliding in Solang Valley",
+    "Snow Scooter at Rohtang Pass",
+    "River Rafting in Beas River",
+    "Cafe hopping in Old Manali"
+  ],
+
+  "travelInfo": {
+    "nearestAirport": "Kullu-Manali Airport (Bhuntar)",
+    "mainRailway": "Joginder Nagar (Narrow Gauge) / Chandigarh"
+  },
+
+  "transport": ["Local Taxi", "Hired Royal Enfield", "Local Bus", "Walking"],
+
+  "localFood": [
+    { "name": "Kullu Trout Fish" },
+    { "name": "Siddu with Ghee" },
+    { "name": "Thukpa & Momos" },
+    { "name": "Himachali Dham (Traditional Feast)" }
+  ],
+
+  "places": [
+    {
+      "name": "Hadimba Devi Temple",
+      "desc": "An ancient four-story wooden temple dedicated to Hadimba Devi, surrounded by Cedar forests."
+    },
+    {
+      "name": "Solang Valley",
+      "desc": "A side valley at the top of the Kullu Valley, famous for its summer and winter adventure sports."
+    },
+    {
+      "name": "Rohtang Pass",
+      "desc": "A high mountain pass on the eastern Pir Panjal Range, offering spectacular views of the glaciers."
+    },
+    {
+      "name": "Old Manali",
+      "desc": "A charming area known for its traditional houses, riverside cafes, and laid-back traveler vibe."
+    }
+  ],
+
+  "reel": "manali_reel.mp4"
+},
+  {
+    "id": 35,
+    "name": "Dharamshala",
+    "state": "Himachal Pradesh",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1582294625895-46b772be5691?w=1200",
+    "description": "Dharamshala is the spiritual home of the Dalai Lama and famous for Buddhist culture.",
+    "summaryFacts": { "foundedBy": "British", "population": "0.05 Million", "officialLanguage": "Hindi", "famousFor": "McLeod Ganj" },
+    "travelInfo": { "nearestAirport": "Gaggal Airport", "mainRailway": "Pathankot Jn" },
+    "localFood": [{"name": "Momos"}, {"name": "Thukpa"}, {"name": "Butter Tea"}, {"name": "Tingmo"}],
+    "places": [{"name": "Dalai Lama Temple", "desc": "Spiritual center."}, {"name": "Bhagsunag Falls", "desc": "Mountain falls."}, {"name": "HPCA Stadium", "desc": "Cricket ground."}, {"name": "Triund", "desc": "Trekking trail."}]
+  },
+  {
+    "id": 36,
+    "name": "Dalhousie",
+    "state": "Himachal Pradesh",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1542640244-7e672d6cef21?w=1200",
+    "description": "Dalhousie is a quiet hill station with Victorian architecture, surrounded by five pine-clad hills.",
+    "summaryFacts": { "foundedBy": "Lord Dalhousie", "population": "0.01 Million", "officialLanguage": "Hindi", "famousFor": "Mini Switzerland" },
+    "travelInfo": { "nearestAirport": "Pathankot Airport", "mainRailway": "Pathankot Jn" },
+    "localFood": [{"name": "Madra"}, {"name": "Dham"}, {"name": "Chana Masala"}, {"name": "Pie"}],
+    "places": [{"name": "Khajjiar", "desc": "Mini Switzerland."}, {"name": "Panchpula", "desc": "Waterfall garden."}, {"name": "Dainkund Peak", "desc": "Singing hill."}, {"name": "Mall Road", "desc": "Colonial market."}]
+  },
+  {
+    "id": 37,
+    "name": "Srinagar",
+    "state": "Jammu & Kashmir",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1566833912232-0587ae74f17a?w=1200",
+    "description": "Srinagar is famous for Dal Lake, floating markets, and beautiful houseboats in Kashmir.",
+    "summaryFacts": { "foundedBy": "Ancient", "population": "1.2 Million", "officialLanguage": "Kashmiri", "famousFor": "Dal Lake" },
+    "travelInfo": { "nearestAirport": "Srinagar Airport", "mainRailway": "Srinagar Station" },
+    "localFood": [{"name": "Rogan Josh"}, {"name": "Kahwa"}, {"name": "Yakhni"}, {"name": "Gustaba"}],
+    "places": [{"name": "Dal Lake", "desc": "Houseboat lake."}, {"name": "Shalimar Bagh", "desc": "Mughal garden."}, {"name": "Shankaracharya", "desc": "Shiva temple."}, {"name": "Pari Mahal", "desc": "City garden."}]
+  },
+  {
+    "id": 38,
+    "name": "Jammu",
+    "state": "Jammu & Kashmir",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Jammu, the 'City of Temples', is the winter capital and rich in Dogra heritage.",
+    "summaryFacts": { "foundedBy": "Jambu Lochan", "population": "0.6 Million", "officialLanguage": "Dogri", "famousFor": "Vaishno Devi" },
+    "travelInfo": { "nearestAirport": "Jammu Airport", "mainRailway": "Jammu Tawi" },
+    "localFood": [{"name": "Kalasadi"}, {"name": "Rajma Rice"}, {"name": "Barfi"}, {"name": "Thali"}],
+    "places": [{"name": "Bahu Fort", "desc": "Fort temple."}, {"name": "Raghunath Temple", "desc": "Temple complex."}, {"name": "Amar Mahal", "desc": "Palace museum."}, {"name": "Bagh-e-Bahu", "desc": "Terraced garden."}]
+  },
+  {
+    "id": 39,
+    "name": "Pahalgam",
+    "state": "Jammu & Kashmir",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1590491000780-877f0d0e68f3?w=1200",
+    "description": "Pahalgam, the 'Valley of Shepherds', is famous for trout fishing and Amarnath Yatra.",
+    "summaryFacts": { "foundedBy": "Ancient", "population": "0.01 Million", "officialLanguage": "Kashmiri", "famousFor": "Amarnath Yatra" },
+    "travelInfo": { "nearestAirport": "Srinagar Airport", "mainRailway": "Udhampur" },
+    "localFood": [{"name": "Wazwan"}, {"name": "Grilled Fish"}, {"name": "Nun Chai"}, {"name": "Kulchas"}],
+    "places": [{"name": "Betaab Valley", "desc": "Filming location."}, {"name": "Aru Valley", "desc": "Trekking base."}, {"name": "Lidder River", "desc": "Fishing river."}, {"name": "Chandanwari", "desc": "Yatra start point."}]
+  },
+  {
+    "id": 40,
+    "name": "Gulmarg",
+    "state": "Jammu & Kashmir",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1542640244-7e672d6cef21?w=1200",
+    "description": "Gulmarg is a world-famous ski destination and home to the world's highest cable car.",
+    "summaryFacts": { "foundedBy": "Ancient", "population": "0.002 Million", "officialLanguage": "Kashmiri", "famousFor": "Gondola Ride" },
+    "travelInfo": { "nearestAirport": "Srinagar Airport", "mainRailway": "Srinagar" },
+    "localFood": [{"name": "Kahwa"}, {"name": "Mutton Rogan"}, {"name": "Kashmiri Naan"}, {"name": "Dum Aloo"}],
+    "places": [{"name": "Gulmarg Gondola", "desc": "Highest cable car."}, {"name": "Khilanmarg", "desc": "Flowery meadow."}, {"name": "Alpathar Lake", "desc": "Frozen alpine lake."}, {"name": "St. Mary Church", "desc": "Historic church."}]
+  },
+    {
+    "id": 41,
+    "name": "Jorhat",
+    "state": "Assam",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?w=1200",
+    "description": "Jorhat is the cultural capital of Assam and the gateway to the world's largest river island, Majuli. It is famous for its vast tea gardens and historical satras (monasteries).",
+    "summaryFacts": { "foundedBy": "Ahom Kingdom", "population": "0.15M", "officialLanguage": "Assamese", "famousFor": "Majuli Island Satras" },
+    "travelInfo": { "nearestAirport": "Jorhat Airport", "mainRailway": "Jorhat Town" },
+    "localFood": [{"name": "Khar"}, {"name": "Babori Sak"}, {"name": "Doi-Chira"}, {"name": "Silkworm Larvae"}],
+    "places": [{"name": "Majuli Island", "desc": "Largest river island in the world."}, {"name": "Hoollongapar Sanctuary", "desc": "Famous for Hoolock Gibbons."}, {"name": "Gymkhana Club", "desc": "Oldest golf club in Asia."}, {"name": "Tocklai Center", "desc": "Tea research institute."}]
+  },
+  {
+    "id": 42,
+    "name": "Tezpur",
+    "state": "Assam",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1590491000780-877f0d0e68f3?w=1200",
+    "description": "Known as the 'City of Eternal Romance', Tezpur is filled with ancient ruins and mythological legends of Usha and Aniruddha. It is one of the most beautiful cities in Assam.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.1M", "officialLanguage": "Assamese", "famousFor": "Agnigarh Hill" },
+    "travelInfo": { "nearestAirport": "Tezpur Airport", "mainRailway": "Dekargaon" },
+    "localFood": [{"name": "Bor Pitha"}, {"name": "Pork Bamboo Shoot"}, {"name": "Xaj Beverage"}, {"name": "Ou Khatta"}],
+    "places": [{"name": "Agnigarh", "desc": "Hilltop with mythological sculptures."}, {"name": "Cole Park", "desc": "Beautiful urban garden."}, {"name": "Da Parbatia", "desc": "Ancient Gupta-era gate ruins."}, {"name": "Nameri Park", "desc": "Tiger and bird haven nearby."}]
+  },
+
+  {
+    "id": 43,
+    "name": "Nalanda",
+    "state": "Bihar",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1590050752117-23a97b62b45f?w=1200",
+    "description": "Nalanda is home to the ruins of the world's most famous ancient residential university. It was a center of learning for scholars from all over Asia.",
+    "summaryFacts": { "foundedBy": "5th Century", "population": "0.1M", "officialLanguage": "Hindi/Magahi", "famousFor": "Nalanda University Ruins" },
+    "travelInfo": { "nearestAirport": "Patna Airport", "mainRailway": "Nalanda Station" },
+    "localFood": [{"name": "Khaja"}, {"name": "Litti Chokha"}, {"name": "Sattu Sherbet"}, {"name": "Dal Pitha"}],
+    "places": [{"name": "University Ruins", "desc": "Ancient center of global learning."}, {"name": "Hsuan Tsang Memorial", "desc": "Tribute to the Chinese monk."}, {"name": "Nalanda Museum", "desc": "Gallery of ancient artifacts."}, {"name": "Kundalpur", "desc": "Sacred Jain pilgrimage site."}]
+  },
+  {
+    "id": 44,
+    "name": "Rajgir",
+    "state": "Bihar",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Rajgir was the first capital of the Magadha Empire. It is a scenic hill town sacred to Buddhists, Hindus, and Jains, famous for its ropeway and hot springs.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.04M", "officialLanguage": "Hindi", "famousFor": "Shanti Stupa" },
+    "travelInfo": { "nearestAirport": "Gaya Airport", "mainRailway": "Rajgir Jn" },
+    "localFood": [{"name": "Khaja"}, {"name": "Puri Sabji"}, {"name": "Ladoo"}, {"name": "Sattu"}],
+    "places": [{"name": "Vishwa Shanti Stupa", "desc": "Japanese peace pagoda on a hill."}, {"name": "Vulture's Peak", "desc": "Buddha's meditation spot."}, {"name": "Bimbisara Jail", "desc": "Ancient royal prison ruins."}, {"name": "Hot Springs", "desc": "Medicinal sulfur water baths."}]
+  },
+
+  {
+    "id": 45,
+    "name": "Ranchi",
+    "state": "Jharkhand",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1544787210-282aa3773177?w=1200",
+    "description": "The 'City of Waterfalls', Ranchi sits on the Chota Nagpur Plateau. It is famous for its hills, waterfalls, and as the hometown of MS Dhoni.",
+    "summaryFacts": { "foundedBy": "Ancient", "population": "1.1M", "officialLanguage": "Hindi", "famousFor": "Waterfalls" },
+    "travelInfo": { "nearestAirport": "Birsa Munda Airport", "mainRailway": "Ranchi Jn" },
+    "localFood": [{"name": "Dhuska"}, {"name": "Arsa Roti"}, {"name": "Rugra"}, {"name": "Litti"}],
+    "places": [{"name": "Hundru Falls", "desc": "320-foot high waterfall."}, {"name": "Jagannath Temple", "desc": "Hilltop 17th-century temple."}, {"name": "Rock Garden", "desc": "Scenic lake-view park."}, {"name": "Tagore Hill", "desc": "Peaceful hill retreat."}]
+  },
+  {
+    "id": 46,
+    "name": "Jamshedpur",
+    "state": "Jharkhand",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1599933333394-84bc19d9748f?w=1200",
+    "description": "Known as the 'Steel City', Jamshedpur was India's first planned industrial city, founded by Jamsetji Tata. It is surprisingly green and clean.",
+    "summaryFacts": { "foundedBy": "Jamsetji Tata", "population": "1.5M", "officialLanguage": "Hindi", "famousFor": "Tata Steel" },
+    "travelInfo": { "nearestAirport": "Ranchi Airport", "mainRailway": "Tatanagar Jn" },
+    "localFood": [{"name": "Litti Chokha"}, {"name": "Malpua"}, {"name": "Chai"}, {"name": "Rolls"}],
+    "places": [{"name": "Jubilee Park", "desc": "Massive park modeled after Mysore."}, {"name": "Dimna Lake", "desc": "Scenic lake at Dalma hills foot."}, {"name": "Tata Steel Plant", "desc": "Historical industrial hub."}, {"name": "Dalma Wildlife", "desc": "Sanctuary for elephants."}]
+  },
+  {
+    "id": 47,
+    "name": "Deoghar",
+    "state": "Jharkhand",
+    "category": "temple",
+    "image": "data:image/jpeg;base64,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",
+    "description": "Deoghar is the spiritual capital of Jharkhand, home to Baba Baidyanath Dham, one of the 12 Jyotirlingas. It is a major pilgrimage hub.",
+    "summaryFacts": { "foundedBy": "Ancient", "population": "0.2M", "officialLanguage": "Hindi/Maithili", "famousFor": "Baidyanath Jyotirlinga" },
+    "travelInfo": { "nearestAirport": "Deoghar Airport", "mainRailway": "Jasidih Jn" },
+    "localFood": [{"name": "Peda"}, {"name": "Tilkut"}, {"name": "Kachori"}, {"name": "Rabri"}],
+    "places": [{"name": "Baidyanath Dham", "desc": "Holy Jyotirlinga temple."}, {"name": "Trikut Hills", "desc": "Hill reachable by ropeway."}, {"name": "Tapovan Caves", "desc": "Meditation caves for sages."}, {"name": "Nandan Pahar", "desc": "Amusement park on a hill."}]
+  },
+  {
+    "id": 48,
+    "name": "Dhanbad",
+    "state": "Jharkhand",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1541434190180-8735395a16d0?w=1200",
+    "description": "Known as the 'Coal Capital of India', Dhanbad is famous for its vast coal mines and industrial importance. It is a key economic city of Jharkhand.",
+    "summaryFacts": { "foundedBy": "Modern Era", "population": "1.1M", "officialLanguage": "Hindi", "famousFor": "Coal Mines" },
+    "travelInfo": { "nearestAirport": "Ranchi/Durgapur", "mainRailway": "Dhanbad Jn" },
+    "localFood": [{"name": "Litti"}, {"name": "Sattu Sherbet"}, {"name": "Gupchup"}, {"name": "Pitha"}],
+    "places": [{"name": "Maithon Dam", "desc": "Massive dam with lake views."}, {"name": "Panchet Dam", "desc": "Beautiful picnic and river spot."}, {"name": "Bhatinda Falls", "desc": "Rocky waterfall near city."}, {"name": "Birsa Munda Park", "desc": "Large city leisure garden."}]
+  },
+  {
+  "id": 49,
+  "name": "Bengaluru",
+  "state": "Karnataka",
+  "category": "metro",
+  "image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=1200",
+
+  "currentTemp": "22°C", 
+  "lat": 12.9716, 
+  "lng": 77.5946,
+  "videoFile": "videos/bengaluru_reel.mp4", 
+  "shareLink": "https://nirmalify.github.io/bharat-yatra/city.html?id=49",
+
+  "description": "The Silicon Valley of India, Bengaluru is a cosmopolitan hub famous for tech parks, pleasant weather and nightlife.",
+  "rating": 4.6,
+  "bestTime": "October to February",
+  "idealDays": "2-3 Days",
+
+  "weather": {
+    "summer": "20°C - 35°C",
+    "winter": "12°C - 28°C",
+    "monsoon": "Moderate Rainfall"
+  },
+
+  "summaryFacts": {
+    "foundedBy": "Kempe Gowda",
+    "population": "12M",
+    "officialLanguage": "Kannada",
+    "famousFor": "IT Industry & Parks"
+  },
+
+  "famousFor": [
+    "IT companies",
+    "Pleasant weather",
+    "Nightlife",
+    "Parks"
+  ],
+
+  "thingsToDo": [
+    "Pub hopping in Indiranagar",
+    "Cubbon park walk",
+    "Nandi hills sunrise",
+    "Shopping Brigade road"
+  ],
+
+  "travelInfo": {
+    "nearestAirport": "Kempegowda International Airport",
+    "mainRailway": "KSR Bengaluru"
+  },
+
+  "transport": ["Metro", "Bus", "Auto", "Cab"],
+
+  "localFood": [
+    { "name": "Bisi Bele Bath" },
+    { "name": "Rava Idli" },
+    { "name": "Mysore Pak" },
+    { "name": "Benne Dosa" }
+  ],
+
+  "places": [
+    {
+      "name": "Lalbagh Garden",
+      "desc": "Historic botanical garden."
+    },
+    {
+      "name": "Bangalore Palace",
+      "desc": "Tudor style palace."
+    },
+    {
+      "name": "Vidhana Soudha",
+      "desc": "Legislative building."
+    },
+    {
+      "name": "Bannerghatta Park",
+      "desc": "Safari park."
+    }
+  ],
+
+  "reel": "bengaluru_reel.mp4"
+}, 
+  {
+    "id": 50,
+    "name": "Mysuru",
+    "state": "Karnataka",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200",
+    "description": "The cultural capital of Karnataka, Mysuru is world-famous for its grand palace and the spectacular Dussehra festival celebrations.",
+    "summaryFacts": { "foundedBy": "Wodeyar Dynasty", "population": "1M", "officialLanguage": "Kannada", "famousFor": "Mysore Palace & Silk" },
+    "travelInfo": { "nearestAirport": "Mysuru Airport", "mainRailway": "Mysuru Jn" },
+    "localFood": [{"name": "Mysore Masala Dosa"}, {"name": "Mysore Pak"}, {"name": "Kori Gassi"}, {"name": "Maddur Vada"}],
+    "places": [{"name": "Mysore Palace", "desc": "Iconic royal lighting display."}, {"name": "Chamundi Hills", "desc": "Hilltop temple with city views."}, {"name": "Brindavan Gardens", "desc": "Large musical fountain garden."}, {"name": "Mysuru Zoo", "desc": "One of India's oldest zoos."}]
+  },
+  {
+    "id": 51,
+    "name": "Hampi",
+    "state": "Karnataka",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Hampi is a UNESCO World Heritage site featuring the boulder-strewn ruins of the Vijayanagara Empire. It is a stunning open-air museum.",
+    "summaryFacts": { "foundedBy": "Harihara/Bukka", "population": "Village", "officialLanguage": "Kannada", "famousFor": "Vijayanagara Ruins" },
+    "travelInfo": { "nearestAirport": "Jindal Vidyanagar", "mainRailway": "Hospet Jn" },
+    "localFood": [{"name": "Neer Dosa"}, {"name": "Badane Kaayi"}, {"name": "Holige"}, {"name": "Paddu"}],
+    "places": [{"name": "Virupaksha Temple", "desc": "Ancient active temple shrine."}, {"name": "Vittala Temple", "desc": "Famous stone chariot site."}, {"name": "Lotus Mahal", "desc": "Indo-Islamic royal structure."}, {"name": "Matanga Hill", "desc": "Best spot for Hampi sunset."}]
+  },
+  {
+    "id": 52,
+    "name": "Mangaluru",
+    "state": "Karnataka",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1590491000780-877f0d0e68f3?w=1200",
+    "description": "A major port city in Karnataka, Mangaluru is famous for its spicy seafood, pristine beaches, and historical temples.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.6M", "officialLanguage": "Tulu/Kannada", "famousFor": "Seafood & Cashews" },
+    "travelInfo": { "nearestAirport": "Mangaluru Int", "mainRailway": "Mangaluru Central" },
+    "localFood": [{"name": "Mangalorean Fish Curry"}, {"name": "Neer Dosa"}, {"name": "Goli Baje"}, {"name": "Chicken Sukka"}],
+    "places": [{"name": "Panambur Beach", "desc": "Clean beach with water sports."}, {"name": "St. Aloysius Chapel", "desc": "Famous Italian-style paintings."}, {"name": "Kudroli Temple", "desc": "Renovated grand Shiva temple."}, {"name": "Sultan Battery", "desc": "Tipu Sultan's watchtower."}]
+  },
+  {
+    "id": 53,
+    "name": "Thiruvananthapuram",
+    "state": "Kerala",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=1200",
+    "description": "Thiruvananthapuram, the capital of Kerala, is built on seven hills and is famous for its pristine beaches and the world's richest temple, Sree Padmanabhaswamy. It offers a blend of royal heritage and natural beauty.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.9M", "officialLanguage": "Malayalam", "famousFor": "Padmanabhaswamy Temple" },
+    "travelInfo": { "nearestAirport": "Trivandrum International", "mainRailway": "Trivandrum Central" },
+    "localFood": [{"name": "Kerala Sadya"}, {"name": "Appam with Stew"}, {"name": "Puttu"}, {"name": "Banana Chips"}],
+    "places": [{"name": "Padmanabhaswamy Temple", "desc": "The world's richest golden temple."}, {"name": "Kovalam Beach", "desc": "Crescent-shaped beach with a lighthouse."}, {"name": "Napier Museum", "desc": "Indo-Saracenic art museum."}, {"name": "Agasthyakoodam", "desc": "Highest peak for trekking."}]
+  },
+  {
+    "id": 54,
+    "name": "Kochi",
+    "state": "Kerala",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1582294625895-46b772be5691?w=1200",
+    "description": "Kochi, the 'Queen of the Arabian Sea', is a major port city with a rich history of spice trade. It features a unique mix of Dutch, Portuguese, and Chinese influences in its architecture and culture.",
+    "summaryFacts": { "foundedBy": "14th Century", "population": "0.6M", "officialLanguage": "Malayalam", "famousFor": "Chinese Fishing Nets" },
+    "travelInfo": { "nearestAirport": "Cochin International", "mainRailway": "Ernakulam Jn" },
+    "localFood": [{"name": "Meen Molagitta Curry"}, {"name": "Kappa Boti"}, {"name": "Karimeen Pollichathu"}, {"name": "Biryani"}],
+    "places": [{"name": "Fort Kochi", "desc": "Historic area with colonial vibes."}, {"name": "Chinese Fishing Nets", "desc": "Iconic fixed land installations."}, {"name": "Mattancherry Palace", "desc": "Portuguese-style royal palace."}, {"name": "Marine Drive", "desc": "Scenic city promenade."}]
+  },
+  {
+    "id": 55,
+    "name": "Munnar",
+    "state": "Kerala",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1542640244-7e672d6cef21?w=1200",
+    "description": "Munnar is a breathtaking hill station famous for its rolling tea plantations, misty mountains, and the rare Neelakurinji flower. It is a haven for nature lovers and honeymooners.",
+    "summaryFacts": { "foundedBy": "British Era", "population": "0.04M", "officialLanguage": "Malayalam", "famousFor": "Tea Gardens" },
+    "travelInfo": { "nearestAirport": "Cochin International", "mainRailway": "Aluva Station" },
+    "localFood": [{"name": "Malabar Parotta"}, {"name": "Idiyappam"}, {"name": "Vada"}, {"name": "Bread Omelette"}],
+    "places": [{"name": "Eravikulam Park", "desc": "Home to the Nilgiri Tahr."}, {"name": "Mattupetty Dam", "desc": "Storage concrete gravity dam."}, {"name": "Tea Museum", "desc": "History of tea in the region."}, {"name": "Anamudi Peak", "desc": "Highest peak in South India."}]
+  },
+  {
+    "id": 56,
+    "name": "Alleppey",
+    "state": "Kerala",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200",
+    "description": "Alleppey, or Alappuzha, is the 'Venice of the East', famous for its vast network of backwaters and thousands of houseboats that offer a unique stay on the water.",
+    "summaryFacts": { "foundedBy": "18th Century", "population": "0.17M", "officialLanguage": "Malayalam", "famousFor": "Backwater Houseboats" },
+    "travelInfo": { "nearestAirport": "Cochin International", "mainRailway": "Alappuzha Station" },
+    "localFood": [{"name": "Prawn Curry"}, {"name": "Fried Fish"}, {"name": "Toddy"}, {"name": "Banana Fritters"}],
+    "places": [{"name": "Alappuzha Beach", "desc": "Beautiful beach with an old pier."}, {"name": "Vembanad Lake", "desc": "Largest lake in Kerala."}, {"name": "Marari Beach", "desc": "Quiet and peaceful sandy shore."}, {"name": "Pathiramanal Island", "desc": "Bird watcher's paradise."}]
+  },
+  {
+    "id": 57,
+    "name": "Bhopal",
+    "state": "Madhya Pradesh",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200",
+    "description": "Bhopal, the 'City of Lakes', is the capital of MP. It is famous for its massive lakes, Nawabi-era mosques, and the unique Bharat Bhavan arts center.",
+    "summaryFacts": { "foundedBy": "Raja Bhoj", "population": "1.8M", "officialLanguage": "Hindi", "famousFor": "Lakes & Mosques" },
+    "travelInfo": { "nearestAirport": "Raja Bhoj Airport", "mainRailway": "Bhopal Jn" },
+    "localFood": [{"name": "Poha Jalebi"}, {"name": "Bhopali Korma"}, {"name": "Sulemani Chai"}, {"name": "Shahi Tukda"}],
+    "places": [{"name": "Upper Lake", "desc": "Bada Talab for boating."}, {"name": "Taj-ul-Masajid", "desc": "One of Asia's largest mosques."}, {"name": "Van Vihar", "desc": "Open-air lakeside zoo."}, {"name": "Bharat Bhavan", "desc": "Multi-arts museum complex."}]
+  },
+  {
+  "id": 58,
+  "name": "Indore",
+  "state": "Madhya Pradesh",
+  "category": "heritage",
+  "image": "https://media.assettype.com/freepressjournal/2021-06/aa49c8c2-dcf8-4224-a5d0-7dfce1531cb1/56_Dukan__2_.JPG",
+  
+  "currentTemp": "32°C", 
+  "lat": 22.7196, 
+  "lng": 75.8577,
+  "videoFile": "videos/indore_reel.mp4", 
+  "shareLink": "https://nirmalify.github.io/bharat-yatra/city.html?id=58",
+
+  "description": "Indore, the cleanest city in India for multiple years, is the commercial capital of Madhya Pradesh. It is a vibrant city where Holkar-era heritage meets a world-famous street food culture that comes alive at night.",
+  "rating": 4.7,
+  "bestTime": "October to March",
+  "idealDays": "2 Days",
+
+  "weather": {
+    "summer": "25°C - 42°C",
+    "winter": "10°C - 28°C",
+    "monsoon": "Moderate Rainfall (July-Sept)"
+  },
+
+  "summaryFacts": {
+    "foundedBy": "Rao Nandlal Chaudhary / Ahilyabai Holkar",
+    "population": "2M+",
+    "officialLanguage": "Hindi & Malwi",
+    "famousFor": "Cleanliness & Street Food Culture"
+  },
+
+  "famousFor": [
+    "India's Cleanest City",
+    "Sarafa Night Food Market",
+    "Poha Jalebi",
+    "Holkar Dynasty Heritage"
+  ],
+
+  "thingsToDo": [
+    "Late night food tour at Sarafa Bazaar",
+    "Breakfast at Chhappan Dukan",
+    "Evening visit to Rajwada Palace",
+    "Seek blessings at Khajrana Ganesh Temple"
+  ],
+
+  "travelInfo": {
+    "nearestAirport": "Devi Ahilya Bai Holkar International Airport (IDR)",
+    "mainRailway": "Indore Junction (INDB)"
+  },
+
+  "transport": ["iBus (BRTS)", "Auto Rickshaw", "E-Rickshaw", "City Bus", "Cabs"],
+
+  "localFood": [
+    { "name": "Indori Poha & Jalebi" },
+    { "name": "Johnny Hot Dog (Chhappan)" },
+    { "name": "Garadu (Winter special)" },
+    { "name": "Bhutta Kis (Grated Corn)" }
+  ],
+
+  "places": [
+    {
+      "name": "Rajwada Palace",
+      "desc": "A magnificent seven-story palace that is a unique blend of Maratha and Mughal architecture."
+    },
+    {
+      "name": "Lalbagh Palace",
+      "desc": "One of the grandest royal residences in India, reflecting European-style luxury and history."
+    },
+    {
+      "name": "Sarafa Night Market",
+      "desc": "A jewelry market by day that turns into a street food paradise from 9 PM till late night."
+    },
+    {
+      "name": "Khajrana Ganesh Temple",
+      "desc": "A highly revered and beautiful temple built by Ahilyabai Holkar, dedicated to Lord Ganesha."
+    }
+  ],
+
+  "reel": "indore_reel.mp4"
+},
+  {
+    "id": 59,
+    "name": "Gwalior",
+    "state": "Madhya Pradesh",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1541434190180-8735395a16d0?w=1200",
+    "description": "Gwalior is a historic city famous for its hilltop fort, often called 'The Gibraltar of India'. It is a land of legends, music (Tansen), and royal Scindia history.",
+    "summaryFacts": { "foundedBy": "Suraj Sen", "population": "1.1M", "officialLanguage": "Hindi", "famousFor": "Gwalior Fort" },
+    "travelInfo": { "nearestAirport": "Gwalior Airport", "mainRailway": "Gwalior Jn" },
+    "localFood": [{"name": "Bedai Poori"}, {"name": "Kachori"}, {"name": "Gajak"}, {"name": "Ladoo"}],
+    "places": [{"name": "Gwalior Fort", "desc": "Majestic hilltop fortress."}, {"name": "Jai Vilas Palace", "desc": "Grand palace with a silver train."}, {"name": "Tansen Tomb", "desc": "Memorial of the great musician."}, {"name": "Sas Bahu Temple", "desc": "Intricately carved 11th-century temple."}]
+  },
+  {
+    "id": 60,
+    "name": "Ujjain",
+    "state": "Madhya Pradesh",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Ujjain is one of the holiest cities in India, situated on the Shipra River. It is home to Mahakaleshwar, one of the 12 Jyotirlingas, and is a site for Kumbh Mela.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.5M", "officialLanguage": "Hindi", "famousFor": "Mahakaleshwar Temple" },
+    "travelInfo": { "nearestAirport": "Indore Airport", "mainRailway": "Ujjain Jn" },
+    "localFood": [{"name": "Dal Bati"}, {"name": "Malpua"}, {"name": "Sabudana Khichdi"}, {"name": "Thali"}],
+    "places": [{"name": "Mahakal Temple", "desc": "Sacred Jyotirlinga shrine."}, {"name": "Ram Ghat", "desc": "Bathing ghat on Shipra river."}, {"name": "Kal Bhairav Temple", "desc": "Temple where liquor is offered."}, {"name": "Sandipani Ashram", "desc": "Where Krishna-Sudama studied."}]
+  },
+   {
+  "id": 61,
+  "name": "Mumbai",
+  "state": "Maharashtra",
+  "category": "beach",
+  "image": "https://www.leisurekart.com/blog/wp-content/uploads/2024/04/Places-to-visit-in-Mumbai.jpg",
+  
+  "currentTemp": "28°C", 
+  "lat": 19.0760, 
+  "lng": 72.8777,
+  "videoFile": "videos/mumbai_reel.mp4", 
+  "shareLink": "https://nirmalify.github.io/bharat-yatra/city.html?id=61",
+
+  "description": "The 'City of Dreams', Mumbai is India's financial capital and home to Bollywood. It is a fast-paced metropolis famous for Marine Drive, its iconic skyline, and delicious Vada Pav.",
+  "rating": 4.8,
+  "bestTime": "October to March",
+  "idealDays": "3-4 Days",
+
+  "weather": {
+    "summer": "25°C - 38°C",
+    "winter": "15°C - 30°C",
+    "monsoon": "Heavy Rainfall"
+  },
+
+  "summaryFacts": {
+    "foundedBy": "Koli Community / British",
+    "population": "20M",
+    "officialLanguage": "Marathi",
+    "famousFor": "Bollywood & Financial Hub"
+  },
+
+  "famousFor": [
+    "Bollywood",
+    "Marine Drive",
+    "Street Food",
+    "Financial District"
+  ],
+
+  "thingsToDo": [
+    "Walk at Marine Drive (Queen's Necklace)",
+    "Ferry to Elephanta Caves",
+    "Eat Vada Pav at Juhu Beach",
+    "Shopping at Colaba Causeway"
+  ],
+
+  "travelInfo": {
+    "nearestAirport": "Chhatrapati Shivaji Maharaj International Airport",
+    "mainRailway": "Mumbai CSMT / Dadar / Mumbai Central"
+  },
+
+  "transport": ["Local Train", "Metro", "BEST Bus", "Taxi", "Auto (Suburbs)"],
+
+  "localFood": [
+    { "name": "Vada Pav" },
+    { "name": "Pav Bhaji" },
+    { "name": "Bhel Puri" },
+    { "name": "Misal Pav" }
+  ],
+
+  "places": [
+    {
+      "name": "Gateway of India",
+      "desc": "Historical arch monument built during the British Raj."
+    },
+    {
+      "name": "Marine Drive",
+      "desc": "Iconic C-shaped promenade along the coast."
+    },
+    {
+      "name": "Elephanta Caves",
+      "desc": "UNESCO World Heritage site with rock-cut temples."
+    },
+    {
+      "name": "Juhu Beach",
+      "desc": "Famous city beach known for its sunset and local food stalls."
+    }
+  ],
+
+  "reel": "mumbai_reel.mp4"
+},
+  {
+    "id": 62,
+    "name": "Pune",
+    "state": "Maharashtra",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1584102000589-72f883655106?w=1200",
+    "description": "The 'Oxford of the East', Pune is the cultural capital of Maharashtra, known for its rich Maratha history, education hubs, and hill stations nearby.",
+    "summaryFacts": { "foundedBy": "9th Century", "population": "3.5M", "officialLanguage": "Marathi", "famousFor": "Shaniwar Wada" },
+    "travelInfo": { "nearestAirport": "Pune Airport", "mainRailway": "Pune Jn" },
+    "localFood": [{"name": "Mastani Shakes"}, {"name": "Bakharwadi"}, {"name": "Puran Poli"}, {"name": "Pitla Bhakri"}],
+    "places": [{"name": "Shaniwar Wada", "desc": "Fortress of the Peshwas."}, {"name": "Aga Khan Palace", "desc": "Gandhi memorial building."}, {"name": "Sinhagad Fort", "desc": "Hilltop fortress with views."}, {"name": "Dagdusheth Ganpati", "desc": "Famous Ganesha temple."}]
+  },
+  {
+    "id": 63,
+    "name": "Nagpur",
+    "state": "Maharashtra",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "The 'Orange City' is located at India's geographical center. It is a major hub for oranges and the gateway to Tiger Reserves like Pench.",
+    "summaryFacts": { "foundedBy": "Gond Kings", "population": "2.5M", "officialLanguage": "Marathi", "famousFor": "Oranges & Zero Mile" },
+    "travelInfo": { "nearestAirport": "Dr. Ambedkar Int", "mainRailway": "Nagpur Jn" },
+    "localFood": [{"name": "Tarri Poha"}, {"name": "Saoji Chicken"}, {"name": "Orange Barfi"}, {"name": "Patodi"}],
+    "places": [{"name": "Deekshabhoomi", "desc": "Sacred Buddhist monument."}, {"name": "Futala Lake", "desc": "Lake with musical fountains."}, {"name": "Zero Mile", "desc": "Geographical center of India."}, {"name": "Ambazari Lake", "desc": "Largest city lake park."}]
+  },
+  {
+    "id": 64,
+    "name": "Nashik",
+    "state": "Maharashtra",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1590491000780-877f0d0e68f3?w=1200",
+    "description": "The 'Wine Capital of India', Nashik is an ancient holy city famous for Kumbh Mela and its world-class wineries like Sula.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "1.5M", "officialLanguage": "Marathi", "famousFor": "Wineries & Kumbh" },
+    "travelInfo": { "nearestAirport": "Nashik Airport", "mainRailway": "Nashik Road" },
+    "localFood": [{"name": "Misal Pav"}, {"name": "Grapes"}, {"name": "Modak"}, {"name": "Thali"}],
+    "places": [{"name": "Panchavati", "desc": "Lord Rama's holy residence."}, {"name": "Sula Vineyards", "desc": "Premier wine tours site."}, {"name": "Trimbakeshwar", "desc": "Sacred Jyotirlinga temple."}, {"name": "Pandavleni Caves", "desc": "Ancient Buddhist cave system."}]
+  },
+  {
+    "id": 65,
+    "name": "Imphal",
+    "state": "Manipur",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1582294625895-46b772be5691?w=1200",
+    "description": "Imphal, the capital of Manipur, is a valley city surrounded by blue hills. It is famous for the ancient Kangla Fort and 'Ima Keithel', the world's only market run entirely by women.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.3M", "officialLanguage": "Manipuri", "famousFor": "Women's Market" },
+    "travelInfo": { "nearestAirport": "Bir Tikendrajit Int", "mainRailway": "Dimapur (Nearest)" },
+    "localFood": [{"name": "Eromba"}, {"name": "Kangshoi"}, {"name": "Singju"}, {"name": "Morok Metpa"}],
+    "places": [{"name": "Kangla Fort", "desc": "Historical seat of Manipur kings."}, {"name": "Ima Keithel", "desc": "Famous all-women market."}, {"name": "Loktak Lake", "desc": "Freshwater lake with floating islands."}, {"name": "Keibul Lamjao", "desc": "Only floating national park."}]
+  },
+  {
+    "id": 66,
+    "name": "Bishnupur",
+    "state": "Manipur",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Bishnupur is famous for its ancient terracotta temples built in the 15th century. It is a cultural hub known for traditional handlooms and its proximity to Loktak Lake.",
+    "summaryFacts": { "foundedBy": "15th Century", "population": "0.06M", "officialLanguage": "Manipuri", "famousFor": "Terracotta Temples" },
+    "travelInfo": { "nearestAirport": "Imphal Airport", "mainRailway": "Dimapur" },
+    "localFood": [{"name": "Kabok"}, {"name": "Chagempomba"}, {"name": "Ngari"}, {"name": "Thali"}],
+    "places": [{"name": "Vishnu Temple", "desc": "Ancient 15th-century brick temple."}, {"name": "Loukoipat Lake", "desc": "Scenic park with a lake."}, {"name": "INA Memorial", "desc": "Historic site of Indian National Army."}, {"name": "Phubala", "desc": "Lakeside water sports spot."}]
+  },
+  {
+    "id": 67,
+    "name": "Ukhrul",
+    "state": "Manipur",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1542640244-7e672d6cef21?w=1200",
+    "description": "Ukhrul is the land of the Tangkhul Naga tribe and is world-famous for the rare Shirui Lily flower which grows only on the Shirui Peak.",
+    "summaryFacts": { "foundedBy": "Tangkhul Tribe", "population": "0.03M", "officialLanguage": "Tangkhul", "famousFor": "Shirui Lily" },
+    "travelInfo": { "nearestAirport": "Imphal Airport", "mainRailway": "Dimapur" },
+    "localFood": [{"name": "Naga Pork Curry"}, {"name": "Bamboo Shoot Pickle"}, {"name": "Boiled Vegies"}, {"name": "Sticky Rice"}],
+    "places": [{"name": "Shirui Peak", "desc": "Home to the rare Shirui Lily."}, {"name": "Khangkhui Cave", "desc": "Ancient limestone cave."}, {"name": "Nillai Tea Garden", "desc": "Beautiful sloping tea estates."}, {"name": "Kachai Village", "desc": "Famous for unique lemons."}]
+  },
+  {
+    "id": 68,
+    "name": "Churachandpur",
+    "state": "Manipur",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1597074866923-dc0589ec55a4?w=1200",
+    "description": "Locally known as Lamka, it is a vibrant tribal hub surrounded by hills and waterfalls, famous for its rich handicrafts and weaving traditions.",
+    "summaryFacts": { "foundedBy": "Tribal Era", "population": "0.15M", "officialLanguage": "Paite/English", "famousFor": "Tribal Handicrafts" },
+    "travelInfo": { "nearestAirport": "Imphal Airport", "mainRailway": "Dimapur" },
+    "localFood": [{"name": "Bai"}, {"name": "Smoked Meat"}, {"name": "Chira"}, {"name": "Sticky Rice Cake"}],
+    "places": [{"name": "Khuga Dam", "desc": "Scenic dam and picnic spot."}, {"name": "Ngaloi Falls", "desc": "Cascading waterfall in forest."}, {"name": "Tipaimukh", "desc": "Beautiful river confluence."}, {"name": "Tribal Museum", "desc": "Showcase of local tribal art."}]
+  },
+  {
+    "id": 69,
+    "name": "Shillong",
+    "state": "Meghalaya",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200",
+    "description": "Shillong, the 'Scotland of the East', is famous for its rolling hills, waterfalls, and vibrant music culture. It is the heart of the Khasi tribe.",
+    "summaryFacts": { "foundedBy": "British Era", "population": "0.15M", "officialLanguage": "Khasi/English", "famousFor": "Scenic Hills & Music" },
+    "travelInfo": { "nearestAirport": "Umroi Airport", "mainRailway": "Guwahati Jn" },
+    "localFood": [{"name": "Jadoh"}, {"name": "Doh-Khlieh"}, {"name": "Nakti Bitchi"}, {"name": "Pukhlein"}],
+    "places": [{"name": "Elephant Falls", "desc": "Three-step mountain waterfall."}, {"name": "Shillong Peak", "desc": "Highest point for city views."}, {"name": "Ward's Lake", "desc": "Boating lake with garden."}, {"name": "Don Bosco Museum", "desc": "Showcase of Northeast culture."}]
+  },
+  {
+    "id": 70,
+    "name": "Cherrapunji",
+    "state": "Meghalaya",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1590491000780-877f0d0e68f3?w=1200",
+    "description": "Cherrapunji, or Sohra, was once the wettest place on Earth. It is world-famous for its living root bridges and spectacular limestone caves.",
+    "summaryFacts": { "foundedBy": "Ancient Khasi", "population": "0.01M", "officialLanguage": "Khasi", "famousFor": "Root Bridges & Rain" },
+    "travelInfo": { "nearestAirport": "Umroi Airport", "mainRailway": "Guwahati Jn" },
+    "localFood": [{"name": "Sohra Pulao"}, {"name": "Smoked Pork"}, {"name": "Tea"}, {"name": "Local Honey"}],
+    "places": [{"name": "Double Decker Bridge", "desc": "Living root bridge in Nongriat."}, {"name": "Nohkalikai Falls", "desc": "Tallest plunge waterfall in India."}, {"name": "Mawsmai Cave", "desc": "Ancient limestone formations."}, {"name": "Seven Sisters Falls", "desc": "Seven segment waterfall view."}]
+  },
+  {
+    "id": 71,
+    "name": "Tura",
+    "state": "Meghalaya",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1544787210-282aa3773177?w=1200",
+    "description": "Tura is the cultural heart of the Garo tribe. It is located at the foot of Tura Peak and offers lush greenery and rich tribal traditions.",
+    "summaryFacts": { "foundedBy": "Garo Tribes", "population": "0.07M", "officialLanguage": "Garo/English", "famousFor": "Garo Culture" },
+    "travelInfo": { "nearestAirport": "Guwahati Airport", "mainRailway": "Mendipathar" },
+    "localFood": [{"name": "Kappa"}, {"name": "Garo Thali"}, {"name": "Nakham Bitchi"}, {"name": "Rice Cake"}],
+    "places": [{"name": "Pelga Falls", "desc": "Peaceful river-side waterfall."}, {"name": "Tura Peak", "desc": "Trekking spot with forest view."}, {"name": "Nokrek National Park", "desc": "UNESCO Biosphere reserve."}, {"name": "Siju Caves", "desc": "Famous bat cave system."}]
+  },
+  {
+    "id": 72,
+    "name": "Jowai",
+    "state": "Meghalaya",
+    "category": "river",
+    "image": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?w=1200",
+    "description": "Jowai is the scenic headquarters of the Jaintia Hills, famous for its crystal clear rivers and the unique Behdieinkhlam festival.",
+    "summaryFacts": { "foundedBy": "Jaintia Kingdom", "population": "0.03M", "officialLanguage": "Pnar/English", "famousFor": "Krang Suri Falls" },
+    "travelInfo": { "nearestAirport": "Umroi Airport", "mainRailway": "Guwahati Jn" },
+    "localFood": [{"name": "Doh-Jamyrsiang"}, {"name": "Jaintia Thali"}, {"name": "Local Tea"}, {"name": "Pitha"}],
+    "places": [{"name": "Krang Suri Falls", "desc": "Magical blue water waterfall."}, {"name": "Tyrshi Falls", "desc": "Cascading mountain falls."}, {"name": "Thadlaskein Lake", "desc": "Historical man-made lake."}, {"name": "Nartiang Monoliths", "desc": "Tallest collection of monoliths."}]
+  },
+  {
+    "id": 73,
+    "name": "Aizawl",
+    "state": "Mizoram",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1596176530529-78163a4f45fa?w=1200",
+    "description": "Aizawl, the capital of Mizoram, is a picturesque city perched on steep ridges. It is known for its clean air, bamboo crafts, and Mizo hospitality.",
+    "summaryFacts": { "foundedBy": "19th Century", "population": "0.3M", "officialLanguage": "Mizo/English", "famousFor": "Ridge Views" },
+    "travelInfo": { "nearestAirport": "Lengpui Airport", "mainRailway": "Bairabi (Nearest)" },
+    "localFood": [{"name": "Bai"}, {"name": "Vawksa Rep"}, {"name": "Sawhchiar"}, {"name": "Bamboo Shoot"}],
+    "places": [{"name": "Solomon's Temple", "desc": "Grand white stone church."}, {"name": "Mizoram Museum", "desc": "Rich tribal heritage gallery."}, {"name": "Durtlang Hills", "desc": "Highest point for city view."}, {"name": "KV Paradise", "desc": "The Taj Mahal of Mizoram."}]
+  },
+  {
+    "id": 74,
+    "name": "Lunglei",
+    "state": "Mizoram",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Lunglei, literally meaning 'Bridge of Rock', is the second-largest city in Mizoram. It is a peaceful hill town offering stunning natural beauty.",
+    "summaryFacts": { "foundedBy": "Tribal Era", "population": "0.06M", "officialLanguage": "Mizo", "famousFor": "Stone Bridge" },
+    "travelInfo": { "nearestAirport": "Lengpui Airport", "mainRailway": "Bairabi" },
+    "localFood": [{"name": "Hmarcha Rawt"}, {"name": "Mizo Thali"}, {"name": "Boiled Corn"}, {"name": "Tea"}],
+    "places": [{"name": "Rock Bridge", "desc": "Natural bridge-like rock."}, {"name": "Nghasih Stream", "desc": "Quiet river-side picnic spot."}, {"name": "Saikuti Hall", "desc": "Cultural and museum center."}, {"name": "Thorangtlang Sanctuary", "desc": "Wildlife and bird haven."}]
+  },
+  {
+    "id": 75,
+    "name": "Champhai",
+    "state": "Mizoram",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1541434190180-8735395a16d0?w=1200",
+    "description": "Champhai is the 'Rice Bowl of Mizoram', located on the border of Myanmar. It offers breathtaking views of the Myanmar hills and lush vineyards.",
+    "summaryFacts": { "foundedBy": "Mizo Clans", "population": "0.03M", "officialLanguage": "Mizo", "famousFor": "Vineyards & Border" },
+    "travelInfo": { "nearestAirport": "Lengpui Airport", "mainRailway": "Bairabi" },
+    "localFood": [{"name": "Champhai Grape Wine"}, {"name": "Bai"}, {"name": "Koat Pitha"}, {"name": "Smoked Fish"}],
+    "places": [{"name": "Rih Dil Lake", "desc": "Heart shaped lake (Nearby)."}, {"name": "Mura Puk", "desc": "Six ancient man-made caves."}, {"name": "Kungawrhi Puk", "desc": "Historical deep cave."}, {"name": "Vineyards", "desc": "Lush grape plantations."}]
+  },
+  {
+    "id": 76,
+    "name": "Saiha",
+    "state": "Mizoram",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1599933333394-84bc19d9748f?w=1200",
+    "description": "Saiha is the largest town in Southern Mizoram and the headquarters of the Mara Autonomous District Council, famous for the Pala Tipo lake.",
+    "summaryFacts": { "foundedBy": "Mara Tribe", "population": "0.02M", "officialLanguage": "Mara/Mizo", "famousFor": "Pala Tipo Lake" },
+    "travelInfo": { "nearestAirport": "Lengpui Airport", "mainRailway": "Bairabi" },
+    "localFood": [{"name": "Mara Cuisine"}, {"name": "Bamboo Rice"}, {"name": "Dried Meat"}, {"name": "Local Fruits"}],
+    "places": [{"name": "Pala Tipo Lake", "desc": "Largest lake in Mizoram."}, {"name": "Mt. Mawma", "desc": "Highest peak in the district."}, {"name": "Kolodyne River", "desc": "Scenic river for angling."}, {"name": "Mara Museum", "desc": "Local tribal artifacts."}]
+  },
+  {
+    "id": 77,
+    "name": "Kohima",
+    "state": "Nagaland",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200",
+    "description": "Kohima, the capital of Nagaland, is a land of the Angami Naga tribe. It is famous for its serene hills and the historic World War II cemetery. The city is the gateway to the Hornbill Festival.",
+    "summaryFacts": { "foundedBy": "British Era", "population": "0.1M", "officialLanguage": "English/Nagamese", "famousFor": "Hornbill Festival" },
+    "travelInfo": { "nearestAirport": "Dimapur Airport", "mainRailway": "Dimapur Jn" },
+    "localFood": [{"name": "Galho"}, {"name": "Smoked Pork"}, {"name": "Bamboo Shoot"}, {"name": "Axone"}],
+    "places": [{"name": "War Cemetery", "desc": "WWII memorial for fallen soldiers."}, {"name": "Kohima Museum", "desc": "Showcase of tribal artifacts."}, {"name": "Japfu Peak", "desc": "Highest peak with rhododendrons."}, {"name": "Kisama Village", "desc": "Heritage village for Hornbill Fest."}]
+  },
+  {
+    "id": 78,
+    "name": "Dimapur",
+    "state": "Nagaland",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1544787210-282aa3773177?w=1200",
+    "description": "Dimapur is the largest city and the commercial gateway of Nagaland. It is famous for the ancient Kachari ruins and its bustling markets that connect the hills to the plains.",
+    "summaryFacts": { "foundedBy": "Kachari Kingdom", "population": "0.4M", "officialLanguage": "English", "famousFor": "Kachari Ruins" },
+    "travelInfo": { "nearestAirport": "Dimapur Airport", "mainRailway": "Dimapur Jn" },
+    "localFood": [{"name": "Zutho"}, {"name": "Boiled Vegies"}, {"name": "Mutton Curry"}, {"name": "Dried Fish"}],
+    "places": [{"name": "Kachari Ruins", "desc": "13th-century monolith pillars."}, {"name": "Triple Falls", "desc": "Three-tier forest waterfall."}, {"name": "Nagaland Zoo", "desc": "Wildlife and bird conservation."}, {"name": "Hong Kong Market", "desc": "Famous for imported goods."}]
+  },
+  {
+    "id": 79,
+    "name": "Mokokchung",
+    "state": "Nagaland",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1590491000780-877f0d0e68f3?w=1200",
+    "description": "Mokokchung is the cultural hub of the Ao Naga tribe. It is a beautiful hill town known for its picturesque villages, rich traditions, and the Moatsu festival.",
+    "summaryFacts": { "foundedBy": "Ao Naga Tribe", "population": "0.04M", "officialLanguage": "English", "famousFor": "Ao Naga Culture" },
+    "travelInfo": { "nearestAirport": "Jorhat Airport", "mainRailway": "Mariani Jn" },
+    "localFood": [{"name": "Ao Thali"}, {"name": "Sticky Rice"}, {"name": "Pork with Soyabean"}, {"name": "Chai"}],
+    "places": [{"name": "Ungma Village", "desc": "Oldest and largest Ao village."}, {"name": "Mokokchung Park", "desc": "City garden with mountain views."}, {"name": "Chuchuyimlang", "desc": "Famous festival village."}, {"name": "Langpangkong Caves", "desc": "Historical limestone caves."}]
+  },
+  {
+    "id": 80,
+    "name": "Wokha",
+    "state": "Nagaland",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?w=1200",
+    "description": "Wokha is the land of the Lotha Naga tribe. It is famous for its orange orchards, pineapples, and the Doyang River which hosts millions of migratory Amur Falcons.",
+    "summaryFacts": { "foundedBy": "Lotha Tribe", "population": "0.03M", "officialLanguage": "English", "famousFor": "Amur Falcons" },
+    "travelInfo": { "nearestAirport": "Dimapur Airport", "mainRailway": "Furkating Jn" },
+    "localFood": [{"name": "Lotha Thali"}, {"name": "Bamboo Shoot Stew"}, {"name": "Beef Roast"}, {"name": "Local Greens"}],
+    "places": [{"name": "Mount Tiyi", "desc": "Peak with legends of spirits."}, {"name": "Doyang River", "desc": "Bird watching and scenic views."}, {"name": "Liphanyan Governor's Camp", "desc": "Lakeside picnic and rafting spot."}, {"name": "Vankhosung", "desc": "Peaceful theological center."}]
+  },
+  {
+    "id": 81,
+    "name": "Bhubaneswar",
+    "state": "Odisha",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1599933333394-84bc19d9748f?w=1200",
+    "description": "Bhubaneswar, the 'Temple City of India', is the capital of Odisha. It features over 700 ancient temples, showcasing the peak of Kalinga architecture.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "1.2M", "officialLanguage": "Odia", "famousFor": "Lingaraj Temple" },
+    "travelInfo": { "nearestAirport": "BBI International", "mainRailway": "Bhubaneswar Jn" },
+    "localFood": [{"name": "Dalma"}, {"name": "Pakhala Bhata"}, {"name": "Chhena Poda"}, {"name": "Rasagola"}],
+    "places": [{"name": "Lingaraj Temple", "desc": "11th-century majestic Shiva temple."}, {"name": "Udayagiri Caves", "desc": "Ancient Jain rock-cut caves."}, {"name": "Nandankanan Zoo", "desc": "Famous for white tigers."}, {"name": "Dhauli Giri", "desc": "Shanti Stupa and Ashokan edicts."}]
+  },
+  {
+    "id": 82,
+    "name": "Puri",
+    "state": "Odisha",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1541434190180-8735395a16d0?w=1200",
+    "description": "Puri is one of the Char Dham pilgrimage sites, famous for the Jagannath Temple and its long golden beaches on the Bay of Bengal.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.2M", "officialLanguage": "Odia", "famousFor": "Jagannath Rath Yatra" },
+    "travelInfo": { "nearestAirport": "BBI Airport", "mainRailway": "Puri Jn" },
+    "localFood": [{"name": "Mahaprasad"}, {"name": "Khaja"}, {"name": "Puri Fish Curry"}, {"name": "Chhena Gaja"}],
+    "places": [{"name": "Jagannath Temple", "desc": "Sacred 12th-century shrine."}, {"name": "Puri Beach", "desc": "Golden sand and sea shells."}, {"name": "Chilika Lake", "desc": "Largest brackish water lagoon."}, {"name": "Konark (Nearby)", "desc": "Grand Sun Temple ruins."}]
+  },
+  {
+    "id": 83,
+    "name": "Cuttack",
+    "state": "Odisha",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Cuttack is the former capital of Odisha, known as the 'Silver City' for its world-famous silver filigree work (Tarakasi). It sits between the Mahanadi and Kathajodi rivers.",
+    "summaryFacts": { "foundedBy": "10th Century", "population": "0.6M", "officialLanguage": "Odia", "famousFor": "Silver Filigree Work" },
+    "travelInfo": { "nearestAirport": "BBI Airport", "mainRailway": "Cuttack Jn" },
+    "localFood": [{"name": "Dahibara Aludum"}, {"name": "Chhena Jhili"}, {"name": "Thali"}, {"name": "Gupchup"}],
+    "places": [{"name": "Barabati Fort", "desc": "Ruins of a 14th-century fortress."}, {"name": "Netaji Museum", "desc": "Birthplace of Subhash Chandra Bose."}, {"name": "Mahanadi Riverfront", "desc": "Scenic riverside walkway."}, {"name": "Cuttack Chandi", "desc": "Ancient temple of city's deity."}]
+  },
+  {
+    "id": 84,
+    "name": "Rourkela",
+    "state": "Odisha",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Rourkela is known as the 'Steel City of Odisha'. It is a well-planned industrial hub surrounded by hills and home to a massive steel plant and the world's largest hockey stadium.",
+    "summaryFacts": { "foundedBy": "Modern India", "population": "0.5M", "officialLanguage": "Odia/Hindi", "famousFor": "Rourkela Steel Plant" },
+    "travelInfo": { "nearestAirport": "Rourkela Airport", "mainRailway": "Rourkela Jn" },
+    "localFood": [{"name": "Chakuli Pitha"}, {"name": "Mutton Curry"}, {"name": "Lassi"}, {"name": "Bara"}],
+    "places": [{"name": "Hanuman Vatika", "desc": "Giant 75-foot statue and garden."}, {"name": "Mandira Dam", "desc": "Boating and scenic picnic spot."}, {"name": "Birsa Munda Stadium", "desc": "Largest seated hockey stadium."}, {"name": "Indira Gandhi Park", "desc": "City park with musical fountain."}]
+  },
+  {
+    "id": 85,
+    "name": "Amritsar",
+    "state": "Punjab",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?w=1200",
+    "description": "Amritsar is the spiritual heart of the Sikh religion, home to the magnificent Golden Temple. It is a city of deep history, faith, and legendary culinary culture.",
+    "summaryFacts": { "foundedBy": "Guru Ram Das", "population": "1.1M", "officialLanguage": "Punjabi", "famousFor": "Golden Temple" },
+    "travelInfo": { "nearestAirport": "ATQ International", "mainRailway": "Amritsar Jn" },
+    "localFood": [{"name": "Amritsari Kulcha"}, {"name": "Dal Makhani"}, {"name": "Lassi"}, {"name": "Fish Fry"}],
+    "places": [{"name": "Golden Temple", "desc": "Holest shrine of Sikhism."}, {"name": "Jallianwala Bagh", "desc": "Historical massacre memorial."}, {"name": "Wagah Border", "desc": "Indo-Pak flag lowering ceremony."}, {"name": "Partition Museum", "desc": "History of 1947 events."}]
+  },
+  {
+    "id": 86,
+    "name": "Ludhiana",
+    "state": "Punjab",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1596176530529-78163a4f45fa?w=1200",
+    "description": "Ludhiana is the largest city in Punjab and North India's industrial hub, known as the 'Manchester of India' for its textile and hosiery industry.",
+    "summaryFacts": { "foundedBy": "Lodi Dynasty", "population": "1.6M", "officialLanguage": "Punjabi", "famousFor": "Textiles & Hosiery" },
+    "travelInfo": { "nearestAirport": "Sahnewal Airport", "mainRailway": "Ludhiana Jn" },
+    "localFood": [{"name": "Paneer Tikka"}, {"name": "Sarson Saag"}, {"name": "Makki Roti"}, {"name": "Phirni"}],
+    "places": [{"name": "Lodhi Fort", "desc": "500-year-old historic fort."}, {"name": "Tiger Safari", "desc": "Wildlife park and zoo."}, {"name": "Punjab Agri Museum", "desc": "Gallery of rural life and tools."}, {"name": "Rose Garden", "desc": "Nehru Rose Garden with 1600 types."}]
+  },
+  {
+    "id": 87,
+    "name": "Jalandhar",
+    "state": "Punjab",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Jalandhar is an ancient city in the Doaba region, famous for its sports goods manufacturing and rich historical landmarks like Devi Talab Mandir.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.9M", "officialLanguage": "Punjabi", "famousFor": "Sports Goods Industry" },
+    "travelInfo": { "nearestAirport": "Adampur Airport", "mainRailway": "Jalandhar City" },
+    "localFood": [{"name": "Butter Chicken"}, {"name": "Chana Bhatura"}, {"name": "Kulfi"}, {"name": "Tandoori Soya"}],
+    "places": [{"name": "Devi Talab Mandir", "desc": "Huge 200-year-old Hindu temple."}, {"name": "Science City", "desc": "Pushpa Gujral Science Park."}, {"name": "Wonderland", "desc": "Water park and theme park."}, {"name": "Rangla Punjab", "desc": "Heritage cultural village."}]
+  },
+  {
+    "id": 88,
+    "name": "Patiala",
+    "state": "Punjab",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1582294625895-46b772be5691?w=1200",
+    "description": "Patiala is known for its royal heritage, grand palaces, and traditional items like Patiala Shahi Pagri, Paranda, and Patiala Salwar.",
+    "summaryFacts": { "foundedBy": "Baba Ala Singh", "population": "0.4M", "officialLanguage": "Punjabi", "famousFor": "Royal Palaces & Turbans" },
+    "travelInfo": { "nearestAirport": "Chandigarh Airport", "mainRailway": "Patiala Station" },
+    "localFood": [{"name": "Patiala Peg (Food thali)"}, {"name": "Pinni"}, {"name": "Lassi"}, {"name": "Tandoori Chicken"}],
+    "places": [{"name": "Qila Mubarak", "desc": "Palace and fort complex center."}, {"name": "Sheesh Mahal", "desc": "Palace of mirrors and art."}, {"name": "Baradari Garden", "desc": "Royal garden with fern house."}, {"name": "Moti Bagh Palace", "desc": "Grand 19th-century royal home."}]
+  },
+ {
+  "id": 89,
+  "name": "Jaipur",
+  "state": "Rajasthan",
+  "category": "heritage",
+  "image": "https://www.viajeaindia.com/wp-content/uploads/2019/10/Mejores-lugares-para-visitar-en-Rajasthan.jpg",
+  
+  "currentTemp": "30°C", 
+  "lat": 26.9124, 
+  "lng": 75.7873,
+  "videoFile": "videos/jaipur_reel.mp4", 
+  "shareLink": "https://nirmalify.github.io/bharat-yatra/city.html?id=89",
+
+  "description": "Jaipur, known as the 'Pink City', is the capital of Rajasthan and a UNESCO World Heritage site. It's a land of maharajas, grand forts, and vibrant markets, forming the famous Golden Triangle of Indian tourism.",
+  "rating": 4.8,
+  "bestTime": "October to March",
+  "idealDays": "2-3 Days",
+
+  "weather": {
+    "summer": "25°C - 45°C",
+    "winter": "8°C - 25°C",
+    "monsoon": "Low to Moderate Rainfall"
+  },
+
+  "summaryFacts": {
+    "foundedBy": "Maharaja Sawai Jai Singh II",
+    "population": "3.1M",
+    "officialLanguage": "Hindi & Rajasthani",
+    "famousFor": "Hawa Mahal & Royal Heritage"
+  },
+
+  "famousFor": [
+    "Rajput Architecture",
+    "Gemstone Jewelry",
+    "Hand-printed Textiles (Sanganeri)",
+    "UNESCO World Heritage Sites"
+  ],
+
+  "thingsToDo": [
+    "Elephant ride at Amer Fort",
+    "Photography at Hawa Mahal",
+    "Dinner at Chokhi Dhani for local vibe",
+    "Shopping at Johari Bazaar"
+  ],
+
+  "travelInfo": {
+    "nearestAirport": "Jaipur International Airport (JAI)",
+    "mainRailway": "Jaipur Junction"
+  },
+
+  "transport": ["E-Rickshaw", "City Bus", "Metro", "Auto", "Cab"],
+
+  "localFood": [
+    { "name": "Dal Baati Churma" },
+    { "name": "Pyaz Kachori (Rawat special)" },
+    { "name": "Ghevar (Sweet)" },
+    { "name": "Laal Maas (Non-veg)" }
+  ],
+
+  "places": [
+    {
+      "name": "Amer Fort",
+      "desc": "A majestic hilltop fortress known for its artistic Hindu-style elements and stunning views."
+    },
+    {
+      "name": "Hawa Mahal",
+      "desc": "The 'Palace of Winds' with 953 small windows designed for royal ladies to observe the street."
+    },
+    {
+      "name": "City Palace",
+      "desc": "A complex of courtyards, gardens, and buildings that serves as the current royal residence."
+    },
+    {
+      "name": "Jantar Mantar",
+      "desc": "A UNESCO site featuring the world's largest stone sundial and astronomical instruments."
+    }
+  ],
+
+  "reel": "jaipur_reel.mp4"
+},
+  {
+    "id": 90,
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1590491000780-877f0d0e68f3?w=1200",
+    "description": "Udaipur, the 'City of Lakes' and 'Venice of the East', is famous for its shimmering lakes, grand marble palaces, and the romantic Aravalli hills backdrop.",
+    "summaryFacts": { "foundedBy": "Maharana Udai Singh II", "population": "0.5M", "officialLanguage": "Hindi", "famousFor": "Lake Palace" },
+    "travelInfo": { "nearestAirport": "Maharana Pratap Airport", "mainRailway": "Udaipur City" },
+    "localFood": [{"name": "Kadhi Kachori"}, {"name": "Mewari Thali"}, {"name": "Mirchi Bada"}, {"name": "Sweets"}],
+    "places": [{"name": "City Palace", "desc": "Massive palace complex by Lake Pichola."}, {"name": "Lake Pichola", "desc": "Scenic lake for sunset boating."}, {"name": "Jagmandir", "desc": "Island palace on the lake."}, {"name": "Saheliyon-ki-Bari", "desc": "Garden of the Royal Maidens."}]
+  },
+  {
+    "id": 91,
+    "name": "Jodhpur",
+    "state": "Rajasthan",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1544787210-282aa3773177?w=1200",
+    "description": "Jodhpur, the 'Blue City', is dominated by the massive Mehrangarh Fort. It is famous for its blue-painted houses in the old city and rich Marwari heritage.",
+    "summaryFacts": { "foundedBy": "Rao Jodha", "population": "1.1M", "officialLanguage": "Hindi/Marwari", "famousFor": "Mehrangarh Fort" },
+    "travelInfo": { "nearestAirport": "Jodhpur Airport", "mainRailway": "Jodhpur Junction" },
+    "localFood": [{"name": "Mawa Kachori"}, {"name": "Samosa"}, {"name": "Ker Sangri"}, {"name": "Lassi"}],
+    "places": [{"name": "Mehrangarh Fort", "desc": "One of the largest forts in India."}, {"name": "Jaswant Thada", "desc": "Royal marble cenotaph."}, {"name": "Umaid Bhawan", "desc": "Grand palace and museum."}, {"name": "Clock Tower", "desc": "Bustling Sardar Market area."}]
+  },
+  {
+  "id": 92,
+  "name": "Jaisalmer",
+  "state": "Rajasthan",
+  "category": "heritage",
+  "image": "https://www.remotelands.com/travelogues/app/uploads/2020/03/Jaisalmer-1.jpg",
+  
+  "currentTemp": "26°C", 
+  "lat": 26.9157, 
+  "lng": 70.9160,
+  "videoFile": "videos/jaisalmer_reel.mp4", 
+  "shareLink": "https://nirmalify.github.io/bharat-yatra/city.html?id=92",
+
+  "description": "Jaisalmer, known as the 'Golden City', stands majestically in the heart of the Thar Desert. Built with yellow sandstone, the city is famous for its living fort, intricately carved havelis, and the vast shifting sand dunes.",
+  "rating": 4.8,
+  "bestTime": "October to March",
+  "idealDays": "2-3 Days",
+
+  "weather": {
+    "summer": "25°C - 45°C",
+    "winter": "5°C - 24°C",
+    "monsoon": "Very Low Rainfall"
+  },
+
+  "summaryFacts": {
+    "foundedBy": "Rawal Jaisal",
+    "population": "0.1M",
+    "officialLanguage": "Hindi & Marwari",
+    "famousFor": "Golden Fort & Desert Safari"
+  },
+
+  "famousFor": [
+    "Yellow Sandstone Architecture",
+    "Thar Desert Safaris",
+    "Living Fort (Sonar Quila)",
+    "Folk Music & Festivals"
+  ],
+
+  "thingsToDo": [
+    "Overnight Desert Camping at Sam",
+    "Camel Safari in Thar Desert",
+    "Boating at Gadisar Lake",
+    "Stargazing in the dunes"
+  ],
+
+  "travelInfo": {
+    "nearestAirport": "Jaisalmer Airport (JSA)",
+    "mainRailway": "Jaisalmer Junction"
+  },
+
+  "transport": ["Auto Rickshaw", "Jeep Safari", "Walking (Inside Fort)", "Cab"],
+
+  "localFood": [
+    { "name": "Ker Sangri (Desert Beans)" },
+    { "name": "Gatte ki Sabzi" },
+    { "name": "Dal Baati Churma" },
+    { "name": "Bhang Lassi (Authorized)" }
+  ],
+
+  "places": [
+    {
+      "name": "Jaisalmer Fort",
+      "desc": "A 'Living Fort' where one-fourth of the city's population still resides inside the golden walls."
+    },
+    {
+      "name": "Sam Sand Dunes",
+      "desc": "The quintessential desert experience with sand dunes, camel rides, and folk performances."
+    },
+    {
+      "name": "Patwon ki Haveli",
+      "desc": "A cluster of five small havelis featuring incredibly intricate stone carvings and balconies."
+    },
+    {
+      "name": "Gadisar Lake",
+      "desc": "A scenic man-made reservoir surrounded by small temples and shrines, perfect for sunset."
+    }
+  ],
+
+  "reel": "jaisalmer_reel.mp4"
+},
+  {
+    "id": 93,
+    "name": "Gangtok",
+    "state": "Sikkim",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Gangtok, the capital of Sikkim, is a clean and modern hill station offering spectacular views of Mt. Kanchenjunga. It is a center for Tibetan Buddhist culture.",
+    "summaryFacts": { "foundedBy": "19th Century", "population": "0.1M", "officialLanguage": "Nepali/English", "famousFor": "MG Marg & Views" },
+    "travelInfo": { "nearestAirport": "Pakyong Airport", "mainRailway": "New Jalpaiguri" },
+    "localFood": [{"name": "Momos"}, {"name": "Thukpa"}, {"name": "Phagshapa"}, {"name": "Sha Phaley"}],
+    "places": [{"name": "MG Marg", "desc": "Main litter-free walking street."}, {"name": "Rumtek Monastery", "desc": "Largest monastery in Sikkim."}, {"name": "Tsomgo Lake", "desc": "Glacial lake near the border."}, {"name": "Nathu La Pass", "desc": "Historic Silk Road pass."}]
+  },
+  {
+    "id": 94,
+    "name": "Pelling",
+    "state": "Sikkim",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Pelling is a quiet hill town famous for its close-up views of the Kanchenjunga range and ancient monasteries like Pemayangtse.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.01M", "officialLanguage": "Nepali", "famousFor": "Mountain Views" },
+    "travelInfo": { "nearestAirport": "Bagdogra Airport", "mainRailway": "NJP Station" },
+    "localFood": [{"name": "Chhurpi"}, {"name": "Kinema"}, {"name": "Sel Roti"}, {"name": "Nettle Soup"}],
+    "places": [{"name": "Skywalk Pelling", "desc": "India's first glass skywalk."}, {"name": "Pemayangtse", "desc": "300-year-old monastery."}, {"name": "Rabdentse Ruins", "desc": "Ancient capital of Sikkim ruins."}, {"name": "Kanchenjunga Falls", "desc": "Perennial mountain waterfall."}]
+  },
+  {
+    "id": 95,
+    "name": "Namchi",
+    "state": "Sikkim",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?w=1200",
+    "description": "Namchi is the cultural capital of South Sikkim, home to the gigantic Guru Padmasambhava statue and the Siddheswar Dham pilgrimage center.",
+    "summaryFacts": { "foundedBy": "Modern Era", "population": "0.02M", "officialLanguage": "Nepali", "famousFor": "Guru Rinpoche Statue" },
+    "travelInfo": { "nearestAirport": "Pakyong Airport", "mainRailway": "NJP" },
+    "localFood": [{"name": "Sikkimese Thali"}, {"name": "Momo"}, {"name": "Gundruk"}, {"name": "Tea"}],
+    "places": [{"name": "Samdruptse Hill", "desc": "Home to the 135-ft golden statue."}, {"name": "Char Dham", "desc": "Replica of 4 holy shrines."}, {"name": "Rock Garden", "desc": "Scenic park with local flora."}, {"name": "Ngadak Monastery", "desc": "Oldest monastery in Namchi."}]
+  },
+  {
+    "id": 96,
+    "name": "Lachung",
+    "state": "Sikkim",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1596176530529-78163a4f45fa?w=1200",
+    "description": "Lachung is a high-altitude mountain village in North Sikkim, famous for its apple orchards, the Yumthang Valley, and snow-covered landscapes.",
+    "summaryFacts": { "foundedBy": "Tribal Era", "population": "0.003M", "officialLanguage": "Bhutia/Nepali", "famousFor": "Yumthang Valley" },
+    "travelInfo": { "nearestAirport": "Bagdogra Airport", "mainRailway": "NJP" },
+    "localFood": [{"name": "Thukpa"}, {"name": "Tsampa"}, {"name": "Yak Meat"}, {"name": "Bamboo Shoot"}],
+    "places": [{"name": "Yumthang Valley", "desc": "The Valley of Flowers of the East."}, {"name": "Zero Point", "desc": "End of road with permanent snow."}, {"name": "Lachung Monastery", "desc": "Scenic monastery in village heart."}, {"name": "Amitabh Bachchan Falls", "desc": "Gigantic and loud waterfall."}]
+  },
+  {
+  "id": 97,
+  "name": "Chennai",
+  "state": "Tamil Nadu",
+  "category": "beach",
+  "image": "https://t4.ftcdn.net/jpg/12/14/72/15/360_F_1214721586_ABI1Eq1iR3rv1KAt17mW2B2SVvyJwhZG.jpg",
+  
+  "currentTemp": "30°C", 
+  "lat": 13.0827, 
+  "lng": 80.2707,
+  "videoFile": "videos/chennai_reel.mp4", 
+  "shareLink": "https://nirmalify.github.io/bharat-yatra/city.html?id=97",
+
+  "description": "Known as the 'Gateway to South India', Chennai is a beautiful blend of deep-rooted traditions and modern lifestyle. It's famous for its classical music, Bharatanatyam dance, and the iconic Marina Beach.",
+  "rating": 4.5,
+  "bestTime": "November to February",
+  "idealDays": "2-3 Days",
+
+  "weather": {
+    "summer": "28°C - 40°C",
+    "winter": "20°C - 30°C",
+    "monsoon": "Heavy Rainfall (Oct-Dec)"
+  },
+
+  "summaryFacts": {
+    "foundedBy": "Nayaks / British Era",
+    "population": "7.1M",
+    "officialLanguage": "Tamil",
+    "famousFor": "Marina Beach & Dravidian Temples"
+  },
+
+  "famousFor": [
+    "Classical Music & Arts",
+    "Automobile Industry",
+    "Filter Coffee",
+    "Dravidian Architecture"
+  ],
+
+  "thingsToDo": [
+    "Sunrise walk at Marina Beach",
+    "Explore Kapaleeshwarar Temple",
+    "Visit San Thome Basilica",
+    "Shopping at T. Nagar"
+  ],
+
+  "travelInfo": {
+    "nearestAirport": "Chennai International Airport (MAA)",
+    "mainRailway": "Chennai Central (MAS) / Chennai Egmore"
+  },
+
+  "transport": ["Chennai Metro", "MTC Bus", "Suburban Train", "Auto", "Ola/Uber"],
+
+  "localFood": [
+    { "name": "Filter Coffee" },
+    { "name": "Dosa & Idli Sambar" },
+    { "name": "Chicken 65 (Original)" },
+    { "name": "Vada" }
+  ],
+
+  "places": [
+    {
+      "name": "Marina Beach",
+      "desc": "One of the longest urban beaches in the world, perfect for evening strolls."
+    },
+    {
+      "name": "Kapaleeshwarar Temple",
+      "desc": "A 7th-century masterpiece of Dravidian architecture dedicated to Lord Shiva."
+    },
+    {
+      "name": "Santhome Cathedral",
+      "desc": "A stunning white Gothic-style church built over the tomb of St. Thomas."
+    },
+    {
+      "name": "VGP Universal Kingdom",
+      "desc": "A popular seaside amusement park with exciting rides and a private beach."
+    }
+  ],
+
+  "reel": "chennai_reel.mp4"
+},
+  {
+    "id": 98,
+    "name": "Madurai",
+    "state": "Tamil Nadu",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1541434190180-8735395a16d0?w=1200",
+    "description": "Madurai, the 'Athens of the East', is one of the oldest living cities in the world, built around the majestic Meenakshi Amman Temple.",
+    "summaryFacts": { "foundedBy": "Pandyan Kings", "population": "1.5M", "officialLanguage": "Tamil", "famousFor": "Meenakshi Temple" },
+    "travelInfo": { "nearestAirport": "Madurai Airport", "mainRailway": "Madurai Junction" },
+    "localFood": [{"name": "Jigarthanda"}, {"name": "Idiyappam"}, {"name": "Kothu Parotta"}, {"name": "Vada"}],
+    "places": [{"name": "Meenakshi Temple", "desc": "Iconic temple with 14 gopurams."}, {"name": "Thirumalai Nayak", "desc": "17th-century royal palace."}, {"name": "Gandhi Museum", "desc": "History of the freedom struggle."}, {"name": "Vandiyur Teppakulam", "desc": "Huge temple tank and garden."}]
+  },
+  {
+    "id": 99,
+    "name": "Coimbatore",
+    "state": "Tamil Nadu",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1599933333394-84bc19d9748f?w=1200",
+    "description": "Coimbatore, the 'Manchester of South India', is a major industrial hub known for its textiles, engineering, and the massive Adiyogi statue.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "1.6M", "officialLanguage": "Tamil", "famousFor": "Adiyogi Statue" },
+    "travelInfo": { "nearestAirport": "Coimbatore International", "mainRailway": "Coimbatore Junction" },
+    "localFood": [{"name": "Arise Thali"}, {"name": "Biryani"}, {"name": "Murukku Sandwiches"}, {"name": "Mysore Pak"}],
+    "places": [{"name": "Adiyogi Statue", "desc": "World's largest bust sculpture."}, {"name": "Marudhamalai", "desc": "Hilltop temple of Lord Murugan."}, {"name": "Velliangiri Hills", "desc": "Scenic Seven Hills of the South."}, {"name": "Isha Yoga Center", "desc": "Spiritual retreat and dhyana."}]
+  },
+  {
+    "id": 100,
+    "name": "Ooty",
+    "state": "Tamil Nadu",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Ooty, the 'Queen of Hill Stations', is famous for its Nilgiri Mountain Railway, tea gardens, and cool climate in the blue mountains.",
+    "summaryFacts": { "foundedBy": "British Era", "population": "0.1M", "officialLanguage": "Tamil/English", "famousFor": "Nilgiri Toy Train" },
+    "travelInfo": { "nearestAirport": "Coimbatore Airport", "mainRailway": "Udhagamandalam" },
+    "localFood": [{"name": "Ooty Chocolates"}, {"name": "Tea"}, {"name": "Varkey"}, {"name": "Cheese"}],
+    "places": [{"name": "Botanical Garden", "desc": "Massive terraced garden."}, {"name": "Ooty Lake", "desc": "Popular lake for boating."}, {"name": "Doddabetta Peak", "desc": "Highest point in the Nilgiris."}, {"name": "Tea Museum", "desc": "Factory showing tea processing."}]
+  },
+ {
+  "id": 101,
+  "name": "Hyderabad",
+  "state": "Telangana",
+  "category": "heritage",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/Downtown_hyderabad_drone.png",
+  
+  "currentTemp": "32°C", 
+  "lat": 17.3850, 
+  "lng": 78.4867,
+  "videoFile": "videos/hyderabad_reel.mp4", 
+  "shareLink": "https://nirmalify.github.io/bharat-yatra/city.html?id=101",
+
+  "description": "Hyderabad, the 'City of Pearls', is a 400-year-old metropolis where Nizam's heritage meets a global IT hub. It is world-famous for the iconic Charminar, its legendary Biryani culture, and the bustling HITEC City.",
+  "rating": 4.7,
+  "bestTime": "October to March",
+  "idealDays": "3 Days",
+
+  "weather": {
+    "summer": "25°C - 42°C",
+    "winter": "14°C - 30°C",
+    "monsoon": "Moderate Rainfall (July-Sept)"
+  },
+
+  "summaryFacts": {
+    "foundedBy": "Muhammad Quli Qutb Shah",
+    "population": "10M",
+    "officialLanguage": "Telugu & Urdu",
+    "famousFor": "Biryani, Pearls & IT Hub"
+  },
+
+  "famousFor": [
+    "World-famous Biryani",
+    "Charminar & Heritage",
+    "IT & Tech Parks",
+    "Laad Bazaar (Bangles)"
+  ],
+
+  "thingsToDo": [
+    "Enjoy Biryani at Paradise or Shadab",
+    "Evening walk at Hussain Sagar Lake",
+    "Explore Golconda Fort's sound effects",
+    "Full day at Ramoji Film City"
+  ],
+
+  "travelInfo": {
+    "nearestAirport": "Rajiv Gandhi International Airport (HYD)",
+    "mainRailway": "Secunderabad Jn / Hyderabad Deccan / Kacheguda"
+  },
+
+  "transport": ["Hyderabad Metro", "TSRTC Bus", "MMTS Local Train", "Auto", "Cab"],
+
+  "localFood": [
+    { "name": "Hyderabadi Dum Biryani" },
+    { "name": "Haleem (Seasonal)" },
+    { "name": "Double Ka Meetha" },
+    { "name": "Irani Chai with Osmania Biscuits" }
+  ],
+
+  "places": [
+    {
+      "name": "Charminar",
+      "desc": "An iconic 16th-century mosque with four grand arches, the heart of the Old City."
+    },
+    {
+      "name": "Golconda Fort",
+      "desc": "A historic fortress famous for its acoustic marvels and the Koh-i-Noor history."
+    },
+    {
+      "name": "Ramoji Film City",
+      "desc": "The world's largest integrated film studio complex and a major tourist attraction."
+    },
+    {
+      "name": "Hussain Sagar Lake",
+      "desc": "A large heart-shaped lake featuring a giant monolithic statue of Lord Buddha."
+    }
+  ],
+
+  "reel": "hyderabad_reel.mp4"
+},
+  {
+    "id": 102,
+    "name": "Warangal",
+    "state": "Telangana",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200",
+    "description": "Warangal was the capital of the Kakatiya Dynasty, famous for its incredible stone-carved temples and arches that showcase the peak of medieval Deccan architecture.",
+    "summaryFacts": { "foundedBy": "Kakatiya Dynasty", "population": "0.8M", "officialLanguage": "Telugu", "famousFor": "Thousand Pillar Temple" },
+    "travelInfo": { "nearestAirport": "Hyderabad Airport", "mainRailway": "Warangal Jn" },
+    "localFood": [{"name": "Sarva Pindi"}, {"name": "Sakinalu"}, {"name": "Gongura Mutton"}, {"name": "Pachi Pulusu"}],
+    "places": [{"name": "Warangal Fort", "desc": "Massive stone gates and ruins."}, {"name": "Thousand Pillar Temple", "desc": "12th-century Chalukyan temple."}, {"name": "Ramappa Temple", "desc": "UNESCO site with floating bricks."}, {"name": "Laknavaram Lake", "desc": "Scenic lake with suspension bridges."}]
+  },
+  {
+    "id": 103,
+    "name": "Nizamabad",
+    "state": "Telangana",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1541434190180-8735395a16d0?w=1200",
+    "description": "Nizamabad, named after the Nizam of Hyderabad, is a major commercial center known for its agricultural wealth and the ancient Quilla Ramalayam temple built by Rashtrakutas.",
+    "summaryFacts": { "foundedBy": "Rashtrakuta Kings", "population": "0.3M", "officialLanguage": "Telugu", "famousFor": "Ancient Forts & Dams" },
+    "travelInfo": { "nearestAirport": "Hyderabad Airport", "mainRailway": "Nizamabad Jn" },
+    "localFood": [{"name": "Jonna Rotte"}, {"name": "Ambbali"}, {"name": "Potlakaya Fry"}, {"name": "Pulihora"}],
+    "places": [{"name": "Nizamabad Fort", "desc": "Ancient fort with Ramalayam temple."}, {"name": "Ali Sagar Reservoir", "desc": "Scenic park and boating lake."}, {"name": "Ashok Sagar", "desc": "Garden with a massive rock statue."}, {"name": "Saraswati Temple", "desc": "Famous temple at Basar nearby."}]
+  },
+  {
+    "id": 104,
+    "name": "Khammam",
+    "state": "Telangana",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Khammam is a historic city dominated by a 1,000-year-old fort. It is a major trade center for granite and agricultural products, and a gateway to the holy Bhadrachalam temple.",
+    "summaryFacts": { "foundedBy": "Kakatiya Era", "population": "0.2M", "officialLanguage": "Telugu", "famousFor": "Khammam Fort" },
+    "travelInfo": { "nearestAirport": "Vijayawada Airport", "mainRailway": "Khammam Station" },
+    "localFood": [{"name": "Pacchi Pulusu"}, {"name": "Idli Sambar"}, {"name": "Boti Curry"}, {"name": "Thali"}],
+    "places": [{"name": "Khammam Fort", "desc": "Ancient hilltop stone fortress."}, {"name": "Palair Reservoir", "desc": "Large water body and picnic spot."}, {"name": "Stambhadri Temple", "desc": "Cave temple of Lord Narasimha."}, {"name": "Bhadrachalam", "desc": "Lord Rama's holy temple (Nearby)."}]
+  },
+  {
+    "id": 105,
+    "name": "Agartala",
+    "state": "Tripura",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1544787210-282aa3773177?w=1200",
+    "description": "Agartala, the capital of Tripura, is home to the stunning Ujjayanta Palace. It is a blend of royal Bengali-Tripuri culture and is the gateway to the massive rock carvings of Unakoti.",
+    "summaryFacts": { "foundedBy": "Maharaja Bir Bikram", "population": "0.5M", "officialLanguage": "Bengali/Kokborok", "famousFor": "Ujjayanta Palace" },
+    "travelInfo": { "nearestAirport": "MBB International", "mainRailway": "Agartala Station" },
+    "localFood": [{"name": "Mui Borok"}, {"name": "Gudok"}, {"name": "Panch Phoron Tarkari"}, {"name": "Rice"}],
+    "places": [{"name": "Ujjayanta Palace", "desc": "Grand white museum palace."}, {"name": "Neermahal", "desc": "Water palace on Lake Rudrasagar."}, {"name": "Sepahijala Park", "desc": "Wildlife sanctuary and zoo."}, {"name": "Heritage Park", "desc": "Miniature of Tripura's landmarks."}]
+  },
+  {
+    "id": 106,
+    "name": "Udaipur",
+    "state": "Tripura",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Known as the 'City of Lakes' of Tripura, Udaipur is famous for the Tripura Sundari Temple, one of the 51 Shakti Peethas, and its many ancient royal tanks.",
+    "summaryFacts": { "foundedBy": "Maharaja Dhanya Manikya", "population": "0.1M", "officialLanguage": "Bengali", "famousFor": "Tripura Sundari Temple" },
+    "travelInfo": { "nearestAirport": "Agartala Airport", "mainRailway": "Udaipur Station" },
+    "localFood": [{"name": "Fish Curry"}, {"name": "Peda"}, {"name": "Rice with Herbs"}, {"name": "Bamboo Shoot"}],
+    "places": [{"name": "Tripureswari Temple", "desc": "One of the 51 holy Shakti Peeths."}, {"name": "Kalyan Sagar", "desc": "Large lake with huge turtles."}, {"name": "Tepania Eco-Park", "desc": "Orchid and cactus garden."}, {"name": "Bhubaneswari Temple", "desc": "Ancient temple on Gumti banks."}]
+  },
+  {
+    "id": 107,
+    "name": "Dharmanagar",
+    "state": "Tripura",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?w=1200",
+    "description": "Dharmanagar is the second largest city in Tripura, known for its natural beauty and ancient ruins nearby. It is a major trade center for the northern districts.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.05M", "officialLanguage": "Bengali", "famousFor": "Unakoti Gateway" },
+    "travelInfo": { "nearestAirport": "Agartala/Silchar", "mainRailway": "Dharmanagar Station" },
+    "localFood": [{"name": "Muya Awandru"}, {"name": "Sweets"}, {"name": "Bengali Thali"}, {"name": "Fish"}],
+    "places": [{"name": "Unakoti (Nearby)", "desc": "Massive rock-cut Shaiva carvings."}, {"name": "Kalibari", "desc": "Main city temple for Kali Puja."}, {"name": "Dighir Par", "desc": "Scenic riverside park."}, {"name": "Market Area", "desc": "Handloom and bamboo craft hub."}]
+  },
+  {
+    "id": 108,
+    "name": "Kailasahar",
+    "state": "Tripura",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1596176530529-78163a4f45fa?w=1200",
+    "description": "Kailasahar was once the capital of the Tripura Kingdom. It is famous for its tea gardens, rich history, and proximity to the legendary rock sculptures of Unakoti.",
+    "summaryFacts": { "foundedBy": "Ancient Manikya Kings", "population": "0.03M", "officialLanguage": "Bengali", "famousFor": "Tea Gardens" },
+    "travelInfo": { "nearestAirport": "Agartala", "mainRailway": "Kumarghat Station" },
+    "localFood": [{"name": "Chakhwi"}, {"name": "Pork Bharta"}, {"name": "Fish Roast"}, {"name": "Ladoo"}],
+    "places": [{"name": "Unakoti Rock Cut", "desc": "Spectacular forest carvings."}, {"name": "Lakhi Narayan Temple", "desc": "Historic royal temple."}, {"name": "Tea Estates", "desc": "Lush green tea plantations."}, {"name": "Fatikroy", "desc": "Archaeological and scenic site."}]
+  },
+  {
+    "id": 109,
+    "name": "Dehradun",
+    "state": "Uttarakhand",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1594106225211-13768f54b600?w=1200",
+    "description": "Dehradun, the capital of Uttarakhand, is nestled in the Doon Valley. It is famous for its basmati rice, litchis, and premier institutions like IMA and FRI.",
+    "summaryFacts": { "foundedBy": "Guru Ram Rai", "population": "1.2M", "officialLanguage": "Hindi/Garhwali", "famousFor": "Schools & Institutions" },
+    "travelInfo": { "nearestAirport": "Jolly Grant (DED)", "mainRailway": "Dehradun Terminal" },
+    "localFood": [{"name": "Kandalee Ka Saag"}, {"name": "Gahat Ki Dal"}, {"name": "Sani Hui Muli"}, {"name": "Bal Mithai"}],
+    "places": [{"name": "Robber's Cave", "desc": "Natural river cave formation."}, {"name": "Mindrolling Monastery", "desc": "Large Tibetan Buddhist center."}, {"name": "Sahastradhara", "desc": "Sulphur water springs."}, {"name": "FRI Museum", "desc": "Forest research palace architecture."}]
+  },
+  {
+    "id": 110,
+    "name": "Haridwar",
+    "state": "Uttarakhand",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1582294625895-46b772be5691?w=1200",
+    "description": "Haridwar, the 'Gateway to God', is where the holy Ganges leaves the mountains. It is famous for the evening Ganga Aarti and being a site for the Kumbh Mela.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.3M", "officialLanguage": "Hindi", "famousFor": "Har Ki Pauri & Ganga Aarti" },
+    "travelInfo": { "nearestAirport": "Jolly Grant", "mainRailway": "Haridwar Jn" },
+    "localFood": [{"name": "Puri Sabji"}, {"name": "Kachori"}, {"name": "Jalebi"}, {"name": "Rabri"}],
+    "places": [{"name": "Har Ki Pauri", "desc": "The most sacred ghat for holy dips."}, {"name": "Mansa Devi", "desc": "Hilltop temple with ropeway."}, {"name": "Chandi Devi", "desc": "Temple on Neel Parvat hill."}, {"name": "Shanti Kunj", "desc": "Famous spiritual academy center."}]
+  },
+  {
+    "id": 111,
+    "name": "Nainital",
+    "state": "Uttarakhand",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1597074866923-dc0589ec55a4?w=1200",
+    "description": "Nainital, the 'Lake District of India', is a charming hill station built around the eye-shaped Naini Lake. It is surrounded by seven peaks and dense forests.",
+    "summaryFacts": { "foundedBy": "P. Barron (1841)", "population": "0.05M", "officialLanguage": "Hindi/Kumaoni", "famousFor": "Naini Lake & Mall Road" },
+    "travelInfo": { "nearestAirport": "Pantnagar Airport", "mainRailway": "Kathgodam Jn" },
+    "localFood": [{"name": "Baadi"}, {"name": "Aloo Ke Gutke"}, {"name": "Bal Mithai"}, {"name": "Ras Bhari"}],
+    "places": [{"name": "Naini Lake", "desc": "Scenic lake for yachting and boating."}, {"name": "Naina Devi Temple", "desc": "Sacred Shakti Peeth on lake bank."}, {"name": "Snow View Point", "desc": "Hilltop view of the Himalayas."}, {"name": "The Mall Road", "desc": "Busy street for shopping and food."}]
+  },
+  {
+    "id": 112,
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1590050752117-23a97b62b45f?w=1200",
+    "description": "Rishikesh, the 'Yoga Capital of the World', is famous for its ashrams, yoga retreats, and adventure sports like river rafting and bungee jumping on the Ganges.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.1M", "officialLanguage": "Hindi", "famousFor": "Yoga & River Rafting" },
+    "travelInfo": { "nearestAirport": "Jolly Grant", "mainRailway": "Yog Nagari Rishikesh" },
+    "localFood": [{"name": "Ayurvedic Food"}, {"name": "Sattu Sherbet"}, {"name": "Thali"}, {"name": "Kachori"}],
+    "places": [{"name": "Laxman Jhula", "desc": "Iconic iron suspension bridge."}, {"name": "Triveni Ghat", "desc": "Holy confluence and evening Aarti."}, {"name": "Beatles Ashram", "desc": "Where the Beatles meditated."}, {"name": "Neelkanth Mahadev", "desc": "Sacred Shiva temple in the forest."}]
+  },
+  {
+    "id": 113,
+    "name": "Lucknow",
+    "state": "Uttar Pradesh",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1588733103629-b77cfe0f563b?w=1200",
+    "description": "Lucknow, the 'City of Nawabs', is famous for its polite 'Tehzeeb', grand Bara Imambara, and exquisite Chikan embroidery. It is a culinary paradise for Kebabs and Mughlai cuisine.",
+    "summaryFacts": { "foundedBy": "Nawabs of Awadh", "population": "3.5M", "officialLanguage": "Hindi/Urdu", "famousFor": "Kebabs & Chikan Work" },
+    "travelInfo": { "nearestAirport": "CCS International", "mainRailway": "Lucknow Charbagh" },
+    "localFood": [{"name": "Tunday Kababi"}, {"name": "Lucknawi Biryani"}, {"name": "Sheermal"}, {"name": "Basket Chaat"}],
+    "places": [{"name": "Bara Imambara", "desc": "Grand architectural marvel with Bhulbhulaiya."}, {"name": "Rumi Darwaza", "desc": "Turkish-style iconic city gate."}, {"name": "The Residency", "desc": "Historical ruins of the British era."}, {"name": "Hazratganj", "desc": "Modern shopping and food hub."}]
+  },
+  {
+    "id": 114,
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=1200",
+    "description": "Varanasi, or Kashi, is one of the oldest living cities in the world. Situated on the banks of the Ganges, it is the spiritual soul of India, famous for its ghats and the Kashi Vishwanath Temple.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "1.2M", "officialLanguage": "Hindi/Bhojpuri", "famousFor": "Ganges Aarti & Ghats" },
+    "travelInfo": { "nearestAirport": "Lal Bahadur Shastri", "mainRailway": "Varanasi Junction" },
+    "localFood": [{"name": "Banarasi Paan"}, {"name": "Kachori Sabzi"}, {"name": "Malaiyo"}, {"name": "Lassi"}],
+    "places": [{"name": "Dashashwamedh Ghat", "desc": "Main ghat for the famous evening Aarti."}, {"name": "Kashi Vishwanath", "desc": "The sacred golden Shiva temple."}, {"name": "Sarnath", "desc": "Where Buddha first taught Dhamma."}, {"name": "Assi Ghat", "desc": "Peaceful ghat for sunrise and music."}]
+  },
+  {
+    "id": 115,
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657ece523?w=1200",
+    "description": "Agra is home to the world-famous Taj Mahal, one of the Seven Wonders of the World. It was the former capital of the Mughal Empire and is a treasure trove of Islamic architecture.",
+    "summaryFacts": { "foundedBy": "Sultan Sikandar Lodi", "population": "1.6M", "officialLanguage": "Hindi/Urdu", "famousFor": "Taj Mahal & Petha" },
+    "travelInfo": { "nearestAirport": "Agra Airport", "mainRailway": "Agra Cantt" },
+    "localFood": [{"name": "Agra Petha"}, {"name": "Bedai Poori"}, {"name": "Mughlai Chicken"}, {"name": "Dalmoth"}],
+    "places": [{"name": "Taj Mahal", "desc": "The ultimate symbol of love in white marble."}, {"name": "Agra Fort", "desc": "Massive red sandstone royal fortress."}, {"name": "Fatehpur Sikri", "desc": "Mughal ghost city nearby."}, {"name": "Mehtab Bagh", "desc": "Moonlight garden with Taj views."}]
+  },
+  {
+    "id": 116,
+    "name": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Ayodhya, the birthplace of Lord Rama, is a sacred city on the banks of the Sarayu River. It is a major pilgrimage center with the grand Ram Janmabhoomi Temple at its heart.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.1M", "officialLanguage": "Hindi/Awadhi", "famousFor": "Ram Mandir" },
+    "travelInfo": { "nearestAirport": "Maharishi Valmiki Int", "mainRailway": "Ayodhya Dham Jn" },
+    "localFood": [{"name": "Ayodhya Ladoo"}, {"name": "Kachori"}, {"name": "Sattu"}, {"name": "Rabri"}],
+    "places": [{"name": "Ram Janmabhoomi", "desc": "Sacred site and grand Ram Temple."}, {"name": "Hanuman Garhi", "desc": "Hilltop temple of Lord Hanuman."}, {"name": "Kanak Bhawan", "desc": "Beautiful palace-temple of Rama-Sita."}, {"name": "Sarayu Ghat", "desc": "Riverside area for holy dips."}]
+  },
+  {
+    "id": 117,
+    "name": "Kolkata",
+    "state": "West Bengal",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1558431382-bb7b38c49051?w=1200",
+    "description": "Kolkata, the 'City of Joy', is India's intellectual and artistic capital. Famous for its colonial-era Victoria Memorial, yellow taxis, and the grand Durga Puja celebrations.",
+    "summaryFacts": { "foundedBy": "Job Charnock (1690)", "population": "15M", "officialLanguage": "Bengali/English", "famousFor": "Rosogolla & Durga Puja" },
+    "travelInfo": { "nearestAirport": "NSC Bose Int", "mainRailway": "Howrah Junction" },
+    "localFood": [{"name": "Rosogolla"}, {"name": "Mishti Doi"}, {"name": "Kathi Roll"}, {"name": "Fish Curry"}],
+    "places": [{"name": "Victoria Memorial", "desc": "Grand white marble museum hall."}, {"name": "Howrah Bridge", "desc": "Iconic steel bridge on Hooghly river."}, {"name": "Dakshineswar Temple", "desc": "Famous Kali temple by the river."}, {"name": "Park Street", "desc": "Social, dining, and nightlife hub."}]
+  },
+  {
+    "id": 118,
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1597074866923-dc0589ec55a4?w=1200",
+    "description": "Darjeeling, the 'Queen of Hills', is world-renowned for its tea gardens, the Himalayan Toy Train, and breathtaking sunrise views of Mt. Kanchenjunga from Tiger Hill.",
+    "summaryFacts": { "foundedBy": "British Era", "population": "0.1M", "officialLanguage": "Nepali/Bengali", "famousFor": "Darjeeling Tea" },
+    "travelInfo": { "nearestAirport": "Bagdogra Airport", "mainRailway": "Darjeeling Station" },
+    "localFood": [{"name": "Momo"}, {"name": "Thukpa"}, {"name": "Darjeeling Tea"}, {"name": "Sel Roti"}],
+    "places": [{"name": "Tiger Hill", "desc": "Sunrise spot for Kanchenjunga views."}, {"name": "Batasia Loop", "desc": "Toy train railway engineering marvel."}, {"name": "Happy Valley Tea Estate", "desc": "Lush green tea plantation tour."}, {"name": "Darjeeling Zoo", "desc": "Home to the Red Panda."}]
+  },
+  {
+    "id": 119,
+    "name": "Siliguri",
+    "state": "West Bengal",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1544787210-282aa3773177?w=1200",
+    "description": "Siliguri is the 'Gateway to the Northeast' and a major commercial hub. It sits at the foot of the Himalayas and is famous for its tea and timber industries.",
+    "summaryFacts": { "foundedBy": "Modern Era", "population": "0.7M", "officialLanguage": "Bengali/Hindi", "famousFor": "Gateway to Hills" },
+    "travelInfo": { "nearestAirport": "Bagdogra Int", "mainRailway": "New Jalpaiguri (NJP)" },
+    "localFood": [{"name": "Bengali Thali"}, {"name": "Chai"}, {"name": "Street Chowmein"}, {"name": "Sweets"}],
+    "places": [{"name": "Salugara Monastery", "desc": "Famous for the 100-ft stupa."}, {"name": "Bengal Safari Park", "desc": "Wildlife park with tiger safari."}, {"name": "Hong Kong Market", "desc": "Bustling market for imported goods."}, {"name": "Mahananda Sanctuary", "desc": "Forest wildlife and bird haven."}]
+  },
+  {
+    "id": 120,
+    "name": "Durgapur",
+    "state": "West Bengal",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Durgapur is the industrial heart of West Bengal, known as the 'Ruhr of India'. It is a well-planned city famous for its massive steel plants and educational institutions.",
+    "summaryFacts": { "foundedBy": "Dr. Bidhan Chandra Roy", "population": "0.6M", "officialLanguage": "Bengali", "famousFor": "Steel Industries" },
+    "travelInfo": { "nearestAirport": "Kazi Nazrul Islam Int", "mainRailway": "Durgapur Station" },
+    "localFood": [{"name": "Panch Phoron Tarkari"}, {"name": "Sweets"}, {"name": "Kachori"}, {"name": "Thali"}],
+    "places": [{"name": "Durgapur Barrage", "desc": "Massive bridge on Damodar river."}, {"name": "Bhabani Pathak's Cave", "desc": "Historical network of tunnels."}, {"name": "City Centre", "desc": "Social and shopping district."}, {"name": "Kumar Mangalam Park", "desc": "Large urban park and lake."}]
+  },
+  {
+    "id": 121,
+    "name": "Puducherry City",
+    "state": "Puducherry",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=1200",
+    "description": "Puducherry, the 'French Riviera of the East', is famous for its bright yellow colonial buildings, chic boutiques, and spiritual centers like Auroville. It offers a unique mix of French and Tamil cultures.",
+    "summaryFacts": { "foundedBy": "French Era", "population": "0.6M", "officialLanguage": "Tamil/French", "famousFor": "French Quarter & Auroville" },
+    "travelInfo": { "nearestAirport": "Puducherry Airport", "mainRailway": "Puducherry Station" },
+    "localFood": [{"name": "Crepes"}, {"name": "Ratatouille"}, {"name": "Mutton Rolls"}, {"name": "Kadugu Yerra"}],
+    "places": [{"name": "Rock Beach", "desc": "Main promenade for evening walks."}, {"name": "Aurobindo Ashram", "desc": "Famous spiritual community center."}, {"name": "White Town", "desc": "Colorful French-style residential area."}, {"name": "Paradise Beach", "desc": "Pristine sandy beach reachable by boat."}]
+  },
+  {
+    "id": 122,
+    "name": "Karaikal",
+    "state": "Puducherry",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1544787210-282aa3773177?w=1200",
+    "description": "Karaikal is an enclave of Puducherry surrounded by Tamil Nadu. It is a peaceful coastal town famous for its ancient temples and being a major pilgrimage hub for devotees of Lord Saneeswara.",
+    "summaryFacts": { "foundedBy": "French Era", "population": "0.1M", "officialLanguage": "Tamil", "famousFor": "Saneeswarar Temple" },
+    "travelInfo": { "nearestAirport": "Trichy Airport", "mainRailway": "Karaikal Station" },
+    "localFood": [{"name": "Fish Curry"}, {"name": "Appam"}, {"name": "Halwa"}, {"name": "Thali"}],
+    "places": [{"name": "Karaikal Beach", "desc": "Quiet beach for sunrise views."}, {"name": "Saneeswarar Temple", "desc": "Famous temple for Saturn planet."}, {"name": "Tirunallar", "desc": "Ancient sacred pilgrimage site."}, {"name": "Ammaiyar Temple", "desc": "Temple dedicated to a female saint."}]
+  },
+  {
+    "id": 123,
+    "name": "Mahe",
+    "state": "Puducherry",
+    "category": "river",
+    "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200",
+    "description": "Mahe is a small town on the Malabar Coast of Kerala but belongs to Puducherry. It is famous for its scenic riverside walk, French influence, and being a hub for affordable trade and luxury goods.",
+    "summaryFacts": { "foundedBy": "French Era", "population": "0.04M", "officialLanguage": "Malayalam/French", "famousFor": "Riverside View" },
+    "travelInfo": { "nearestAirport": "Kannur International", "mainRailway": "Mahe Station" },
+    "localFood": [{"name": "Malabar Biryani"}, {"name": "Kallummakkaya"}, {"name": "Pao"}, {"name": "French Wine"}],
+    "places": [{"name": "Mahe Walkway", "desc": "Scenic path along the Mahe river."}, {"name": "St. Theresa Shrine", "desc": "Ancient and famous Catholic church."}, {"name": "Tagore Park", "desc": "Riverside park with historic statues."}, {"name": "Manjakkal", "desc": "Beautiful river-view viewpoint."}]
+  },
+  {
+    "id": 124,
+    "name": "Yanam",
+    "state": "Puducherry",
+    "category": "river",
+    "image": "https://images.unsplash.com/photo-1582294625895-46b772be5691?w=1200",
+    "description": "Yanam is an enclave in Andhra Pradesh but a part of Puducherry. It is situated on the Godavari river bank and is known for its Eiffel Tower replica and French-inspired riverfront.",
+    "summaryFacts": { "foundedBy": "French Era", "population": "0.03M", "officialLanguage": "Telugu/French", "famousFor": "Godavari Riverfront" },
+    "travelInfo": { "nearestAirport": "Rajahmundry Airport", "mainRailway": "Kakinada Port" },
+    "localFood": [{"name": "Pulihora"}, {"name": "Fish Roast"}, {"name": "Pootharekulu"}, {"name": "Vada"}],
+    "places": [{"name": "Yanam Beach", "desc": "Scenic river beach on Godavari."}, {"name": "Eiffel Tower Replica", "desc": "Modern landmark and viewpoint."}, {"name": "Rajiv Gandhi Park", "desc": "Large river-facing city garden."}, {"name": "Venugopala Swamy", "desc": "Ancient and beautiful river temple."}]
+  },
+  {
+    "id": 125,
+    "name": "Gangtok",
+    "state": "Sikkim",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Gangtok is the heart of Sikkim, a clean and modern hill station with breathtaking views of the Himalayas. It is the hub of the state's culture and food.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.1M", "officialLanguage": "Nepali", "famousFor": "MG Marg" },
+    "travelInfo": { "nearestAirport": "Pakyong Airport", "mainRailway": "NJP" },
+    "localFood": [{"name": "Momo"}, {"name": "Thukpa"}, {"name": "Sha Phaley"}, {"name": "Phagshapa"}],
+    "places": [{"name": "MG Marg", "desc": "Litter-free walking street."}, {"name": "Rumtek Monastery", "desc": "Ancient Buddhist learning center."}, {"name": "Tsomgo Lake", "desc": "High altitude glacial lake."}, {"name": "Nathu La Pass", "desc": "Indo-China border point."}]
+  },
+  {
+    "id": 126,
+    "name": "Pelling",
+    "state": "Sikkim",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Pelling offers the closest views of Mt. Kanchenjunga. It is a peaceful town famous for ancient monasteries and the first glass skywalk of India.",
+    "summaryFacts": { "foundedBy": "Ancient", "population": "0.01M", "officialLanguage": "Nepali", "famousFor": "Kanchenjunga Views" },
+    "travelInfo": { "nearestAirport": "Bagdogra", "mainRailway": "NJP" },
+    "localFood": [{"name": "Gundruk"}, {"name": "Chhurpi"}, {"name": "Sel Roti"}, {"name": "Tea"}],
+    "places": [{"name": "Skywalk Pelling", "desc": "Glass bridge with valley view."}, {"name": "Pemayangtse", "desc": "300-year-old monastery."}, {"name": "Rabdentse Ruins", "desc": "Former royal capital ruins."}, {"name": "Khecheopalri Lake", "desc": "Sacred wish-fulfilling lake."}]
+  },
+  {
+    "id": 127,
+    "name": "Namchi",
+    "state": "Sikkim",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1596176530529-78163a4f45fa?w=1200",
+    "description": "Namchi is the cultural capital of South Sikkim, home to the world's tallest statue of Guru Padmasambhava and the Char Dham pilgrimage replica.",
+    "summaryFacts": { "foundedBy": "Modern Era", "population": "0.02M", "officialLanguage": "Nepali", "famousFor": "Guru Rinpoche Statue" },
+    "travelInfo": { "nearestAirport": "Pakyong", "mainRailway": "NJP" },
+    "localFood": [{"name": "Thukpa"}, {"name": "Momo"}, {"name": "Chhurpi"}, {"name": "Rice Thali"}],
+    "places": [{"name": "Samdruptse Hill", "desc": "Golden 135-ft statue."}, {"name": "Char Dham", "desc": "Religious replica center."}, {"name": "Namchi Garden", "desc": "Large rock garden park."}, {"name": "Ngadak Monastery", "desc": "Oldest monastery in town."}]
+  },
+  {
+    "id": 128,
+    "name": "Lachung",
+    "state": "Sikkim",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1542640244-7e672d6cef21?w=1200",
+    "description": "Lachung is a high-altitude village in North Sikkim, famous for snow-capped mountains, apple orchards, and the stunning Yumthang Valley.",
+    "summaryFacts": { "foundedBy": "Tribal Era", "population": "0.003M", "officialLanguage": "Bhutia", "famousFor": "Yumthang Valley" },
+    "travelInfo": { "nearestAirport": "Bagdogra", "mainRailway": "NJP" },
+    "localFood": [{"name": "Tsampa"}, {"name": "Yak Meat"}, {"name": "Thukpa"}, {"name": "Local Tea"}],
+    "places": [{"name": "Yumthang Valley", "desc": "Valley of blooming flowers."}, {"name": "Zero Point", "desc": "High altitude snow spot."}, {"name": "Lachung Monastery", "desc": "Peaceful mountain shrine."}, {"name": "Bhim Nala Falls", "desc": "Gigantic gushing waterfall."}]
+  },
+  {
+    "id": 129,
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "category": "heritage",
+    "image": "https://cdn.yatrigo.com/f1le8qeawgm.jpg",
+    "description": "Hyderabad, the 'City of Pearls', blends 400-year-old Nizami history with a world-class IT hub. Famous for Charminar and its legendary Biryani.",
+    "summaryFacts": { "foundedBy": "Qutub Shahis", "population": "10M", "officialLanguage": "Telugu/Urdu", "famousFor": "Biryani & Charminar" },
+    "travelInfo": { "nearestAirport": "RG International", "mainRailway": "Secunderabad" },
+    "localFood": [{"name": "Hyderabadi Biryani"}, {"name": "Haleem"}, {"name": "Irani Chai"}, {"name": "Double Ka Meetha"}],
+    "places": [{"name": "Charminar", "desc": "Global icon of the city."}, {"name": "Golconda Fort", "desc": "Ancient diamond market fort."}, {"name": "Ramoji Film City", "desc": "World's largest film studio."}, {"name": "Hussain Sagar", "desc": "Lake with huge Buddha statue."}]
+  },
+  {
+    "id": 130,
+    "name": "Warangal",
+    "state": "Telangana",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1541434190180-8735395a16d0?w=1200",
+    "description": "Warangal was the seat of the Kakatiya Dynasty, famous for its stone-carved temples and the Thousand Pillar Temple's architecture.",
+    "summaryFacts": { "foundedBy": "Kakatiyas", "population": "0.8M", "officialLanguage": "Telugu", "famousFor": "Kakatiya Architecture" },
+    "travelInfo": { "nearestAirport": "Hyderabad", "mainRailway": "Warangal Jn" },
+    "localFood": [{"name": "Sarva Pindi"}, {"name": "Sakinalu"}, {"name": "Mutton Curry"}, {"name": "Gongura"}],
+    "places": [{"name": "Warangal Fort", "desc": "Historic stone gate ruins."}, {"name": "Thousand Pillar Temple", "desc": "12th-century stone marvel."}, {"name": "Laknavaram Lake", "desc": "Island lake with bridges."}, {"name": "Ramappa Temple", "desc": "Ancient UNESCO world site."}]
+  },
+  {
+    "id": 131,
+    "name": "Nizamabad",
+    "state": "Telangana",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Nizamabad is a commercial hub named after the Nizam. It is known for its agricultural wealth and the ancient Quilla Ramalayam temple.",
+    "summaryFacts": { "foundedBy": "Rashtrakutas", "population": "0.3M", "officialLanguage": "Telugu", "famousFor": "Nizamabad Fort" },
+    "travelInfo": { "nearestAirport": "Hyderabad", "mainRailway": "Nizamabad Jn" },
+    "localFood": [{"name": "Jonna Rotte"}, {"name": "Ambbali"}, {"name": "Fry"}, {"name": "Sweets"}],
+    "places": [{"name": "Nizamabad Fort", "desc": "Historical hilltop fortress."}, {"name": "Ali Sagar", "desc": "Deer park and lake."}, {"name": "Ashok Sagar", "desc": "Lakeside garden with rocks."}, {"name": "Saraswati Temple", "desc": "Ancient school of learning."}]
+  },
+  {
+    "id": 132,
+    "name": "Khammam",
+    "state": "Telangana",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1590491000780-877f0d0e68f3?w=1200",
+    "description": "Khammam is dominated by a 1,000-year-old fort. It is a major granite hub and home to the sacred Stambhadri Narasimha temple.",
+    "summaryFacts": { "foundedBy": "Kakatiya Era", "population": "0.2M", "officialLanguage": "Telugu", "famousFor": "Khammam Fort" },
+    "travelInfo": { "nearestAirport": "Vijayawada", "mainRailway": "Khammam Jn" },
+    "localFood": [{"name": "Idli"}, {"name": "Dosa"}, {"name": "Chicken Curry"}, {"name": "Boti"}],
+    "places": [{"name": "Khammam Fort", "desc": "10th-century stone fort."}, {"name": "Palair Reservoir", "desc": "Huge water body and park."}, {"name": "Stambhadri Temple", "desc": "Sacred cave-temple shrine."}, {"name": "Bhadrachalam", "desc": "Lord Rama's holy temple."}]
+  },
+  {
+    "id": 133,
+    "name": "Agartala",
+    "state": "Tripura",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1544787210-282aa3773177?w=1200",
+    "description": "Agartala, the capital of Tripura, is a blend of royal heritage and natural beauty. It is famous for the Ujjayanta Palace and is the gateway to the massive rock carvings of Unakoti.",
+    "summaryFacts": { "foundedBy": "Manikya Dynasty", "population": "0.5M", "officialLanguage": "Bengali", "famousFor": "Ujjayanta Palace" },
+    "travelInfo": { "nearestAirport": "MBB International", "mainRailway": "Agartala Station" },
+    "localFood": [{"name": "Mui Borok"}, {"name": "Gudok"}, {"name": "Panch Phoron"}, {"name": "Rice"}],
+    "places": [{"name": "Ujjayanta Palace", "desc": "Grand white royal museum."}, {"name": "Neermahal", "desc": "Palace in the middle of a lake."}, {"name": "Sepahijala", "desc": "Wildlife and zoo sanctuary."}, {"name": "Heritage Park", "desc": "Miniature landmarks of Tripura."}]
+  },
+  {
+    "id": 134,
+    "name": "Udaipur",
+    "state": "Tripura",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Udaipur is the 'City of Lakes' in Tripura, famous for the Tripura Sundari Temple, which is one of the 51 holy Shakti Peethas of the Hindu religion.",
+    "summaryFacts": { "foundedBy": "Dhanya Manikya", "population": "0.1M", "officialLanguage": "Bengali", "famousFor": "Tripura Sundari Temple" },
+    "travelInfo": { "nearestAirport": "Agartala Airport", "mainRailway": "Udaipur Station" },
+    "localFood": [{"name": "Fish Curry"}, {"name": "Peda"}, {"name": "Bamboo Shoot"}, {"name": "Ladoo"}],
+    "places": [{"name": "Tripureswari Temple", "desc": "Sacred 500-year-old shrine."}, {"name": "Kalyan Sagar", "desc": "Holy lake with giant turtles."}, {"name": "Tepania Eco-Park", "desc": "Orchid and cactus garden park."}, {"name": "Bhubaneswari Temple", "desc": "Ancient temple on river bank."}]
+  },
+  {
+    "id": 135,
+    "name": "Dharmanagar",
+    "state": "Tripura",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?w=1200",
+    "description": "Dharmanagar is the second largest city in Tripura and a historical trade center. It is surrounded by lush greenery and provides easy access to Unakoti ruins.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.05M", "officialLanguage": "Bengali", "famousFor": "Historical Trade" },
+    "travelInfo": { "nearestAirport": "Agartala", "mainRailway": "Dharmanagar Station" },
+    "localFood": [{"name": "Bengali Thali"}, {"name": "Sweets"}, {"name": "Muya Awandru"}, {"name": "Fish"}],
+    "places": [{"name": "Unakoti (Nearby)", "desc": "Ancient rock-cut Shaiva carvings."}, {"name": "Kalibari", "desc": "Famous city temple for Kali."}, {"name": "Dighir Par", "desc": "Riverside leisure park."}, {"name": "Local Markets", "desc": "Hub for bamboo and handlooms."}]
+  },
+  {
+    "id": 136,
+    "name": "Kailasahar",
+    "state": "Tripura",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1596176530529-78163a4f45fa?w=1200",
+    "description": "Kailasahar was the ancient capital of Tripura kings. It is famous for its tea gardens and its mythological connection to Lord Shiva and the Unakoti hills.",
+    "summaryFacts": { "foundedBy": "Manikya Kings", "population": "0.03M", "officialLanguage": "Bengali", "famousFor": "Tea Gardens & History" },
+    "travelInfo": { "nearestAirport": "Agartala", "mainRailway": "Kumarghat" },
+    "localFood": [{"name": "Chakhwi"}, {"name": "Beef Roast"}, {"name": "Dried Fish"}, {"name": "Pork Bharta"}],
+    "places": [{"name": "Unakoti Rock Cut", "desc": "Massive forest rock carvings."}, {"name": "Lakhi Narayan Temple", "desc": "Historic royal family shrine."}, {"name": "Tea Estates", "desc": "Lush green tea hills."}, {"name": "Fatikroy", "desc": "Scenic archaeological site."}]
+  },
+  {
+    "id": 137,
+    "name": "Dehradun",
+    "state": "Uttarakhand",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1594106225211-13768f54b600?w=1200",
+    "description": "Dehradun, the capital of Uttarakhand, is famous for its institutions like FRI and IMA. It is known for its pleasant weather and high-quality Basmati rice.",
+    "summaryFacts": { "foundedBy": "Guru Ram Rai", "population": "1.2M", "officialLanguage": "Hindi", "famousFor": "Schools & Institutions" },
+    "travelInfo": { "nearestAirport": "Jolly Grant", "mainRailway": "Dehradun Terminal" },
+    "localFood": [{"name": "Kandalee Saag"}, {"name": "Gahat Dal"}, {"name": "Bal Mithai"}, {"name": "Sani Muli"}],
+    "places": [{"name": "Robber's Cave", "desc": "Unique river cave formation."}, {"name": "Mindrolling Monastery", "desc": "Stunning Tibetan Buddhist center."}, {"name": "Sahastradhara", "desc": "Medicinal sulphur springs."}, {"name": "FRI Museum", "desc": "Historic forest research palace."}]
+  },
+  {
+    "id": 138,
+    "name": "Haridwar",
+    "state": "Uttarakhand",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1582294625895-46b772be5691?w=1200",
+    "description": "Haridwar is the gateway to the Chardham Yatra. It is where the Ganges meets the plains, famous for the magical evening Aarti at Har Ki Pauri.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.3M", "officialLanguage": "Hindi", "famousFor": "Ganga Aarti" },
+    "travelInfo": { "nearestAirport": "Jolly Grant", "mainRailway": "Haridwar Jn" },
+    "localFood": [{"name": "Puri Sabji"}, {"name": "Kachori"}, {"name": "Jalebi"}, {"name": "Rabri"}],
+    "places": [{"name": "Har Ki Pauri", "desc": "Main ghat for holy dips."}, {"name": "Mansa Devi", "desc": "Hilltop temple with ropeway."}, {"name": "Chandi Devi", "desc": "Sacred hilltop Durga temple."}, {"name": "Shanti Kunj", "desc": "Famous spiritual academy."}]
+  },
+  {
+    "id": 139,
+    "name": "Nainital",
+    "state": "Uttarakhand",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1597074866923-dc0589ec55a4?w=1200",
+    "description": "Nainital is the 'Lake District' of India, a beautiful hill station built around a pear-shaped lake and surrounded by seven mountain peaks.",
+    "summaryFacts": { "foundedBy": "P. Barron", "population": "0.05M", "officialLanguage": "Hindi", "famousFor": "Naini Lake" },
+    "travelInfo": { "nearestAirport": "Pantnagar", "mainRailway": "Kathgodam Jn" },
+    "localFood": [{"name": "Baadi"}, {"name": "Aloo Gutke"}, {"name": "Bal Mithai"}, {"name": "Thukpa"}],
+    "places": [{"name": "Naini Lake", "desc": "Scenic lake for boating."}, {"name": "Naina Devi Temple", "desc": "Sacred Shakti Peeth on bank."}, {"name": "Snow View Point", "desc": "Himalayan view via ropeway."}, {"name": "The Mall Road", "desc": "Busy lakeside shopping street."}]
+  },
+  {
+    "id": 140,
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1590050752117-23a97b62b45f?w=1200",
+    "description": "The 'Yoga Capital of the World', Rishikesh is famous for its ashrams, rafting on the Ganges, and being a spiritual haven for seekers.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.1M", "officialLanguage": "Hindi", "famousFor": "Yoga & Rafting" },
+    "travelInfo": { "nearestAirport": "Jolly Grant", "mainRailway": "Rishikesh Station" },
+    "localFood": [{"name": "Ayurvedic Food"}, {"name": "Thali"}, {"name": "Lassi"}, {"name": "Kachori"}],
+    "places": [{"name": "Laxman Jhula", "desc": "Famous suspension bridge."}, {"name": "Triveni Ghat", "desc": "Confluence point for Aarti."}, {"name": "Beatles Ashram", "desc": "Historic meditation site."}, {"name": "Neelkanth Temple", "desc": "Sacred Shiva forest temple."}]
+  },
+  {
+    "id": 141,
+    "name": "Lucknow",
+    "state": "Uttar Pradesh",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1588733103629-b77cfe0f563b?w=1200",
+    "description": "Lucknow, the City of Nawabs, is known for its exquisite 'Tehzeeb', Chikan embroidery, and world-famous Tunday Kebabs.",
+    "summaryFacts": { "foundedBy": "Nawabs", "population": "3.5M", "officialLanguage": "Hindi/Urdu", "famousFor": "Tehzeeb & Kebabs" },
+    "travelInfo": { "nearestAirport": "CCS International", "mainRailway": "Lucknow Charbagh" },
+    "localFood": [{"name": "Tunday Kebab"}, {"name": "Biryani"}, {"name": "Sheermal"}, {"name": "Basket Chaat"}],
+    "places": [{"name": "Bara Imambara", "desc": "Architecture with a maze."}, {"name": "Rumi Darwaza", "desc": "Iconic Mughal city gate."}, {"name": "The Residency", "desc": "British history ruins."}, {"name": "Hazratganj", "desc": "Social shopping hub."}]
+  },
+  {
+    "id": 142,
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=1200",
+    "description": "Varanasi is the spiritual heart of India, one of the oldest living cities. It is famous for its ghats, temples, and the Banarasi silk sari.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "1.2M", "officialLanguage": "Hindi", "famousFor": "Ganga Ghats" },
+    "travelInfo": { "nearestAirport": "LB Shastri", "mainRailway": "Varanasi Jn" },
+    "localFood": [{"name": "Kachori Sabzi"}, {"name": "Banarasi Paan"}, {"name": "Lassi"}, {"name": "Malaiyo"}],
+    "places": [{"name": "Kashi Vishwanath", "desc": "The Golden Shiva Temple."}, {"name": "Dashashwamedh Ghat", "desc": "Main Aarti ceremony spot."}, {"name": "Sarnath", "desc": "Buddha's first teaching site."}, {"name": "Manikarnika Ghat", "desc": "Historical holy cremation ghat."}]
+  },
+  {
+    "id": 143,
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657ece523?w=1200",
+    "description": "Agra houses the Taj Mahal, one of the Seven Wonders. It is a treasure of Mughal architecture, including the grand Agra Fort.",
+    "summaryFacts": { "foundedBy": "Sikandar Lodi", "population": "1.6M", "officialLanguage": "Hindi", "famousFor": "Taj Mahal" },
+    "travelInfo": { "nearestAirport": "Agra Airport", "mainRailway": "Agra Cantt" },
+    "localFood": [{"name": "Agra Petha"}, {"name": "Bedai"}, {"name": "Mughlai Food"}, {"name": "Dalmoth"}],
+    "places": [{"name": "Taj Mahal", "desc": "Iconic marble wonder."}, {"name": "Agra Fort", "desc": "Grand royal fortress."}, {"name": "Fatehpur Sikri", "desc": "Ancient Mughal capital nearby."}, {"name": "Mehtab Bagh", "desc": "Garden with Taj views."}]
+  },
+  {
+    "id": 144,
+    "name": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "category": "temple",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Ayodhya is the sacred birthplace of Lord Rama. It is a major pilgrimage center with the grand Ram Janmabhoomi Temple.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.1M", "officialLanguage": "Hindi", "famousFor": "Ram Mandir" },
+    "travelInfo": { "nearestAirport": "Valmiki Int", "mainRailway": "Ayodhya Dham Jn" },
+    "localFood": [{"name": "Rama Ladoo"}, {"name": "Kachori"}, {"name": "Sattu"}, {"name": "Rabri"}],
+    "places": [{"name": "Ram Janmabhoomi", "desc": "The sacred Ram Temple."}, {"name": "Hanuman Garhi", "desc": "Hilltop Hanuman shrine."}, {"name": "Kanak Bhawan", "desc": "Grand palace of Rama-Sita."}, {"name": "Sarayu Ghat", "desc": "Riverside for holy dips."}]
+  },
+  {
+    "id": 145,
+    "name": "Kolkata",
+    "state": "West Bengal",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1558431382-bb7b38c49051?w=1200",
+    "description": "Kolkata, the 'City of Joy', is India's intellectual and artistic capital. Famous for its colonial-era Victoria Memorial, yellow taxis, and the grand Durga Puja celebrations.",
+    "summaryFacts": { "foundedBy": "Job Charnock", "population": "15M", "officialLanguage": "Bengali", "famousFor": "Rosogolla & Durga Puja" },
+    "travelInfo": { "nearestAirport": "NSC Bose International", "mainRailway": "Howrah Junction" },
+    "localFood": [{"name": "Rosogolla"}, {"name": "Mishti Doi"}, {"name": "Kathi Roll"}, {"name": "Fish Curry"}],
+    "places": [{"name": "Victoria Memorial", "desc": "White marble museum hall."}, {"name": "Howrah Bridge", "desc": "Iconic steel cantilever bridge."}, {"name": "Dakshineswar Temple", "desc": "Kali temple by the river."}, {"name": "Park Street", "desc": "Social and dining hub."}]
+  },
+  {
+    "id": 146,
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1597074866923-dc0589ec55a4?w=1200",
+    "description": "Darjeeling, the 'Queen of Hills', is world-renowned for its tea gardens, the Himalayan Toy Train, and breathtaking sunrise views of Mt. Kanchenjunga.",
+    "summaryFacts": { "foundedBy": "British Era", "population": "0.1M", "officialLanguage": "Nepali/Bengali", "famousFor": "Darjeeling Tea" },
+    "travelInfo": { "nearestAirport": "Bagdogra Airport", "mainRailway": "Darjeeling Station" },
+    "localFood": [{"name": "Momo"}, {"name": "Thukpa"}, {"name": "Darjeeling Tea"}, {"name": "Sel Roti"}],
+    "places": [{"name": "Tiger Hill", "desc": "Sunrise mountain viewpoint."}, {"name": "Batasia Loop", "desc": "Toy train railway spiral."}, {"name": "Happy Valley Tea", "desc": "Historic tea estate tour."}, {"name": "Darjeeling Zoo", "desc": "Home to the Red Panda."}]
+  },
+  {
+    "id": 147,
+    "name": "Siliguri",
+    "state": "West Bengal",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1544787210-282aa3773177?w=1200",
+    "description": "Siliguri is the 'Gateway to the Northeast' and a major commercial hub at the foot of the Himalayas, famous for tea, timber, and tourism.",
+    "summaryFacts": { "foundedBy": "Modern Era", "population": "0.7M", "officialLanguage": "Bengali/Hindi", "famousFor": "Gateway to Hills" },
+    "travelInfo": { "nearestAirport": "Bagdogra International", "mainRailway": "New Jalpaiguri (NJP)" },
+    "localFood": [{"name": "Bengali Thali"}, {"name": "Chai"}, {"name": "Sweets"}, {"name": "Chowmein"}],
+    "places": [{"name": "Salugara Monastery", "desc": "Famous 100-ft stupa shrine."}, {"name": "Bengal Safari Park", "desc": "Wildlife and tiger safari."}, {"name": "Hong Kong Market", "desc": "Bustling market hub."}, {"name": "Mahananda Sanctuary", "desc": "Forest wildlife haven."}]
+  },
+  {
+    "id": 148,
+    "name": "Durgapur",
+    "state": "West Bengal",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Durgapur is a well-planned industrial city, known as the 'Ruhr of India' for its massive steel plants and educational institutions.",
+    "summaryFacts": { "foundedBy": "Dr. B.C. Roy", "population": "0.6M", "officialLanguage": "Bengali", "famousFor": "Steel Industries" },
+    "travelInfo": { "nearestAirport": "Kazi Nazrul Islam", "mainRailway": "Durgapur Station" },
+    "localFood": [{"name": "Kachori"}, {"name": "Sweets"}, {"name": "Fish Curry"}, {"name": "Thali"}],
+    "places": [{"name": "Durgapur Barrage", "desc": "Grand bridge on Damodar river."}, {"name": "City Centre", "desc": "Main social and shopping hub."}, {"name": "Mangalam Park", "desc": "Large urban park and lake."}, {"name": "Bhabani Pathak Cave", "desc": "Historical network of tunnels."}]
+  },
+  {
+    "id": 149,
+    "name": "Port Blair",
+    "state": "Andaman & Nicobar",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=1200",
+    "description": "Port Blair, the capital of the Andaman Islands, is famous for its history of freedom struggle and stunning turquoise waters and coral reefs.",
+    "summaryFacts": { "foundedBy": "British Era", "population": "0.1M", "officialLanguage": "Hindi/English", "famousFor": "Cellular Jail" },
+    "travelInfo": { "nearestAirport": "Veer Savarkar Airport", "mainRailway": "None (Sea Route)" },
+    "localFood": [{"name": "Seafood Thali"}, {"name": "Coconut Prawns"}, {"name": "Fish Curry"}, {"name": "Grilled Lobster"}],
+    "places": [{"name": "Cellular Jail", "desc": "Historical freedom struggle memorial."}, {"name": "Corbyn's Cove", "desc": "Nearby sandy city beach."}, {"name": "Ross Island", "desc": "Colonial ruins and wildlife."}, {"name": "Samudrika Museum", "desc": "Marine life and coral display."}]
+  },
+  {
+    "id": 150,
+    "name": "Havelock Island",
+    "state": "Andaman & Nicobar",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1590491000780-877f0d0e68f3?w=1200",
+    "description": "Now known as Swaraj Dweep, it is famous for its white sand beaches and crystal clear waters, making it India's best destination for scuba diving.",
+    "summaryFacts": { "foundedBy": "Natural", "population": "0.01M", "officialLanguage": "Bengali/Hindi", "famousFor": "Radhanagar Beach" },
+    "travelInfo": { "nearestAirport": "Port Blair Airport", "mainRailway": "None" },
+    "localFood": [{"name": "Grilled Fish"}, {"name": "Coconut Water"}, {"name": "Squid Fry"}, {"name": "Mutton Thali"}],
+    "places": [{"name": "Radhanagar Beach", "desc": "Best beach in Asia."}, {"name": "Elephant Beach", "desc": "Famous for water sports and corals."}, {"name": "Kalapathar Beach", "desc": "Scenic beach with black rocks."}, {"name": "Neil's Cove", "desc": "Hidden and peaceful lagoon."}]
+  },
+  {
+    "id": 151,
+    "name": "Neil Island",
+    "state": "Andaman & Nicobar",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200",
+    "description": "Now Shaheed Dweep, it is a tiny island known for its relaxed atmosphere, coral reefs, and amazing vegetable and fruit plantations.",
+    "summaryFacts": { "foundedBy": "Natural", "population": "0.005M", "officialLanguage": "Hindi/Bengali", "famousFor": "Natural Bridge" },
+    "travelInfo": { "nearestAirport": "Port Blair Airport", "mainRailway": "None" },
+    "localFood": [{"name": "Fruit Chaat"}, {"name": "Fish Fry"}, {"name": "Crab Curry"}, {"name": "Rice Thali"}],
+    "places": [{"name": "Bharatpur Beach", "desc": "Best spot for glass boat rides."}, {"name": "Laxmanpur Beach", "desc": "Stunning sunset viewing point."}, {"name": "Natural Bridge", "desc": "Fossilized coral rock formation."}, {"name": "Sitapur Beach", "desc": "Peaceful sunrise beach."}]
+  },
+  {
+    "id": 152,
+    "name": "Mayabunder",
+    "state": "Andaman & Nicobar",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Mayabunder is a quiet town in North Andaman, famous for its mangrove forests, turtle nesting beaches, and the unique culture of Burmese settlers.",
+    "summaryFacts": { "foundedBy": "Colonial Era", "population": "0.03M", "officialLanguage": "Bengali/Hindi", "famousFor": "Mangrove Forests" },
+    "travelInfo": { "nearestAirport": "Port Blair Airport", "mainRailway": "None" },
+    "localFood": [{"name": "Bamboo Shoot Fish"}, {"name": "Coconut Sweets"}, {"name": "Burmese Thali"}, {"name": "Prawns"}],
+    "places": [{"name": "Karmatang Beach", "desc": "Turtle nesting and eco-beach."}, {"name": "Avis Island", "desc": "Tiny island for coral spotting."}, {"name": "Interview Island", "desc": "Elephant sanctuary forest."}, {"name": "Rampur Beach", "desc": "Mangrove walkway and beach."}]
+  },
+  {
+    "id": 153,
+    "name": "Chandigarh City",
+    "state": "Chandigarh",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1596176530529-78163a4f45fa?w=1200",
+    "description": "Chandigarh, the 'City Beautiful', is a planned city and a union territory. It is famous for its wide roads, greenery, and modern architecture designed by Le Corbusier.",
+    "summaryFacts": { "foundedBy": "Le Corbusier", "population": "1.1M", "officialLanguage": "Hindi/Punjabi", "famousFor": "Rock Garden" },
+    "travelInfo": { "nearestAirport": "Chandigarh International", "mainRailway": "Chandigarh Junction" },
+    "localFood": [{"name": "Chole Bhature"}, {"name": "Dal Makhani"}, {"name": "Paneer Tikka"}, {"name": "Lassi"}],
+    "places": [{"name": "Rock Garden", "desc": "Art park made from waste material."}, {"name": "Sukhna Lake", "desc": "Man-made lake for boating."}, {"name": "Rose Garden", "desc": "Largest botanical rose garden."}, {"name": "Sector 17 Market", "desc": "Social and shopping pedestrian plaza."}]
+  },
+  {
+    "id": 154,
+    "name": "Mohali Area",
+    "state": "Chandigarh",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Located adjacent to Chandigarh, it is a major hub for IT and sports, home to a world-famous cricket stadium and beautiful gardens.",
+    "summaryFacts": { "foundedBy": "Modern Era", "population": "0.2M", "officialLanguage": "Punjabi", "famousFor": "PCA Cricket Stadium" },
+    "travelInfo": { "nearestAirport": "Chandigarh Airport", "mainRailway": "SAS Nagar Mohali" },
+    "localFood": [{"name": "Sarson Saag"}, {"name": "Makki Roti"}, {"name": "Tandoori Chicken"}, {"name": "Kulfi"}],
+    "places": [{"name": "PCA Stadium", "desc": "World-class cricket ground."}, {"name": "Silvi Park", "desc": "City park with musical fountain."}, {"name": "Fateh Burj", "desc": "Tallest victory tower in India."}, {"name": "Thunder Zone", "desc": "Water park and amusement park."}]
+  },
+  {
+    "id": 155,
+    "name": "Panchkula Area",
+    "state": "Chandigarh",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1597074866923-dc0589ec55a4?w=1200",
+    "description": "Part of the Tricity area, Panchkula is famous for its dense forests, hill views, and the ancient Pinjore Gardens built by the Mughals.",
+    "summaryFacts": { "foundedBy": "Modern Era", "population": "0.2M", "officialLanguage": "Hindi", "famousFor": "Pinjore Gardens" },
+    "travelInfo": { "nearestAirport": "Chandigarh Airport", "mainRailway": "Chandigarh Station" },
+    "localFood": [{"name": "Aloo Paratha"}, {"name": "Dal Tadka"}, {"name": "Malpua"}, {"name": "Sweets"}],
+    "places": [{"name": "Pinjore Gardens", "desc": "17th-century Mughal style garden."}, {"name": "Morni Hills", "desc": "Only hill station in Haryana nearby."}, {"name": "Cactus Garden", "desc": "Largest outdoor cacti collection."}, {"name": "Nada Sahib", "desc": "Historic and sacred Sikh Gurudwara."}]
+  },
+  {
+    "id": 156,
+    "name": "Zirakpur Area",
+    "state": "Chandigarh",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1541434190180-8735395a16d0?w=1200",
+    "description": "Zirakpur is the fast-growing satellite town of Chandigarh, famous for its grand shopping malls, high-rise luxury towers, and transit location.",
+    "summaryFacts": { "foundedBy": "Modern Era", "population": "0.1M", "officialLanguage": "Punjabi/Hindi", "famousFor": "Shopping Malls" },
+    "travelInfo": { "nearestAirport": "Chandigarh Airport", "mainRailway": "Chandigarh Jn" },
+    "localFood": [{"name": "Burger"}, {"name": "Pav Bhaji"}, {"name": "Momos"}, {"name": "Golgappa"}],
+    "places": [{"name": "ChattBir Zoo", "desc": "Massive safari and zoo nearby."}, {"name": "Cosmo Mall", "desc": "Modern shopping and food hub."}, {"name": "Wedding Resorts", "desc": "Iconic luxury party venues."}, {"name": "Urban Park", "desc": "Newly developed city garden area."}]
+  },
+  {
+    "id": 157,
+    "name": "Leh",
+    "state": "Ladakh",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1581793745862-99f57ae50a2a?w=1200",
+    "description": "Leh, the high-altitude capital of Ladakh, is a land of majestic monasteries and stark mountain landscapes. Sitting at 3,500m, it's a hub for adventure seekers and Buddhist culture.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.03M", "officialLanguage": "Ladakhi/Tibetan", "famousFor": "Leh Palace & Pangong Lake" },
+    "travelInfo": { "nearestAirport": "Kushok Bakula Rimpochee", "mainRailway": "None (Road Connectivity)" },
+    "localFood": [{"name": "Thukpa"}, {"name": "Skyu"}, {"name": "Butter Tea"}, {"name": "Momo"}],
+    "places": [{"name": "Leh Palace", "desc": "Former royal residence of the Namgyal dynasty."}, {"name": "Shanti Stupa", "desc": "White-domed Buddhist stupa with city views."}, {"name": "Magnetic Hill", "desc": "Gravity-defying road phenomenon."}, {"name": "Hall of Fame", "desc": "War museum run by Indian Army."}]
+  },
+  {
+    "id": 158,
+    "name": "Kargil",
+    "state": "Ladakh",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?w=1200",
+    "description": "Kargil is the second largest town in Ladakh, situated on the banks of the Suru River. It is a gateway to Zanskar and a place of immense bravery and historical significance.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.15M", "officialLanguage": "Ladakhi/Urdu", "famousFor": "War Memorial" },
+    "travelInfo": { "nearestAirport": "Leh/Srinagar Airport", "mainRailway": "None" },
+    "localFood": [{"name": "Apricots"}, {"name": "Paba"}, {"name": "Tangdur"}, {"name": "Ladakhi Bread"}],
+    "places": [{"name": "Kargil War Memorial", "desc": "Memorial for 1999 war heroes in Dras."}, {"name": "Suru Valley", "desc": "Picturesque green valley landscape."}, {"name": "Mulbekh Monastery", "desc": "Home to a giant Maitreya Buddha statue."}, {"name": "Munshi Aziz Bhat Museum", "desc": "Silk Route artifacts collection."}]
+  },
+  {
+    "id": 159,
+    "name": "Nubra Valley",
+    "state": "Ladakh",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1544787210-282aa3773177?w=1200",
+    "description": "Nubra Valley is a high-altitude cold desert known for its double-humped camels and sand dunes at Hunder. It offers a unique landscape where desert meets snow peaks.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.02M", "officialLanguage": "Ladakhi", "famousFor": "Bactrian Camels" },
+    "travelInfo": { "nearestAirport": "Leh Airport", "mainRailway": "None" },
+    "localFood": [{"name": "Yak Cheese"}, {"name": "Local Sea Buckthorn"}, {"name": "Thukpa"}, {"name": "Chhang"}],
+    "places": [{"name": "Hunder Sand Dunes", "desc": "High altitude desert for camel rides."}, {"name": "Diskit Monastery", "desc": "Oldest and largest monastery in Nubra."}, {"name": "Panamik Hot Springs", "desc": "Natural sulphur water springs."}, {"name": "Turtuk Village", "desc": "Historic border village with Balti culture."}]
+  },
+  {
+    "id": 160,
+    "name": "Zanskar City",
+    "state": "Ladakh",
+    "category": "hill",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "Zanskar is one of the most remote and beautiful regions of Ladakh, famous for its frozen river trek (Chadar) and ancient cave monasteries hidden in deep canyons.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.01M", "officialLanguage": "Zanskari", "famousFor": "Chadar Trek" },
+    "travelInfo": { "nearestAirport": "Leh Airport", "mainRailway": "None" },
+    "localFood": [{"name": "Tsampa"}, {"name": "Dried Meat"}, {"name": "Tibetan Tea"}, {"name": "Local Herbs"}],
+    "places": [{"name": "Phugtal Monastery", "desc": "Cave monastery built into the cliffside."}, {"name": "Zanskar River", "desc": "Confluence point and trekking site."}, {"name": "Karsha Monastery", "desc": "Largest monastery in Zanskar valley."}, {"name": "Zangla Fort", "desc": "Ancient castle ruins on a hilltop."}]
+  },
+  {
+    "id": 161,
+    "name": "Kavaratti",
+    "state": "Lakshadweep",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1590491000780-877f0d0e68f3?w=1200",
+    "description": "Kavaratti is the capital of Lakshadweep, known for its pristine white sand beaches and calm lagoons. It's a paradise for water sports and exploring coral reefs.",
+    "summaryFacts": { "foundedBy": "Ancient Era", "population": "0.01M", "officialLanguage": "Malayalam", "famousFor": "Marine Life" },
+    "travelInfo": { "nearestAirport": "Agatti Airport", "mainRailway": "None (Sea Route)" },
+    "localFood": [{"name": "Tuna Curry"}, {"name": "Coconut Rice"}, {"name": "Mas Min"}, {"name": "Fried Fish"}],
+    "places": [{"name": "Marine Aquarium", "desc": "Showcase of rare ornamental fish."}, {"name": "Ujra Mosque", "desc": "Beautifully carved spiritual site."}, {"name": "Dolphin Dive Centre", "desc": "Hub for scuba diving and snorkeling."}, {"name": "Kavaratti Lagoon", "desc": "Clear waters for glass-bottom boats."}]
+  },
+  {
+    "id": 162,
+    "name": "Agatti Island",
+    "state": "Lakshadweep",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200",
+    "description": "Agatti serves as the gateway to Lakshadweep with its only airport. The island is surrounded by multi-colored coral growths and diverse marine life.",
+    "summaryFacts": { "foundedBy": "Ancient", "population": "0.007M", "officialLanguage": "Malayalam", "famousFor": "Coral Reefs" },
+    "travelInfo": { "nearestAirport": "Agatti Airport", "mainRailway": "None" },
+    "localFood": [{"name": "Lobster"}, {"name": "Coconut Milk Stew"}, {"name": "Spicy Squid"}, {"name": "Chai"}],
+    "places": [{"name": "Agatti Beach", "desc": "Vibrant beach with turquoise waters."}, {"name": "Scuba Point", "desc": "Premier spot for underwater exploration."}, {"name": "Bangaram (Nearby)", "desc": "Teardrop-shaped uninhabited island."}, {"name": "Pitti Island", "desc": "Bird sanctuary on a tiny reef."}]
+  },
+  {
+    "id": 163,
+    "name": "Minicoy Island",
+    "state": "Lakshadweep",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1582294625895-46b772be5691?w=1200",
+    "description": "Minicoy is the southernmost island of Lakshadweep, uniquely influenced by Maldivian culture. It's famous for its lighthouse and traditional Lava dance.",
+    "summaryFacts": { "foundedBy": "Ancient", "population": "0.01M", "officialLanguage": "Mahl", "famousFor": "Lighthouse & Culture" },
+    "travelInfo": { "nearestAirport": "Agatti Airport", "mainRailway": "None" },
+    "localFood": [{"name": "Mus Kavaab"}, {"name": "Fish Cutlets"}, {"name": "Sweet Rice"}, {"name": "Tuna Samosa"}],
+    "places": [{"name": "Minicoy Lighthouse", "desc": "1885 British-era tall lighthouse."}, {"name": "Village Tours", "desc": "Cultural walk through 'Athiris' (Villages)."}, {"name": "Juma Mosque", "desc": "Ancient and grand island mosque."}, {"name": "North Beach", "desc": "Perfect spot for swimming and kayaking."}]
+  },
+  {
+    "id": 164,
+    "name": "Kalpeni",
+    "state": "Lakshadweep",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1541434190180-8735395a16d0?w=1200",
+    "description": "Kalpeni is famous for its huge lagoon and three uninhabited satellite islands. The storm-bank of coral debris along its shoreline is a unique sight.",
+    "summaryFacts": { "foundedBy": "Ancient", "population": "0.004M", "officialLanguage": "Malayalam", "famousFor": "Huge Lagoon" },
+    "travelInfo": { "nearestAirport": "Agatti", "mainRailway": "None" },
+    "localFood": [{"name": "Fried Fish"}, {"name": "Coconut Sweets"}, {"name": "Fish Thali"}, {"name": "Juices"}],
+    "places": [{"name": "Tip Beach", "desc": "Pristine white sand tip of island."}, {"name": "Cheriyam Island", "desc": "Uninhabited scenic island nearby."}, {"name": "Hoomat", "desc": "Area famous for coral debris bank."}, {"name": "Water Sports Centre", "desc": "Hub for sailing and snorkeling."}]
+  },
+  {
+    "id": 165,
+    "name": "Daman",
+    "state": "Daman & Diu",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1596176530529-78163a4f45fa?w=1200",
+    "description": "Daman is a coastal city with a strong Portuguese colonial history, split by the Daman Ganga river into Nani Daman and Moti Daman.",
+    "summaryFacts": { "foundedBy": "Portuguese", "population": "0.2M", "officialLanguage": "Gujarati/Hindi", "famousFor": "Forts & Beaches" },
+    "travelInfo": { "nearestAirport": "Surat/Mumbai Airport", "mainRailway": "Vapi Junction" },
+    "localFood": [{"name": "Chicken Bullet"}, {"name": "Fish Fry"}, {"name": "Parsi Dhansak"}, {"name": "Toddy"}],
+    "places": [{"name": "Jampore Beach", "desc": "Quiet beach for sunset and horses."}, {"name": "Moti Daman Fort", "desc": "Massive colonial era fortress complex."}, {"name": "Devka Beach", "desc": "Rocky shore with an amusement park."}, {"name": "Bom Jesus Church", "desc": "16th century cathedral architecture."}]
+  },
+  {
+    "id": 166,
+    "name": "Diu City",
+    "state": "Daman & Diu",
+    "category": "beach",
+    "image": "https://images.unsplash.com/photo-1623150531411-925769151744?w=1200",
+    "description": "Diu is a small island off the coast of Gujarat. It is a quiet retreat famous for its massive fort, cave formations, and clean beaches.",
+    "summaryFacts": { "foundedBy": "Portuguese", "population": "0.05M", "officialLanguage": "Gujarati", "famousFor": "Diu Fort" },
+    "travelInfo": { "nearestAirport": "Diu Airport", "mainRailway": "Veraval Junction" },
+    "localFood": [{"name": "Seafood Thali"}, {"name": "Lobster"}, {"name": "Gujarati Thali"}, {"name": "Wine"}],
+    "places": [{"name": "Diu Fort", "desc": "Grand island fortress and lighthouse."}, {"name": "Naida Caves", "desc": "Spectacular natural rock formations."}, {"name": "Ghoghla Beach", "desc": "Cleanest beach for para-sailing."}, {"name": "St. Paul's Church", "desc": "Beautiful baroque style church."}]
+  },
+  {
+    "id": 167,
+    "name": "Silvassa",
+    "state": "Dadra & Nagar Haveli",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1563293818-2e06c710c978?w=1200",
+    "description": "The capital of Dadra and Nagar Haveli, Silvassa is known for its tribal culture, gardens, and being a hub for high-end industrial factories.",
+    "summaryFacts": { "foundedBy": "Portuguese", "population": "0.1M", "officialLanguage": "Hindi/Gujarati", "famousFor": "Warli Art" },
+    "travelInfo": { "nearestAirport": "Surat Airport", "mainRailway": "Vapi Junction" },
+    "localFood": [{"name": "Ubadiyu"}, {"name": "Kadi-Khichdi"}, {"name": "Fried Fish"}, {"name": "Thali"}],
+    "places": [{"name": "Vanganga Lake", "desc": "Scenic Japanese-style garden and lake."}, {"name": "Lion Safari Vasona", "desc": "Wildlife park for Asiatic lions."}, {"name": "Tribal Museum", "desc": "Showcase of Warli art and masks."}, {"name": "Dudhni Lake", "desc": "Large waterfront for water sports."}]
+  },
+  {
+    "id": 168,
+    "name": "Dadra Area",
+    "state": "Dadra & Nagar Haveli",
+    "category": "heritage",
+    "image": "https://images.unsplash.com/photo-1541434190180-8735395a16d0?w=1200",
+    "description": "Dadra is an enclave surrounded by Gujarat, famous for its serene landscape and the beautiful Hirwa Van Garden.",
+    "summaryFacts": { "foundedBy": "Maratha/Portuguese", "population": "0.03M", "officialLanguage": "Hindi", "famousFor": "Gardens" },
+    "travelInfo": { "nearestAirport": "Surat Airport", "mainRailway": "Vapi Jn" },
+    "localFood": [{"name": "Khaman Dhokla"}, {"name": "Fafda"}, {"name": "Masala Tea"}, {"name": "Samosa"}],
+    "places": [{"name": "Hirwa Van Garden", "desc": "Lush green forest-like public garden."}, {"name": "Nakshatra Garden", "desc": "Theme park based on astrology."}, {"name": "Daman Ganga Bank", "desc": "Riverside area for peaceful walks."}, {"name": "Local Art Hubs", "desc": "Workshops for traditional tribal art."}]
+  },
+  {
+  "id": 169,
+  "name": "Kalapipal",
+  "state": "Madhya Pradesh",
+  "category": "town",
+  "image": "https://content3.jdmagicbox.com/comp/shajapur/g9/9999p7364.7364.170605220528.s7g9/catalogue/sahara-public-school-kalapipal-gaon-shajapur-public-schools-0c911h7stj.jpg",
+  
+  "currentTemp": "32°C", 
+  "lat": 23.3667, 
+  "lng": 76.8167,
+  "videoFile": "videos/kalapipal_reel.mp4", 
+  "shareLink": "https://nirmalify.github.io/bharat-yatra/city.html?id=169",
+
+  "description": "Kalapipal is a vibrant town in Shajapur district, known for its strong community roots and agricultural importance. From the prestigious Sahara Public School to the legendary street food like Nema Ji's Samosa and the spiritual vibe of Teliya Hanuman Mandir, it's a town that celebrates its local heroes and flavors.",
+  "rating": 5.0,
+  "bestTime": "All Year Round (Best in Winter)",
+  "idealDays": "1-2 Days",
+
+  "weather": {
+    "summer": "25°C - 45°C",
+    "winter": "8°C - 26°C",
+    "monsoon": "Lush Green Surroundings"
+  },
+
+  "summaryFacts": {
+    "foundedBy": "Local Heritage",
+    "population": "Growing Hub",
+    "officialLanguage": "Hindi & Malwi",
+    "famousFor": "Sahara School, Mandi & Railway Vibes"
+  },
+
+  "famousFor": [
+    "Sahara Public Hr. Sec. School",
+    "Arjun Physical Academy",
+    "Hemu Bhaiya Multi",
+    "Mewada Bakery Delights"
+  ],
+
+  "thingsToDo": [
+    "Evening walk at Kalapipal Railway Station",
+    "Physical training at Arjun Academy",
+    "Hangout with friends at Hemu Bhaiya Multi",
+    "Morning breakfast at Banti Bhaiya's Poha stall"
+  ],
+
+  "travelInfo": {
+    "nearestAirport": "Raja Bhoj Airport, Bhopal (80 km)",
+    "mainRailway": "Kalapipal Railway Station (KPP) - The Lifeline"
+  },
+
+  "transport": ["Auto Rickshaw", "Two-wheelers", "E-Rickshaw", "Buses"],
+
+  "localFood": [
+    { "name": "Banti Bhaiya Ke Pohe" },
+    { "name": "Prince Restaurant ki Patties" },
+    { "name": "Nema Ji Ka Samosa" },
+    { "name": "Bikaner Hotel ki Kachori" }
+  ],
+
+  "places": [
+    {
+      "name": "Sahara Public Hr. Sec. School",
+      "desc": "The most prestigious and famous educational landmark of Kalapipal, known for shaping local talent."
+    },
+    {
+      "name": "Teliya Hanuman Mandir",
+      "desc": "A deeply revered spiritual spot where locals seek blessings and find peace."
+    },
+    {
+      "name": "Kalapipal Railway Station",
+      "desc": "The heartbeat of the town; a favorite spot for evening strolls and watching the trains go by."
+    },
+    {
+      "name": "Mewada Bakery",
+      "desc": "The ultimate destination for fresh snacks and sweet treats in the local market."
+    }
+  ],
+
+  "reel": "kalapipal_reel.mp4"
+}
+]

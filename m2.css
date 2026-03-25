@@ -1,0 +1,182 @@
+/* ======================================================
+    🚀 BHARAT YATRA - MASTER ADVANCED MOBILE (m2.css)
+    Designed for: Home Screen Grid & City Page Premium UI
+    ====================================================== */
+
+/* 1. Global Reset & Side Scroll Killer */
+html, body {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    overflow-y: auto !important;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    * { box-sizing: border-box; }
+
+    /* 2. Navbar Fix (Clean Logo & Login Circle) */
+    .navbar {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: 0 15px !important;
+        height: 60px !important;
+        background: #ffffff !important;
+        position: fixed !important;
+        top: 0; left: 0; width: 100% !important;
+        z-index: 2500;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
+    }
+    .navbar ul { display: none !important; } 
+    
+    .logo {
+        font-size: 1.15rem !important;
+        font-weight: 800 !important;
+        color: #2c562a !important; /* Green for Brand Consistency */
+        margin: 0 !important;
+    }
+
+    .login-btn {
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 50% !important;
+        background: #007bff !important;
+        color: white !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        border: none !important;
+        font-size: 0.65rem !important;
+    }
+
+    /* 3. Hero & Search Capsule Fix */
+    .hero, .city-hero-green {
+        margin-top: 60px !important;
+        padding: 40px 15px !important;
+        height: 380px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        background-size: cover !important;
+        background-position: center !important;
+        border-radius: 0 0 30px 30px !important;
+    }
+
+    /* 4. 🏠 HOME SCREEN - 3 COLUMN SQUARE GRID */
+    #featuredCities, .featured-grid {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 8px !important;
+        padding: 12px 10px !important;
+    }
+
+    .city-card {
+        background: #ffffff !important;
+        border-radius: 12px !important;
+        overflow: hidden !important;
+        display: flex !important;
+        flex-direction: column !important;
+        border: 1px solid #eeeeee !important;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05) !important;
+    }
+
+    .city-card img {
+        width: 100% !important;
+        aspect-ratio: 1 / 1 !important; 
+        height: auto !important;
+        object-fit: cover !important;
+    }
+
+    .city-info { padding: 8px !important; }
+    .city-info h3 { font-size: 0.75rem !important; margin: 0 !important; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+    /* 5. 🏙️ CITY DETAILS - UNIQUE STYLISH HEADER */
+    .unique-city-name-container {
+        margin: 25px 0 15px 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 12px !important;
+    }
+
+    .unique-city-name-container h2 {
+        font-family: 'Playfair Display', serif !important;
+        font-size: 26px !important;
+        color: #2c562a !important;
+        font-weight: 700 !important;
+        margin: 0 !important;
+    }
+
+    .unique-city-name-container::after {
+        content: "";
+        flex: 1;
+        height: 2px;
+        background: linear-gradient(to right, #2c562a, transparent);
+        border-radius: 10px;
+    }
+
+    /* Facts List (Vertical List - No Cutting) */
+    #factsList {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 12px !important;
+        padding: 0 !important;
+    }
+
+    #factsList li {
+        font-size: 15px !important;
+        padding: 8px 0 !important;
+        border-bottom: 1px solid #f0f0f0 !important;
+        width: 100% !important;
+        display: block !important;
+    }
+
+    /* 6. 🎬 VIDEO REELS */
+    .video-container {
+        width: 100% !important;
+        max-width: 280px !important;
+        aspect-ratio: 9/16 !important;
+        margin: 20px auto !important;
+        border-radius: 15px !important;
+        overflow: hidden !important;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
+    }
+
+    /* 7. 🎫 STICKY BOOKING BUTTON (CENTERED FIX) */
+    .fixed-book-wrap, .footer-booking {
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+        padding: 15px !important;
+        background: #ffffff !important;
+        box-shadow: 0 -5px 15px rgba(0,0,0,0.1) !important;
+        z-index: 3000 !important;
+        display: flex !important;
+        justify-content: center !important; /* Button center mein aayega */
+    }
+
+    .btn-book, .book-now-fixed {
+        width: 100% !important;
+        max-width: 400px !important;
+        background: linear-gradient(45deg, #2c562a, #4a8a47) !important;
+        color: white !important;
+        text-align: center !important;
+        padding: 14px !important;
+        border-radius: 30px !important;
+        font-weight: bold !important;
+        font-size: 16px !important;
+        text-decoration: none !important;
+        box-shadow: 0 5px 15px rgba(44, 86, 42, 0.3) !important;
+    }
+
+    /* 8. Footer & AI Fix */
+    footer { padding: 40px 20px 100px !important; background: #2c562a !important; }
+    #chat-icon { bottom: 85px !important; }
+}

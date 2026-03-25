@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharat Yatra - Explore Incredible India</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css"> 
+    <link rel="stylesheet" href="m2.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* 🎨 MASTER UI/UX DESIGN LANGUAGE */
+        :root {
+            --primary-green: #2c562a;
+            --premium-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        /* 🟢 Navbar & Logo Branding */
+        .navbar {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 12px 40px; background: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            position: sticky; top: 0; z-index: 1000;
+        }
+        .brand-link { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+        .logo-circle {
+            width: 50px; height: 50px; border-radius: 50%; overflow: hidden;
+            border: 2px solid var(--primary-green); display: flex; align-items: center; justify-content: center;
+            background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .logo-circle img { width: 85%; height: 85%; object-fit: contain; }
+        .brand-name { font-family: 'Poppins', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary-green); text-transform: uppercase; letter-spacing: 1px; }
+
+        /* 🍱 BENTO GRID CORE (For JS Rendered Cards) */
+        .featured-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 280px);
+            gap: 20px;
+            padding: 20px 0;
+        }
+
+        /* Classes jo tu JS loop mein add karega */
+        .bento-item.tall { grid-row: span 2; }
+        .bento-item.wide { grid-column: span 2; }
+
+        @media screen and (max-width: 900px) {
+            .navbar { padding: 10px 15px; }
+            .featured-grid { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="index.html" class="brand-link">
+        <div class="logo-circle">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <span class="brand-name">Bharat Yatra</span>
+    </a>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#explore">Explore</a></li>
+        <li><a href="#popular">Popular</a></li>
+        <li><a href="booking.html" class="nav-booking-highlight">Book Ticket 🎫</a></li> 
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button class="login-btn" onclick="location.href='login.html'">Login</button>
+</nav>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Explore Incredible India</h1>
+        <p>Discover 160+ cities, hidden gems, food & travel guides</p>
+
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search city like Mumbai, Jaipur..." onkeydown="if(event.key==='Enter') goFirst()">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div id="suggestions" class="suggestions"></div>
+
+        <div class="filters">
+            <select id="stateFilter" onchange="applyFilters()">
+                <option value="">All States</option>
+            </select>
+
+            <select id="categoryFilter" onchange="applyFilters()">
+                <option value="">All Category</option>
+                <option value="hill">Hill Station</option>
+                <option value="beach">Beach</option>
+                <option value="temple">Temple</option>
+                <option value="heritage">Heritage</option>
+            </select>
+        </div>
+    </div>
+</section>
+
+<section class="quick-services">
+    <div class="service-grid">
+        <div class="service-card" onclick="location.href='booking.html'">
+            <div class="service-icon"><i class="fas fa-ticket-alt"></i></div>
+            <div class="service-details">
+                <h3>Book Flight & Train</h3>
+                <p>Instant booking for your journey</p>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+        </div>
+
+        <div class="service-card holiday" onclick="location.href='packages.html'">
+            <div class="service-icon"><i class="fas fa-umbrella-beach"></i></div>
+            <div class="service-details">
+                <h3>Our Holiday Packages</h3>
+                <p>Exclusive deals by Nirmal Rajput</p>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+        </div>
+    </div>
+</section>
+
+<section class="featured" id="popular" style="padding: 60px 8%;">
+    <div style="text-align: center; margin-bottom: 30px;">
+        <span style="background:#f0f7f0; color:#2c562a; padding:6px 16px; border-radius:20px; font-size:12px; font-weight:700;">HANDPICKED</span>
+        <h2 style="font-size: 36px; margin-top: 10px;">Popular Cities</h2>
+    </div>
+    
+    <div class="featured-grid" id="featuredCities"></div>
+</section>
+
+<section class="categories" id="explore">
+    <h2 style="text-align: center; margin-bottom: 40px;">Explore By Category</h2>
+    <div class="category-grid">
+        <div class="category-card" onclick="filterByCategory('hill')">🏔 Hill Stations</div>
+        <div class="category-card" onclick="filterByCategory('beach')">🏖 Beaches</div>
+        <div class="category-card" onclick="filterByCategory('temple')">🛕 Temples</div>
+        <div class="category-card" onclick="filterByCategory('heritage')">🏛 Heritage</div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <div class="info-item"><i class="fas fa-envelope"></i> <span>nirmalrajputpvt@gmail.com</span></div>
+                <div class="info-item"><i class="fas fa-phone"></i> <span>+91 9009629736</span></div>
+                <div class="info-item"><i class="fas fa-map-marker-alt"></i> <span>Sehore, Madhya Pradesh</span></div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea placeholder="Enter Your Message" rows="4" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+
+        <div class="founder-section">
+            <div class="founder-card">
+                <div class="founder-info">
+                    <h3>Founder: Nirmal Rajput</h3>
+                    <p>Building Digital Solutions for Travelers.</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://wa.me/919009629736" target="_blank" class="social-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://instagram.com/nirmal_rajputt1" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/in/nirmal-rajput-3a98b3336" target="_blank" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="chat-icon" onclick="toggleChat()">
+    <i class="fas fa-robot"></i>
+</div>
+
+<div id="chat-window" class="chat-hidden">
+    <div class="chat-header">
+        <div class="header-info"><i class="fas fa-headset"></i> <span><strong>Yatri AI</strong></span></div>
+        <button onclick="toggleChat()" class="close-chat">&times;</button>
+    </div>
+    <div id="chat-body" class="chat-body">
+        <div class="ai-msg">Namaste! 🙏 Main Yatri AI hoon. Aap kahan ghumna chahte hain?</div>
+    </div>
+    <div class="chat-footer">
+        <input type="text" id="user-input" placeholder="Type message..." onkeydown="if(event.key==='Enter') sendMessage()">
+        <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+    </div>
+</div>
+
+<footer class="footer">
+    <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 10px;">
+        <div class="logo-circle" style="width: 30px; height: 30px; border-width: 1px;">
+            <img src="images/logo.png" alt="Footer Logo">
+        </div>
+        <h3 style="margin: 0; color: white;">Bharat Yatra</h3>
+    </div>
+    <p>Explore India Smartly &copy; 2026 | Designed by Nirmal Rajput</p>
+</footer>
+
+<script src="script.js"></script>
+<script src="yatri-ai.js"></script>
+
+</body>
+</html>
