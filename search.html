@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharat Yatra | Smart Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root { 
+            --primary: #2c562a; 
+            --accent: #ff5722; 
+            --bg: #f8f9fa;
+            --glass: rgba(255, 255, 255, 0.95);
+        }
+
+        body { 
+            margin: 0; 
+            font-family: 'Poppins', sans-serif; 
+            background: var(--bg); 
+            color: #333; 
+            overflow-x: hidden;
+        }
+
+        /* 🟢 HEADER */
+        .search-header { 
+            background: var(--glass); 
+            backdrop-filter: blur(15px);
+            padding: 15px 20px; 
+            display: flex; 
+            align-items: center; 
+            gap: 15px; 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05); 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000; 
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .back-btn { font-size: 22px; color: var(--primary); text-decoration: none; transition: 0.3s; }
+        .back-btn:hover { transform: translateX(-3px); }
+
+        /* 🏷️ BRAND PROMO */
+        .brand-promo { text-align: center; padding: 40px 20px 20px; background: white; border-radius: 0 0 40px 40px; }
+        .brand-promo h1 { 
+            font-family: 'Playfair Display', serif; 
+            font-size: 32px; 
+            color: var(--primary); 
+            margin: 0; 
+            background: linear-gradient(45deg, #2c562a, #4a8a46);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .brand-promo p { font-size: 14px; color: #777; font-style: italic; margin-top: 8px; }
+
+        /* 🔍 SEARCH BOX: Capsule Highlight Design */
+        .search-container { padding: 0 20px 100px; max-width: 600px; margin: -30px auto 0; }
+        .search-wrapper { position: relative; display: flex; align-items: center; z-index: 10; }
+        .search-wrapper i { position: absolute; left: 22px; color: var(--primary); font-size: 18px; }
+        
+        .search-wrapper input { 
+            width: 100%; 
+            padding: 18px 20px 18px 65px; 
+            border: 2px solid #e0e0e0;
+            border-radius: 50px; 
+            font-size: 16px; 
+            outline: none; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08); 
+            transition: 0.4s all ease;
+            background: white;
+        }
+        
+        /* 🔥 SEARCH BAR GLOW HIGHLIGHT */
+        .search-wrapper input:focus { 
+            border-color: var(--primary);
+            box-shadow: 0 0 0 5px rgba(44, 86, 42, 0.1), 0 15px 40px rgba(44, 86, 42, 0.2);
+            transform: translateY(-2px);
+        }
+
+        /* 📋 SUGGESTIONS */
+        .suggestion-box { 
+            background: white; 
+            border-radius: 25px; 
+            margin-top: 15px; 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1); 
+            max-height: 350px; 
+            overflow-y: auto; 
+            display: none; 
+            animation: slideUp 0.3s ease;
+            position: absolute;
+            width: 100%;
+            z-index: 100;
+        }
+
+        @keyframes slideUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        .suggest-item { padding: 18px 25px; border-bottom: 1px solid #f8f8f8; cursor: pointer; display: flex; align-items: center; gap: 15px; }
+        .suggest-item:hover { background: #f0f7f0; color: var(--primary); }
+
+        /* 🕒 SECTIONS */
+        .history-section, .trending-section { margin-top: 40px; }
+        .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+        .section-title { font-size: 14px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 1.2px; }
+        .clear-all { color: var(--accent); font-size: 12px; cursor: pointer; font-weight: 600; }
+        
+        .history-item { 
+            display: flex; align-items: center; justify-content: space-between; 
+            padding: 15px; background: white; margin-bottom: 10px; border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+        }
+        .history-content { flex: 1; cursor: pointer; display: flex; align-items: center; gap: 12px; font-weight: 500; }
+
+        /* 🔥 MOST SEARCHING CITY: Grid Design */
+        .trending-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+        .city-chip { 
+            background: white; 
+            padding: 14px 18px; 
+            border-radius: 18px; 
+            font-size: 14px; 
+            font-weight: 600; 
+            cursor: pointer; 
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+            border: 1px solid #eee;
+        }
+        .city-chip:hover { border-color: var(--primary); background: #f0f7f0; transform: translateY(-3px); }
+        .city-chip i { color: var(--accent); }
+
+    </style>
+</head>
+<body class="search-page">
+
+    <div class="search-header">
+        <a href="index.html" class="back-btn"><i class="fas fa-arrow-left"></i></a>
+        <div style="font-weight: 700; color: var(--primary); font-size: 18px;">Search Destination</div>
+    </div>
+
+    <div class="brand-promo">
+        <h1>Bharat Yatra</h1>
+        <p>Har shehar ki apni kahani...</p>
+    </div>
+
+    <div class="search-container">
+        <div class="search-wrapper">
+            <i class="fas fa-search"></i>
+            <input type="text" id="cityInput" placeholder="Search your favorite city..." autofocus autocomplete="off">
+            <div id="suggestionBox" class="suggestion-box"></div>
+        </div>
+
+        <div class="history-section" id="historyWrapper">
+            <div class="section-header">
+                <span class="section-title">Recent Searches</span>
+                <span class="clear-all" onclick="clearAllHistory()">Clear All</span>
+            </div>
+            <div id="historyContainer"></div>
+        </div>
+
+        <div class="trending-section">
+            <div class="section-header"><span class="section-title">Most Searching City</span></div>
+            <div class="trending-grid">
+                <div class="city-chip" onclick="selectCity('Mumbai')"><span>Mumbai</span><i class="fas fa-fire"></i></div>
+                <div class="city-chip" onclick="selectCity('Chennai')"><span>Chennai</span><i class="fas fa-fire"></i></div>
+                <div class="city-chip" onclick="selectCity('Bengaluru')"><span>Bengaluru</span><i class="fas fa-fire"></i></div>
+                <div class="city-chip" onclick="selectCity('Kalapipal')"><span>Kalapipal</span><i class="fas fa-fire"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const cityInput = document.getElementById('cityInput');
+        const suggestBox = document.getElementById('suggestionBox');
+        const historyContainer = document.getElementById('historyContainer');
+        // 🛑 Placeholder Array Updated Below
+        const placeholders = ["Search your favorite city...", "Try 'Kalapipal'...", "Try 'Mumbai'...", "Explore Bengaluru..."];
+        
+        let pIndex = 0;
+        let allCities = [];
+
+        // Dynamic Placeholder
+        setInterval(() => {
+            cityInput.placeholder = placeholders[pIndex];
+            pIndex = (pIndex + 1) % placeholders.length;
+        }, 3000);
+
+        // Fetch Data
+        fetch('cities.json')
+            .then(res => res.json())
+            .then(data => { allCities = data.map(c => c.name); })
+            .catch(() => { allCities = ["Mumbai", "Chennai", "Bengaluru", "Kalapipal", "Delhi", "Goa", "Manali", "Jaipur"]; });
+
+        // Search Logic
+        cityInput.addEventListener('input', () => {
+            const val = cityInput.value.trim().toLowerCase();
+            suggestBox.innerHTML = '';
+            if (val.length > 0) {
+                const filtered = allCities.filter(city => city.toLowerCase().includes(val)).slice(0, 6);
+                if (filtered.length > 0) {
+                    suggestBox.style.display = 'block';
+                    filtered.forEach(city => {
+                        const div = document.createElement('div');
+                        div.className = 'suggest-item';
+                        div.innerHTML = `<i class="fas fa-map-marker-alt" style="color:#ccc"></i> <span>${city}</span>`;
+                        div.onclick = () => selectCity(city);
+                        suggestBox.appendChild(div);
+                    });
+                } else { suggestBox.style.display = 'none'; }
+            } else { suggestBox.style.display = 'none'; }
+        });
+
+        // Enter Key Navigation
+        cityInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                const val = cityInput.value.trim();
+                if(val) selectCity(val);
+            }
+        });
+
+        function selectCity(city) {
+            if(!city) return;
+            let history = JSON.parse(localStorage.getItem('bharatYatraHistory') || "[]");
+            history = history.filter(item => item.toLowerCase() !== city.toLowerCase());
+            history.unshift(city);
+            localStorage.setItem('bharatYatraHistory', JSON.stringify(history.slice(0, 5)));
+            window.location.href = `city.html?city=${encodeURIComponent(city)}`;
+        }
+
+        function loadHistory() {
+            let history = JSON.parse(localStorage.getItem('bharatYatraHistory') || "[]");
+            const wrapper = document.getElementById('historyWrapper');
+            if(history.length === 0) { wrapper.style.display = 'none'; return; }
+            wrapper.style.display = 'block';
+            historyContainer.innerHTML = history.map(item => `
+                <div class="history-item">
+                    <div class="history-content" onclick="selectCity('${item}')">
+                        <i class="fas fa-history"></i><span>${item}</span>
+                    </div>
+                    <i class="fas fa-times" style="cursor:pointer;color:#ccc" onclick="deleteItem('${item}')"></i>
+                </div>
+            `).join('');
+        }
+
+        function deleteItem(city) {
+            let history = JSON.parse(localStorage.getItem('bharatYatraHistory') || "[]");
+            history = history.filter(item => item !== city);
+            localStorage.setItem('bharatYatraHistory', JSON.stringify(history));
+            loadHistory();
+        }
+
+        function clearAllHistory() {
+            localStorage.removeItem('bharatYatraHistory');
+            loadHistory();
+        }
+
+        window.onload = loadHistory;
+
+        // Click outside to hide suggestions
+        document.addEventListener('click', (e) => {
+            if(!cityInput.contains(e.target) && !suggestBox.contains(e.target)) {
+                suggestBox.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
