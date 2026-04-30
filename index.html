@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bharat Yatra - Explore Incredible India</title>
-    
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css"> 
     <link rel="stylesheet" href="m2.css">
-    
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
@@ -42,15 +41,75 @@
             gap: 20px;
             padding: 20px 0;
         }
-
-        /* Classes jo tu JS loop mein add karega */
         .bento-item.tall { grid-row: span 2; }
         .bento-item.wide { grid-column: span 2; }
+
+        /* 📱 MOBILE NAVIGATION BAR STYLES */
+        .mobile-nav {
+            position: fixed;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 92%;
+            max-width: 480px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            display: none; /* Desktop hide */
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 5px;
+            border-radius: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            z-index: 10000;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #555;
+            font-size: 10px;
+            font-weight: 700;
+            flex: 1;
+            transition: color 0.2s;
+        }
+        .nav-item i { font-size: 18px; margin-bottom: 3px; }
+        .nav-item.active, .nav-item:hover { color: var(--primary-green); }
+
+        .nav-search-center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .search-circle {
+            width: 58px;
+            height: 58px;
+            background: linear-gradient(135deg, var(--primary-green) 0%, #4a8a46 100%);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 4px solid white;
+            box-shadow: 0 8px 15px rgba(44, 86, 42, 0.3);
+            color: white;
+            font-size: 20px;
+            transition: transform 0.2s;
+        }
+        .search-circle:hover { transform: scale(1.1); }
+        .search-text {
+            font-size: 11px;
+            font-weight: 800;
+            color: var(--primary-green);
+            margin-top: 5px;
+        }
 
         @media screen and (max-width: 900px) {
             .navbar { padding: 10px 15px; }
             .featured-grid { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
             .nav-links { display: none; }
+            .mobile-nav { display: flex; }
+            .footer { padding-bottom: 90px; }
         }
     </style>
 </head>
@@ -145,6 +204,34 @@
     </div>
 </section>
 
+<!-- ✅ Updated Mobile Nav -->
+<nav class="mobile-nav">
+    <a href="index.html" class="nav-item active">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+    </a>
+    <a href="booking.html" class="nav-item">
+        <i class="fas fa-ticket-alt"></i>
+        <span>Booking</span>
+    </a>
+    <a href="search.html" class="nav-item">
+        <div class="nav-search-center">
+            <div class="search-circle">
+                <i class="fas fa-search"></i>
+            </div>
+            <span class="search-text">Search</span>
+        </div>
+    </a>
+    <a href="packages.html" class="nav-item">
+        <i class="fas fa-box-open"></i>
+        <span>Packages</span>
+    </a>
+    <a href="javascript:void(0)" class="nav-item" onclick="toggleChat()">
+        <i class="fas fa-robot"></i>
+        <span>Bharat AI</span>
+    </a>
+</nav>
+
 <section class="contact" id="contact">
     <div class="container">
         <h2>Contact Us</h2>
@@ -179,21 +266,28 @@
     </div>
 </section>
 
-<div id="chat-icon" onclick="toggleChat()">
-    <i class="fas fa-robot"></i>
-</div>
-
-<div id="chat-window" class="chat-hidden">
+<div id="chat-window">
     <div class="chat-header">
-        <div class="header-info"><i class="fas fa-headset"></i> <span><strong>Yatri AI</strong></span></div>
-        <button onclick="toggleChat()" class="close-chat">&times;</button>
+        <div class="header-info">
+            <i class="fas fa-robot"></i> 
+            <span><strong>Bharat AI</strong></span>
+        </div>
+        <button onclick="toggleChat()" class="close-chat-btn">&times;</button>
     </div>
-    <div id="chat-body" class="chat-body">
-        <div class="ai-msg">Namaste! 🙏 Main Yatri AI hoon. Aap kahan ghumna chahte hain?</div>
+
+    <div id="chat-body">
+        <div class="ai-msg-bubble">
+            Namaste! 🙏 Main Bharat Yatra ka Smart AI hoon. Main aapki kaise madad kar sakta hoon?
+        </div>
     </div>
+
     <div class="chat-footer">
-        <input type="text" id="user-input" placeholder="Type message..." onkeydown="if(event.key==='Enter') sendMessage()">
-        <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+        <div class="chat-input-container">
+            <input type="text" id="user-input" placeholder="Kuch bhi puchiye..." onkeydown="if(event.key==='Enter') sendMessage()">
+            <button onclick="sendMessage()" class="send-message-btn">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
     </div>
 </div>
 
