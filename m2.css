@@ -176,7 +176,167 @@ html, body {
         box-shadow: 0 5px 15px rgba(44, 86, 42, 0.3) !important;
     }
 
-    /* 8. Footer & AI Fix */
-    footer { padding: 40px 20px 100px !important; background: #2c562a !important; }
-    #chat-icon { bottom: 85px !important; }
+    }
+/* 🤖 BHARAT AI - FULL SCREEN APP INTERFACE BY NIRMAL RAJPUT */
+
+#chat-window {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff; /* Ekdum saaf white background */
+    display: flex;
+    flex-direction: column;
+    z-index: 1000000; /* Sabse upar */
+    
+    /* Animation: Niche se upar slide hone ke liye */
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(100%); 
+    visibility: hidden;
 }
+
+/* 🔥 Jab Toggle hoga tab ye class chalegi */
+#chat-window.chat-active {
+    transform: translateY(0);
+    visibility: visible;
+}
+
+/* 🟢 Header: Premium Green Gradient */
+.chat-header {
+    background: linear-gradient(135deg, #2c562a 0%, #1e3d1c 100%);
+    color: white;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-info i {
+    font-size: 24px;
+    color: #f0932b; /* Orange Robot Icon */
+}
+
+.header-info span {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.close-chat {
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    color: white;
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.close-chat:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: rotate(90deg);
+}
+
+/* 💬 Chat Body Area */
+#chat-body {
+    flex: 1;
+    padding: 25px 20px;
+    overflow-y: auto;
+    background: #f0f2f5; /* WhatsApp jaisa light grey */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* AI Message Bubble (Left Side) */
+.ai-msg {
+    align-self: flex-start;
+    background: #ffffff;
+    color: #333;
+    padding: 12px 18px;
+    border-radius: 20px 20px 20px 5px;
+    max-width: 85%;
+    font-size: 15px;
+    line-height: 1.6;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border: 1px solid #e0e0e0;
+}
+
+/* User Message Bubble (Right Side) */
+.user-msg {
+    align-self: flex-end;
+    background: #2c562a;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 20px 20px 5px 20px;
+    max-width: 85%;
+    font-size: 15px;
+    line-height: 1.6;
+    box-shadow: 0 4px 10px rgba(44, 86, 42, 0.2);
+}
+
+/* ⌨️ Footer: Input & Send Button */
+.chat-footer {
+    padding: 15px 20px 35px; /* Mobile navigation ke liye niche gap */
+    background: white;
+    border-top: 1px solid #eee;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.chat-footer input {
+    flex: 1;
+    padding: 15px 22px;
+    border-radius: 35px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    font-size: 16px;
+    background: #f8f9fa;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.chat-footer input:focus {
+    border-color: #2c562a;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(44, 86, 42, 0.1);
+}
+
+.chat-footer button {
+    background: #2c562a;
+    color: white;
+    border: none;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(44, 86, 42, 0.3);
+    transition: transform 0.2s;
+}
+
+.chat-footer button:active {
+    transform: scale(0.9);
+}
+
+/* Scrollbar Style */
+#chat-body::-webkit-scrollbar { width: 5px; }
+#chat-body::-webkit-scrollbar-thumb { background: #ccc; border-radius: 10px; }
