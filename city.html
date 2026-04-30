@@ -11,125 +11,70 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     
     <style>
-        /* --- 🎨 Premium Brand Navbar --- */
-        .navbar { 
-            padding: 10px 20px !important; 
-            display: flex; 
-            justify-content: space-between; 
-            align-items: center; 
-            background: #fff; 
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08); 
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        
-        .brand-link { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-        
-        .logo-circle { 
-            width: 40px; height: 40px; border-radius: 50%; overflow: hidden; 
-            border: 2px solid #2c562a; background: #fff; display: flex; align-items: center; justify-content: center;
-        }
-        .logo-circle img { width: 85%; height: 85%; object-fit: contain; }
-        
-        .brand-name { font-family: 'Poppins', sans-serif; font-size: 18px; font-weight: 700; color: #2c562a; text-transform: uppercase; }
-
-        .back-home { font-size: 0.8rem; text-decoration: none; color: #0d6efd; font-weight: 600; }
-        
-        /* --- 🏔️ Hero Section --- */
-        .city-hero-green { height: 350px !important; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white; overflow: hidden; background-color: #2c562a; }
-        #cityNameTitle { font-size: 34px !important; text-transform: uppercase; z-index: 3; margin: 0; font-family: 'Poppins', sans-serif; font-weight: 800; text-shadow: 2px 2px 15px rgba(0,0,0,0.6); }
-
-        /* 🎫 Centered Booking Button */
-        .fixed-book-wrap { position: fixed; bottom: 20px; left: 0; right: 0; width: 100%; display: flex; justify-content: center; z-index: 3000; padding: 0 20px; }
-        .btn-book { width: 100%; max-width: 400px; background: linear-gradient(45deg, #2c562a, #4a8a47); color: white !important; text-align: center; padding: 15px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 8px 25px rgba(0,0,0,0.3); font-size: 16px; border: 2px solid rgba(255,255,255,0.1); }
-
-        /* ⭐ Unique Header Style */
-        .unique-city-header { margin-bottom: 20px; display: flex; align-items: center; gap: 12px; }
-        .unique-city-header h2 { font-family: 'Playfair Display', serif; font-size: 26px !important; color: #2c562a; margin: 0 !important; }
-        .unique-city-header::after { content: ""; flex: 1; height: 2px; background: linear-gradient(to right, #2c562a, transparent); }
-
-        /* Video Styling */
-        .play-hint { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.6); color: white; width: 65px; height: 65px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; pointer-events: none; transition: 0.3s; z-index: 5; border: 2px solid white; }
+        :root { --primary: #2c562a; --accent: #ff5722; }
+        .navbar { padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.08); position: sticky; top: 0; z-index: 1000; }
+        .logo-circle { width: 40px; height: 40px; border-radius: 50%; overflow: hidden; border: 2px solid var(--primary); }
+        .city-hero-green { height: 350px; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white; overflow: hidden; background-color: var(--primary); }
+        #cityNameTitle { font-size: 34px; text-transform: uppercase; z-index: 3; font-weight: 800; text-shadow: 2px 2px 15px rgba(0,0,0,0.6); }
+        .fixed-book-wrap { position: fixed; bottom: 20px; left: 0; right: 0; display: flex; justify-content: center; z-index: 3000; padding: 0 20px; }
+        .btn-book { width: 100%; max-width: 400px; background: linear-gradient(45deg, var(--primary), #4a8a47); color: white !important; text-align: center; padding: 15px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 8px 25px rgba(0,0,0,0.3); }
+        .play-hint { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.6); color: white; width: 65px; height: 65px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; z-index: 5; border: 2px solid white; }
     </style>
 </head>
 <body class="city-details-body">
 
 <nav class="navbar">
-    <a href="index.html" class="brand-link">
-        <div class="logo-circle">
-            <img src="images/logo.png" alt="Logo">
-        </div>
-        <span class="brand-name">Bharat Yatra</span>
+    <a href="index.html" style="text-decoration:none; display:flex; align-items:center; gap:10px;">
+        <div class="logo-circle"><img src="images/logo.png" style="width:100%"></div>
+        <span style="font-weight:700; color:var(--primary)">BHARAT YATRA</span>
     </a>
-    <a href="index.html" class="back-home">⬅ Back</a>
+    <a href="index.html" style="text-decoration:none; color:#0d6efd; font-weight:600;">⬅ Back</a>
 </nav>
 
-<section class="city-hero-green" id="heroSection">
+<section class="city-hero-green">
     <div id="heroImgOverlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover; background-position: center; z-index: 1;"></div>
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.45); z-index: 2;"></div>
-    
-    <div id="weatherBadge" style="position: absolute; top: 15px; right: 15px; z-index: 4; background: white; color: #2c562a; padding: 6px 12px; border-radius: 20px; font-weight: bold; font-size: 13px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+    <div id="weatherBadge" style="position: absolute; top: 15px; right: 15px; z-index: 4; background: white; color: var(--primary); padding: 6px 12px; border-radius: 20px; font-weight: bold;">
         <i class="fas fa-cloud-sun"></i> <span id="currentTemp">--°C</span>
     </div>
-
     <div style="position: relative; z-index: 3; padding: 20px;">
         <h1 id="cityNameTitle"></h1>
-        <p id="cityIntroText" style="font-size: 14px; opacity: 0.95; margin-top: 10px; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.5;"></p>
+        <p id="cityIntroText" style="font-size: 14px; opacity: 0.95; margin-top: 10px; max-width: 600px; line-height: 1.5;"></p>
     </div>
 </section>
 
 <div id="distanceBar" style="background: #f0f7f0; padding: 12px; text-align: center; display: none; border-bottom: 1px solid #dceada;">
-    <div style="font-size: 14px; color: #2c562a; font-weight: 700;">
-        <i class="fas fa-route"></i> <span id="distanceText"></span>
-    </div>
+    <div style="font-size: 14px; color: var(--primary); font-weight: 700;"><i class="fas fa-route"></i> <span id="distanceText"></span></div>
 </div>
 
-<section class="facts-section" style="max-width: 1000px; margin: 30px auto; padding: 0 20px;">
-    <div class="unique-city-header">
-        <h2 id="dynamicCityName"></h2>
-    </div>
-    <ul id="factsList" style="padding: 0;"></ul>
-    <div id="seasonalWeather" style="margin-top: 25px; padding: 20px; background: #f9fdf9; border-radius: 15px; border: 1px dashed #2c562a;"></div>
+<section style="max-width: 1000px; margin: 30px auto; padding: 0 20px;">
+    <h2 id="dynamicCityName" style="color:var(--primary); font-family:'Playfair Display'; border-left:4px solid var(--primary); padding-left:10px;"></h2>
+    <ul id="factsList" style="list-style:none; padding:0; margin-top:20px;"></ul>
+    <div id="seasonalWeather" style="margin-top: 25px; padding: 20px; background: #f9fdf9; border-radius: 15px; border: 1px dashed var(--primary);"></div>
 </section>
 
 <div id="extraListsContainer" style="padding: 0 20px; margin-bottom: 25px;"></div>
-
 <div id="travelTransportSection" style="padding: 25px; background: #fff; margin: 0 20px; border-radius: 15px; box-shadow: 0 2px 15px rgba(0,0,0,0.05);"></div>
 
 <section style="padding: 35px 20px; background: white;">
-    <h2 style="text-align: center; margin-bottom: 25px; color: #2c562a; font-size: 22px; font-weight: 700;">🍴 Must Try Local Food</h2>
+    <h2 style="text-align: center; margin-bottom: 25px; color: var(--primary);">🍴 Must Try Local Food</h2>
     <div id="foodGrid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;"></div>
 </section>
 
 <section style="padding: 35px 20px; background: #f9f9f9;">
-    <h2 style="text-align: center; margin-bottom: 25px; color: #2c562a; font-size: 22px; font-weight: 700;">📍 Top Places To Visit</h2>
+    <h2 style="text-align: center; margin-bottom: 25px; color: var(--primary);">📍 Top Places To Visit</h2>
     <div id="placesGrid" style="display: grid; grid-template-columns: 1fr; gap: 15px;"></div>
 </section>
 
-<section class="video-section" style="padding: 50px 20px; background: #f0f2f5; text-align: center; margin-bottom: 120px;">
-    <h2 style="color: #2c562a; margin-bottom: 25px; font-size: 22px; font-weight: 700;">🎬 City Experience Reel</h2>
-    <div style="max-width: 300px; margin: 0 auto; border-radius: 25px; overflow: hidden; position: relative; aspect-ratio: 9/16; background: #000; box-shadow: 0 15px 35px rgba(0,0,0,0.2);" id="videoWrapper">
-        <video id="cityVideo" loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;">
-            <source src="" type="video/mp4">
-        </video>
+<section style="padding: 50px 20px; text-align: center; margin-bottom: 120px;">
+    <h2 style="color: var(--primary);">🎬 City Experience Reel</h2>
+    <div style="max-width: 300px; margin: 0 auto; border-radius: 25px; overflow: hidden; position: relative; aspect-ratio: 9/16; background: #000;" id="videoWrapper">
+        <video id="cityVideo" loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;"></video>
         <div id="playHint" class="play-hint"><i class="fas fa-play"></i></div>
     </div>
 </section>
 
-<div class="fixed-book-wrap">
-    <a href="booking.html" class="btn-book">Book Tickets Now 🎫</a>
-</div>
-
-<footer style="background: #2c562a; color: white; text-align: center; padding: 50px 20px 130px;">
-    <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 10px;">
-        <div class="logo-circle" style="width: 30px; height: 30px; border-color: rgba(255,255,255,0.3);">
-            <img src="images/logo.png" alt="Footer Logo">
-        </div>
-        <span style="font-weight: 700; letter-spacing: 1px;">BHARAT YATRA</span>
-    </div>
-    <p style="font-size: 12px; opacity: 0.7; margin-top: 5px;">Explore India Smartly &copy; 2026 | Designed by Nirmal Rajput</p>
-</footer>
+<div class="fixed-book-wrap"><a href="booking.html" class="btn-book">Book Tickets Now 🎫</a></div>
 
 <script>
 let userLat = null; let userLng = null;
@@ -143,29 +88,26 @@ function getDistance(lat1, lon1, lat2, lon2) {
     return Math.round(R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)));
 }
 
-function askGPS() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition((pos) => {
-            userLat = pos.coords.latitude; userLng = pos.coords.longitude;
-            loadData(); 
-        }, () => { loadData(); });
-    } else { loadData(); }
-}
+navigator.geolocation.getCurrentPosition((pos) => {
+    userLat = pos.coords.latitude; userLng = pos.coords.longitude;
+    loadData(); 
+}, () => { loadData(); });
 
 function loadData() {
-    fetch("cities.json")
-    .then(res => res.json())
-    .then(data => {
-        let cityId = new URLSearchParams(window.location.search).get("id");
-        let city = data.find(c => c.id == cityId);
+    fetch("cities.json").then(res => res.json()).then(data => {
+        const params = new URLSearchParams(window.location.search);
+        let cityName = params.get("city");
+        let cityId = params.get("id");
+
+        let city = data.find(c => (cityName && c.name.toLowerCase() === cityName.toLowerCase()) || (cityId && c.id == cityId));
         if (!city) return;
 
+        document.getElementById("pageTitle").innerText = `${city.name} - Bharat Yatra`;
         document.getElementById("heroImgOverlay").style.backgroundImage = `url('${city.image}')`;
         document.getElementById("cityNameTitle").innerText = city.name;
         document.getElementById("cityIntroText").innerText = city.description;
         document.getElementById("dynamicCityName").innerText = `About ${city.name}`;
         document.getElementById("currentTemp").innerText = city.currentTemp || "25°C";
-        document.getElementById("pageTitle").innerText = `${city.name} - Bharat Yatra`;
 
         const dist = getDistance(userLat, userLng, city.lat, city.lng);
         if (dist && userLat) {
@@ -174,73 +116,53 @@ function loadData() {
         }
 
         document.getElementById("factsList").innerHTML = `
-            <li style="margin-bottom:12px; border-bottom:1px solid #eee; padding-bottom:8px; list-style:none;"><strong>🏛️ Founded By:</strong> ${city.summaryFacts.foundedBy}</li>
-            <li style="margin-bottom:12px; border-bottom:1px solid #eee; padding-bottom:8px; list-style:none;"><strong>👥 Population:</strong> ${city.summaryFacts.population}</li>
-            <li style="margin-bottom:12px; border-bottom:1px solid #eee; padding-bottom:8px; list-style:none;"><strong>🗣️ Language:</strong> ${city.summaryFacts.officialLanguage}</li>
-            <li style="margin-bottom:12px; border-bottom:1px solid #eee; padding-bottom:8px; list-style:none;"><strong>🏆 Famous For:</strong> ${city.summaryFacts.famousFor}</li>
+            <li style="padding:10px 0; border-bottom:1px solid #eee;"><strong>🏛️ Founded By:</strong> ${city.summaryFacts.foundedBy}</li>
+            <li style="padding:10px 0; border-bottom:1px solid #eee;"><strong>👥 Population:</strong> ${city.summaryFacts.population}</li>
+            <li style="padding:10px 0; border-bottom:1px solid #eee;"><strong>🗣️ Language:</strong> ${city.summaryFacts.officialLanguage}</li>
+            <li style="padding:10px 0; border-bottom:1px solid #eee;"><strong>🏆 Famous For:</strong> ${city.summaryFacts.famousFor}</li>
         `;
 
         document.getElementById("seasonalWeather").innerHTML = `
-            <h3 style="color:#2c562a; font-size:16px; margin-bottom:10px; font-weight:700;">🌡️ Seasonal Weather</h3>
-            <div style="font-size:14px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;">
-                <span><i class="fas fa-sun" style="color:#ff9800;"></i> <strong>Summer:</strong> ${city.weather.summer}</span>
-                <span><i class="fas fa-snowflake" style="color:#03a9f4;"></i> <strong>Winter:</strong> ${city.weather.winter}</span>
-            </div>
+            <h3 style="color:var(--primary); font-size:16px;">🌡️ Seasonal Weather</h3>
+            <span>Summer: ${city.weather.summer} | Winter: ${city.weather.winter}</span>
         `;
 
         document.getElementById("extraListsContainer").innerHTML = `
             <div style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-                <div style="background:#fff; padding:15px; border-radius:12px; border: 1px solid #eee;">
-                    <h3 style="font-size:15px; color:#2c562a; margin-bottom:10px; font-weight:700;">✨ Highlights</h3>
-                    <ul style="font-size:13px; padding-left:15px; line-height:1.6;">${city.famousFor.map(f => `<li>${f}</li>`).join('')}</ul>
+                <div style="background:#fff; padding:15px; border-radius:12px; border:1px solid #eee;">
+                    <h3 style="font-size:15px; color:var(--primary);">✨ Highlights</h3>
+                    <ul style="font-size:13px; padding-left:15px;">${city.famousFor.map(f => `<li>${f}</li>`).join('')}</ul>
                 </div>
-                <div style="background:#fff; padding:15px; border-radius:12px; border: 1px solid #eee;">
-                    <h3 style="font-size:15px; color:#2c562a; margin-bottom:10px; font-weight:700;">🎡 Experience</h3>
-                    <ul style="font-size:13px; padding-left:15px; line-height:1.6;">${city.thingsToDo.map(t => `<li>${t}</li>`).join('')}</ul>
+                <div style="background:#fff; padding:15px; border-radius:12px; border:1px solid #eee;">
+                    <h3 style="font-size:15px; color:var(--primary);">🎡 Experience</h3>
+                    <ul style="font-size:13px; padding-left:15px;">${city.thingsToDo.map(t => `<li>${t}</li>`).join('')}</ul>
                 </div>
             </div>
         `;
 
         document.getElementById("travelTransportSection").innerHTML = `
-            <h3 style="color:#2c562a; font-size:18px; margin-bottom:15px; font-weight:700;">✈️ Travel & Transport</h3>
-            <div style="font-size:14px; line-height:2;">
-                <p><i class="fas fa-plane-departure" style="width:25px;"></i> <strong>Airport:</strong> ${city.travelInfo.nearestAirport}</p>
-                <p><i class="fas fa-train" style="width:25px;"></i> <strong>Railway:</strong> ${city.travelInfo.mainRailway}</p>
-                <p><i class="fas fa-bus" style="width:25px;"></i> <strong>Local:</strong> ${city.transport.join(', ')}</p>
-                <p><i class="fas fa-calendar-alt" style="width:25px;"></i> <strong>Ideal Stay:</strong> ${city.idealDays}</p>
-            </div>
+            <h3 style="color:var(--primary); font-size:18px;">✈️ Travel & Transport</h3>
+            <p>Airport: ${city.travelInfo.nearestAirport} | Railway: ${city.travelInfo.mainRailway}</p>
         `;
 
         let foodH = "";
-        city.localFood.forEach(f => foodH += `<div style="background:#2c562a; color:white; padding:15px; border-radius:15px; text-align:center; font-size:13px; font-weight:600; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">🍴 ${f.name}</div>`);
+        city.localFood.forEach(f => foodH += `<div style="background:var(--primary); color:white; padding:15px; border-radius:15px; text-align:center;">🍴 ${f.name}</div>`);
         document.getElementById("foodGrid").innerHTML = foodH;
 
         let placeH = "";
-        city.places.forEach(p => placeH += `<div style="background:#fff; border:1px solid #e0e0e0; padding:18px; border-radius:15px; transition:0.3s;">
-            <b style="color:#2c562a; font-size:16px;">📍 ${p.name}</b>
-            <p style="font-size:13px; color:#666; margin-top:8px; line-height:1.4;">${p.desc}</p>
-        </div>`);
+        city.places.forEach(p => placeH += `<div style="background:#fff; border:1px solid #eee; padding:18px; border-radius:15px;"><b>📍 ${p.name}</b><p style="font-size:13px; margin-top:8px;">${p.desc}</p></div>`);
         document.getElementById("placesGrid").innerHTML = placeH;
 
         if(city.videoFile) {
             const v = document.getElementById("cityVideo");
-            const wrapper = document.getElementById("videoWrapper");
-            const hint = document.getElementById("playHint");
             v.src = city.videoFile;
-            v.load();
-            v.muted = true; 
-            wrapper.onclick = function() {
-                if (v.paused) {
-                    v.muted = false; 
-                    v.play().then(() => { hint.style.opacity = "0"; }).catch(() => { v.muted = true; v.play(); });
-                } else {
-                    v.pause(); hint.style.opacity = "1";
-                }
+            document.getElementById("videoWrapper").onclick = function() {
+                if (v.paused) { v.play(); document.getElementById("playHint").style.opacity="0"; }
+                else { v.pause(); document.getElementById("playHint").style.opacity="1"; }
             };
         }
     });
 }
-askGPS();
 </script>
 </body>
 </html>
