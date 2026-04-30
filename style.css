@@ -742,3 +742,44 @@ h2{
 @media screen and (max-width: 768px) {
     /* Rules in mobile.css will take over */
 }
+/* 🏷️ COMPACT BRAND LOGO */
+.brand-link {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Spacing kam kar di */
+    text-decoration: none;
+}
+
+.logo-circle {
+    width: 32px;  /* Size chota kiya (Pehle 40-50px tha) */
+    height: 32px; 
+    border-radius: 50%;
+    border: 1.5px solid #f0932b; /* Patli orange border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    flex-shrink: 0; /* Logo dabega nahi */
+}
+
+.brand-name {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px; /* Ekdum perfect chota size */
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    
+    /* 🟠 Premium Orange Color */
+    color: #f0932b; 
+    /* Halka sa gradient look */
+    background: linear-gradient(135deg, #f0932b 0%, #ff7e01 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    white-space: nowrap; /* Text break nahi hoga */
+}
+
+/* Hover Effect */
+.brand-link:hover .brand-name {
+    opacity: 0.8;
+}
