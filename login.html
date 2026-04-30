@@ -1,268 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Authenticate | Bharat Yatra - Your Travel Partner</title>
-    
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        /* 🌌 MODERN MESH GRADIENT BACKGROUND */
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Poppins', sans-serif;
-            background-color: #0f172a;
-            background-image: 
-                radial-gradient(at 0% 0%, rgba(255, 87, 34, 0.15) 0px, transparent 50%),
-                radial-gradient(at 100% 0%, rgba(33, 150, 243, 0.15) 0px, transparent 50%);
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-        }
+<title>Bharat Yatra | Login</title>
 
-        /* Premium Glassmorphism Card */
-        .auth-container {
-            background: rgba(255, 255, 255, 0.04);
-            backdrop-filter: blur(25px);
-            -webkit-backdrop-filter: blur(25px);
-            padding: 40px;
-            border-radius: 30px;
-            width: 90%;
-            max-width: 420px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: 0 25px 60px rgba(0,0,0,0.5);
-            text-align: center;
-            color: #ffffff;
-            transition: 0.5s ease;
-            position: relative;
-        }
+<link rel="stylesheet" href="css/login.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-        .brand-logo {
-            font-size: 1.6rem;
-            font-weight: 800;
-            color: #ff5722;
-            letter-spacing: 3px;
-            margin-bottom: 15px;
-            text-transform: uppercase;
-        }
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-        /* Animation for Switching Forms */
-        .form-box {
-            display: none;
-            animation: fadeIn 0.4s ease-out;
-        }
-        .form-box.active {
-            display: block;
-        }
+<style>
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
+/* ===== BHARAT YATRA BACKGROUND ===== */
+body{
+margin:0;
+padding:0;
+font-family:'Poppins',sans-serif;
 
-        h2 {
-            font-size: 1.3rem;
-            margin-bottom: 25px;
-            font-weight: 500;
-            color: rgba(255,255,255,0.9);
-        }
+background: linear-gradient(
+135deg,
+#0f172a,
+#1e293b,
+#0f172a
+);
 
-        /* Professional Input Fields */
-        .input-wrapper {
-            position: relative;
-            margin-bottom: 18px;
-            text-align: left;
-        }
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+}
 
-        .input-wrapper label {
-            display: block;
-            font-size: 0.75rem;
-            margin-bottom: 6px;
-            color: rgba(255,255,255,0.5);
-            padding-left: 5px;
-        }
 
-        .input-wrapper i {
-            position: absolute;
-            left: 18px;
-            top: 38px;
-            color: #ff5722;
-            font-size: 1rem;
-        }
+/* ===== CARD ===== */
+.auth-container{
+background: rgba(255,255,255,0.05);
+backdrop-filter: blur(20px);
+padding:40px;
+border-radius:20px;
+width:90%;
+max-width:420px;
+border:1px solid rgba(255,255,255,0.1);
+box-shadow:0 20px 60px rgba(0,0,0,0.5);
+text-align:center;
+position:relative;
+}
 
-        .input-wrapper input {
-            width: 100%;
-            padding: 12px 15px 12px 48px;
-            background: rgba(255, 255, 255, 0.06);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            color: #fff;
-            font-size: 0.95rem;
-            outline: none;
-            box-sizing: border-box;
-            transition: 0.3s;
-        }
 
-        .input-wrapper input:focus {
-            background: rgba(255, 255, 255, 0.12);
-            border-color: #ff5722;
-            box-shadow: 0 0 15px rgba(255, 87, 34, 0.2);
-        }
+/* ===== LOGO ===== */
+.brand-logo{
+font-size:24px;
+font-weight:700;
+letter-spacing:2px;
+color:#ff6b35;
+margin-bottom:8px;
+}
 
-        /* Auth Button Styling */
-        .btn-auth {
-            width: 100%;
-            padding: 15px;
-            background: linear-gradient(90deg, #ff5722, #ff7043);
-            border: none;
-            border-radius: 12px;
-            color: white;
-            font-size: 1rem;
-            font-weight: 700;
-            cursor: pointer;
-            transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            margin-top: 10px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
+.brand-tag{
+font-size:12px;
+color:rgba(255,255,255,0.6);
+margin-bottom:25px;
+}
 
-        .btn-auth:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(255, 87, 34, 0.3);
-        }
 
-        /* Footer Toggle Links */
-        .auth-footer {
-            margin-top: 25px;
-            font-size: 0.85rem;
-            color: rgba(255,255,255,0.6);
-        }
+/* ===== FORMS ===== */
+.form-box{
+display:none;
+animation:fade .3s ease;
+}
 
-        .auth-footer span {
-            color: #ff5722;
-            cursor: pointer;
-            font-weight: 600;
-            text-decoration: none;
-            transition: 0.3s;
-        }
+.form-box.active{
+display:block;
+}
 
-        .auth-footer span:hover {
-            text-decoration: underline;
-            color: #fff;
-        }
+@keyframes fade{
+from{opacity:0;transform:translateY(10px)}
+to{opacity:1;transform:translateY(0)}
+}
 
-        /* Back Navigation */
-        .back-link {
-            position: absolute;
-            top: 25px;
-            left: 25px;
-            color: rgba(255,255,255,0.5);
-            text-decoration: none;
-            font-size: 0.85rem;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            transition: 0.3s;
-        }
+h2{
+font-size:18px;
+font-weight:500;
+margin-bottom:20px;
+}
 
-        .back-link:hover { color: #fff; }
 
-        /* Mobile Fixes */
-        @media (max-width: 480px) {
-            .auth-container { padding: 35px 25px; }
-            .brand-logo { font-size: 1.4rem; }
-        }
-    </style>
+/* ===== INPUT ===== */
+.input-wrapper{
+position:relative;
+margin-bottom:16px;
+text-align:left;
+}
+
+.input-wrapper i{
+position:absolute;
+left:15px;
+top:14px;
+color:#ff6b35;
+}
+
+.input-wrapper input{
+width:100%;
+padding:12px 12px 12px 40px;
+border-radius:10px;
+border:1px solid rgba(255,255,255,0.1);
+background:rgba(255,255,255,0.05);
+color:white;
+outline:none;
+}
+
+.input-wrapper input:focus{
+border-color:#ff6b35;
+background:rgba(255,255,255,0.08);
+}
+
+
+/* ===== BUTTON ===== */
+.btn-auth{
+width:100%;
+padding:12px;
+border:none;
+border-radius:10px;
+
+background: linear-gradient(
+45deg,
+#ff6b35,
+#ff8c42
+);
+
+color:white;
+font-weight:600;
+cursor:pointer;
+transition:.3s;
+margin-top:5px;
+}
+
+.btn-auth:hover{
+transform:translateY(-2px);
+box-shadow:0 8px 20px rgba(255,107,53,0.4);
+}
+
+
+/* ===== FOOTER ===== */
+.auth-footer{
+margin-top:20px;
+font-size:13px;
+color:rgba(255,255,255,0.6);
+}
+
+.auth-footer span{
+color:#ff6b35;
+cursor:pointer;
+font-weight:600;
+}
+
+
+/* ===== BACK BUTTON ===== */
+.back-link{
+position:absolute;
+top:25px;
+left:25px;
+color:white;
+text-decoration:none;
+font-size:14px;
+opacity:.7;
+}
+
+.back-link:hover{
+opacity:1;
+}
+
+</style>
+
 </head>
 <body>
 
-    <a href="index.html" class="back-link">
-        <i class="fas fa-arrow-left"></i> Return to Explorer
-    </a>
+<a href="index.html" class="back-link">
+<i class="fas fa-arrow-left"></i> Back
+</a>
 
-    <div class="auth-container">
-        <div class="brand-logo">BHARAT YATRA</div>
+<div class="auth-container">
 
-        <div id="login-box" class="form-box active">
-            <h2>Sign In to Account</h2>
-            <form onsubmit="handleAuth(event, 'Welcome Back!')">
-                <div class="input-wrapper">
-                    <label>Registered Email</label>
-                    <i class="fas fa-envelope"></i>
-                    <input type="email" placeholder="email@example.com" required>
-                </div>
-                
-                <div class="input-wrapper">
-                    <label>Secure Password</label>
-                    <i class="fas fa-lock"></i>
-                    <input type="password" placeholder="••••••••" required>
-                </div>
+<div class="brand-logo">BHARAT YATRA</div>
+<div class="brand-tag">Explore Incredible India</div>
 
-                <button type="submit" class="btn-auth">Authenticate</button>
-            </form>
-            <div class="auth-footer">
-                New to Bharat Yatra? <span onclick="toggleAuth('register-box')">Create Account</span>
-            </div>
-        </div>
 
-        <div id="register-box" class="form-box">
-            <h2>Create New Profile</h2>
-            <form onsubmit="handleAuth(event, 'Account Created Successfully!')">
-                <div class="input-wrapper">
-                    <label>Full Name</label>
-                    <i class="fas fa-user"></i>
-                    <input type="text" placeholder="Your Name" required>
-                </div>
+<!-- LOGIN -->
+<div id="login-box" class="form-box active">
 
-                <div class="input-wrapper">
-                    <label>Email Address</label>
-                    <i class="fas fa-envelope"></i>
-                    <input type="email" placeholder="name@example.com" required>
-                </div>
+<h2>Welcome Back</h2>
 
-                <div class="input-wrapper">
-                    <label>Mobile Number</label>
-                    <i class="fas fa-phone"></i>
-                    <input type="tel" placeholder="+91 00000 00000" required>
-                </div>
-                
-                <div class="input-wrapper">
-                    <label>Set Secure Password</label>
-                    <i class="fas fa-lock"></i>
-                    <input type="password" placeholder="••••••••" required>
-                </div>
+<form onsubmit="handleAuth(event)">
 
-                <button type="submit" class="btn-auth">Register Now</button>
-            </form>
-            <div class="auth-footer">
-                Already a member? <span onclick="toggleAuth('login-box')">Sign In Instead</span>
-            </div>
-        </div>
-    </div>
+<div class="input-wrapper">
+<i class="fas fa-envelope"></i>
+<input type="email" placeholder="Email address" required>
+</div>
 
-    <script>
-        // Toggle between Login and Register Forms
-        function toggleAuth(boxId) {
-            document.querySelectorAll('.form-box').forEach(box => {
-                box.classList.remove('active');
-            });
-            document.getElementById(boxId).classList.add('active');
-        }
+<div class="input-wrapper">
+<i class="fas fa-lock"></i>
+<input type="password" placeholder="Password" required>
+</div>
 
-        // Handle Authentication
-        function handleAuth(e, message) {
-            e.preventDefault();
-            alert(message);
-            window.location.href = "index.html";
-        }
-    </script>
+<button class="btn-auth">Login</button>
+
+</form>
+
+<div class="auth-footer">
+Don't have account?
+<span onclick="toggleAuth('register-box')">Register</span>
+</div>
+
+</div>
+
+
+
+<!-- REGISTER -->
+<div id="register-box" class="form-box">
+
+<h2>Create Account</h2>
+
+<form onsubmit="handleAuth(event)">
+
+<div class="input-wrapper">
+<i class="fas fa-user"></i>
+<input type="text" placeholder="Full Name" required>
+</div>
+
+<div class="input-wrapper">
+<i class="fas fa-envelope"></i>
+<input type="email" placeholder="Email" required>
+</div>
+
+<div class="input-wrapper">
+<i class="fas fa-phone"></i>
+<input type="tel" placeholder="Phone" required>
+</div>
+
+<div class="input-wrapper">
+<i class="fas fa-lock"></i>
+<input type="password" placeholder="Password" required>
+</div>
+
+<button class="btn-auth">Create Account</button>
+
+</form>
+
+<div class="auth-footer">
+Already have account?
+<span onclick="toggleAuth('login-box')">Login</span>
+</div>
+
+</div>
+
+</div>
+
+
+<script>
+
+function toggleAuth(id){
+document.querySelectorAll(".form-box")
+.forEach(box=>box.classList.remove("active"));
+
+document.getElementById(id).classList.add("active");
+}
+
+function handleAuth(e){
+e.preventDefault();
+window.location.href="index.html";
+}
+
+</script>
 
 </body>
 </html>
