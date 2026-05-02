@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharat Gold | Premium Plan</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --gold: #d4af37;
+            --dark: #121212;
+            --primary-green: #2c562a;
+            --shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #fdfdfd;
+            color: #333;
+            padding-bottom: 50px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 25px;
+            background: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .navbar h2 { font-size: 18px; margin: 0; color: var(--dark); }
+        .back-btn { text-decoration: none; color: #666; font-weight: 500; font-size: 14px; }
+
+        .hero {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2c562a 100%);
+            color: white;
+            text-align: center;
+            padding: 60px 20px 100px;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+
+        .hero h1 { font-size: 26px; margin: 0; letter-spacing: 0.5px; }
+        .hero p { color: rgba(255,255,255,0.7); font-size: 13px; margin-top: 10px; }
+
+        .plan-card {
+            max-width: 360px;
+            margin: -60px auto 25px;
+            background: white;
+            border-radius: 30px;
+            box-shadow: var(--shadow);
+            padding: 35px 25px;
+            text-align: center;
+            position: relative;
+            border: 1px solid #f0f0f0;
+        }
+
+        .badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #fff8e1;
+            color: var(--gold);
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 10px;
+            font-weight: 700;
+            border: 1px solid var(--gold);
+        }
+
+        .price {
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--dark);
+            margin: 15px 0;
+        }
+
+        .price span { font-size: 14px; color: #999; font-weight: 400; }
+
+        .features {
+            text-align: left;
+            margin: 25px 0;
+            padding: 0;
+        }
+
+        .features li {
+            list-style: none;
+            margin: 14px 0;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            color: #444;
+        }
+
+        .features i {
+            background: #f0f7f0;
+            color: var(--primary-green);
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            margin-right: 12px;
+        }
+
+        /* 💳 Razorpay Area */
+        .pay-box {
+            margin-top: 30px;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 16px;
+            border: none;
+            border-radius: 18px;
+            background: var(--dark);
+            color: white;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .btn:hover { background: #000; transform: translateY(-2px); }
+        .btn:active { transform: scale(0.98); }
+
+        .trust-badges {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            opacity: 0.5;
+            font-size: 12px;
+        }
+
+        .info-box {
+            max-width: 330px;
+            margin: 20px auto;
+            font-size: 11px;
+            color: #999;
+            text-align: center;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="navbar">
+    <a href="index.html" class="back-btn"><i class="fas fa-arrow-left"></i></a>
+    <h2>Bharat Gold Membership</h2>
+    <div style="width:20px;"></div>
+</div>
+
+<section class="hero">
+    <h1>Upgrade Your Journey</h1>
+    <p>Secure payment via Razorpay</p>
+</section>
+
+<div class="plan-card">
+    <div class="badge">SECURE</div>
+
+    <h3 style="margin:0; font-size:20px; color: var(--primary-green);">Monthly Subscription</h3>
+    <div class="price">₹49 <span>/ month</span></div>
+
+    <ul class="features">
+        <li><i class="fas fa-check"></i> Unlimited AI Trip Planning</li>
+        <li><i class="fas fa-check"></i> 100+ Hidden Gems (Secret List)</li>
+        <li><i class="fas fa-check"></i> Ad-free Premium Experience</li>
+        <li><i class="fas fa-check"></i> 24/7 Priority Travel Support</li>
+    </ul>
+
+    <div class="pay-box">
+        <button class="btn" id="rzp-button1">
+            <i class="fas fa-shield-alt"></i> Pay Securely Now
+        </button>
+        
+        <div class="trust-badges">
+            <span><i class="fab fa-cc-visa"></i></span>
+            <span><i class="fab fa-cc-mastercard"></i></span>
+            <span><i class="fab fa-google-pay"></i></span>
+            <span><i class="fab fa-upi"></i></span>
+        </div>
+    </div>
+</div>
+
+<div class="info-box">
+    Instant Activation • Secured by Razorpay • Designed by Nirmal Rajput
+</div>
+
+<!-- 📦 RAZORPAY SCRIPT -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+document.getElementById('rzp-button1').onclick = function(e){
+    // Razorpay Options
+    var options = {
+        "key": "YOUR_RAZORPAY_KEY_HERE", // 👈 Yahan apni Key daalna
+        "amount": "4900", // Amount in paise (49 INR = 4900 Paise)
+        "currency": "INR",
+        "name": "Bharat Yatra",
+        "description": "Monthly Gold Membership",
+        "image": "images/logo.png",
+        "handler": function (response){
+            alert("Payment Successful! ID: " + response.razorpay_payment_id);
+            // Yahan se tu user ko success page par bhej sakta hai
+            window.location.href = "success.html";
+        },
+        "prefill": {
+            "name": "Nirmal Rajput",
+            "email": "nirmalrajputpvt@gmail.com",
+            "contact": "9009629736"
+        },
+        "theme": {
+            "color": "#2c562a"
+        }
+    };
+    var rzp1 = new Razorpay(options);
+    rzp1.open();
+    e.preventDefault();
+}
+</script>
+
+</body>
+</html>
