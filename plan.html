@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Trip | Bharat Yatra</title>
+
+    <link rel="stylesheet" href="plan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <h2>🌍 Bharat Yatra AI</h2>
+        <a href="index.html" class="back-btn">← Back Home</a>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero-banner">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="badge">AI Powered Travel Planner</span>
+            <h1>Plan Your Perfect Journey ✈️</h1>
+            <p>Create smart itineraries in seconds with Bharat Yatra AI</p>
+        </div>
+    </section>
+
+    <!-- MAIN FORM -->
+    <section class="planner-section">
+
+        <!-- FORM CARD -->
+        <div class="planner-card">
+
+            <div class="planner-header">
+                <h2>Create Your Trip Plan</h2>
+                <p>Fill details below and get personalized travel itinerary</p>
+            </div>
+
+            <form id="tripForm" class="trip-form" onsubmit="event.preventDefault(); generatePlan();">
+
+                <div class="form-grid">
+
+                    <div class="input-box">
+                        <label>Destination</label>
+                        <input type="text" id="city" placeholder="e.g. Goa" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label>Trip Duration</label>
+                        <select id="days" required>
+                            <option value="1">1 Day</option>
+                            <option value="2">2 Days</option>
+                            <option value="3">3 Days</option>
+                            <option value="5">5 Days</option>
+                            <option value="7">7 Days</option>
+                        </select>
+                    </div>
+
+                    <div class="input-box">
+                        <label>Budget</label>
+                        <select id="budget" required>
+                            <option>₹5,000 - ₹10,000</option>
+                            <option>₹10,000 - ₹25,000</option>
+                            <option>₹25,000 - ₹50,000</option>
+                            <option>₹50,000+</option>
+                        </select>
+                    </div>
+
+                    <div class="input-box">
+                        <label>Travel Type</label>
+                        <select id="travelType" required>
+                            <option>Solo</option>
+                            <option>Couple</option>
+                            <option>Family</option>
+                            <option>Friends Group</option>
+                        </select>
+                    </div>
+
+                    <div class="input-box full-width">
+                        <label>Preferences</label>
+                        <textarea id="preferences" rows="4"
+                            placeholder="Adventure, Food, Temples, Beaches..."></textarea>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="generate-btn">
+                    <i class="fas fa-wand-magic-sparkles"></i>
+                    Generate My Trip Plan
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- RESULT -->
+        <div class="result-card" id="resultBox">
+            <h2>Your AI Trip Plan</h2>
+            <div id="tripResult">
+                Your generated itinerary will appear here...
+            </div>
+        </div>
+
+    </section>
+
+    <!-- JS FILE CONNECT -->
+    <script src="plan.js"></script>
+
+</body>
+</html>
