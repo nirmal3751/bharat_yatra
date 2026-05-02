@@ -3,213 +3,273 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Packages | Bharat Yatra Official</title>
+    <title>Bharat Yatra | Luxury Packages</title>
     
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <style>
         :root {
-            --primary-gradient: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
-            --accent-orange: #ff5722;
-            --glass-bg: rgba(255, 255, 255, 0.9);
-            --text-main: #0f172a;
-            --text-grey: #64748b;
+            --primary: #ff8c42;
+            --navy: #0f172a;
+            --soft-bg: #fffaf7;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { 
-            background-color: #f8fafc; 
+            background-color: var(--soft-bg); 
             font-family: 'Plus Jakarta Sans', sans-serif; 
-            color: var(--text-main);
-            overflow-x: hidden;
+            color: #1e293b;
         }
 
-        /* 🟢 Glass Navbar */
-        .navbar {
-            display: flex; justify-content: space-between; align-items: center;
-            padding: 15px 8%; background: var(--glass-bg);
-            backdrop-filter: blur(12px); border-bottom: 1px solid rgba(0,0,0,0.05);
-            position: sticky; top: 0; z-index: 1000;
-        }
-        .logo { font-size: 1.2rem; font-weight: 800; color: #4f46e5; letter-spacing: 0.5px; }
-        
-        .back-btn { 
-            text-decoration: none; color: #4f46e5; font-weight: 700; font-size: 0.8rem; 
-            border: 1.5px solid #4f46e5; padding: 7px 20px; border-radius: 50px; transition: 0.3s;
-        }
-        .back-btn:hover { background: #4f46e5; color: white; transform: translateY(-2px); }
-
-        /* 🟦 Premium Header Section */
-        .pkg-header {
-            padding: 80px 8% 60px;
-            background: white;
-            background-image: radial-gradient(at 0% 0%, rgba(79, 70, 229, 0.05) 0px, transparent 50%),
-                              radial-gradient(at 100% 0%, rgba(124, 58, 237, 0.05) 0px, transparent 50%);
+        /* 🏔️ NEW STYLISH HEADER */
+        .header-section {
+            background: linear-gradient(135deg, var(--navy) 0%, #1e293b 100%);
+            padding: 60px 25px 90px;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            position: relative;
             text-align: center;
         }
-        .pkg-header span { color: #ef4444; font-weight: 800; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; }
-        .pkg-header h1 { font-size: 3rem; margin-top: 15px; font-weight: 800; letter-spacing: -1.5px; }
-        .pkg-header p { color: var(--text-grey); margin-top: 15px; font-size: 1.1rem; max-width: 600px; margin-inline: auto; }
 
-        /* 📦 Package Grid Container */
-        .pkg-container { padding: 40px 8% 80px; }
-        .pkg-grid {
+        .nav-icons {
+            display: flex; justify-content: space-between; align-items: center;
+            position: absolute; top: 25px; left: 20px; right: 20px;
+        }
+
+        .back-btn {
+            width: 45px; height: 45px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px; display: flex; align-items: center; justify-content: center;
+            color: white; text-decoration: none; backdrop-filter: blur(10px);
+        }
+
+        .header-text h1 {
+            color: white; font-size: 28px; font-weight: 800;
+            margin-bottom: 10px; line-height: 1.2;
+        }
+        .header-text p {
+            color: rgba(255,255,255,0.6); font-size: 14px;
+            max-width: 250px; margin: 0 auto;
+        }
+
+        /* 🔍 SEARCH OVERLAP */
+        .search-box {
+            position: absolute; bottom: -28px; left: 20px; right: 20px;
+            background: white; padding: 18px 25px; border-radius: 25px;
+            display: flex; align-items: center; gap: 15px;
+            box-shadow: 0 15px 35px rgba(255, 140, 66, 0.15);
+        }
+        .search-box i { color: var(--primary); font-size: 18px; }
+        .search-box input { border: none; outline: none; width: 100%; font-weight: 600; font-family: inherit; }
+
+        /* 📋 2-COLUMN GRID SECTION */
+        .container { margin-top: 60px; padding: 20px; }
+        .grid-layout {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 35px;
+            grid-template-columns: 1fr 1fr; /* 2 Columns */
+            gap: 15px;
         }
 
-        /* 💳 Premium Cards */
-        .pkg-card {
-            background: white; border-radius: 24px; overflow: hidden;
-            border: 1px solid #f1f5f9; transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05);
+        /* 💳 MOBILE MINI CARD */
+        .package-card {
+            background: white;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.03);
+            border: 1px solid rgba(0,0,0,0.02);
+            display: flex; flex-direction: column;
         }
-        .pkg-card:hover { transform: translateY(-12px); box-shadow: 0 30px 60px -12px rgba(0,0,0,0.12); }
 
-        .pkg-img-box { position: relative; height: 260px; overflow: hidden; }
-        .pkg-img { width: 100%; height: 100%; object-fit: cover; transition: 0.5s; }
-        .pkg-card:hover .pkg-img { transform: scale(1.1); }
+        .img-area { position: relative; height: 140px; }
+        .img-area img { width: 100%; height: 100%; object-fit: cover; }
         
-        .price-badge {
-            position: absolute; bottom: 15px; right: 15px;
-            background: white; padding: 8px 18px; border-radius: 14px;
-            font-weight: 800; font-size: 1.2rem; color: #0f172a; box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        .price-tag {
+            position: absolute; top: 10px; right: 10px;
+            background: rgba(255,255,255,0.9); padding: 5px 10px;
+            border-radius: 10px; font-weight: 800; font-size: 11px;
+            color: var(--navy); backdrop-filter: blur(5px);
         }
 
-        .pkg-content { padding: 25px; }
-        .pkg-tag { color: #4f46e5; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; margin-bottom: 8px; display: block; }
-        .pkg-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 12px; }
-        
-        .pkg-details { margin-bottom: 25px; }
-        .pkg-details span { font-size: 0.9rem; color: #475569; display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
-        .pkg-details i { color: #10b981; }
+        .card-body { padding: 15px; flex-grow: 1; display: flex; flex-direction: column; }
+        .card-body .cate { color: var(--primary); font-size: 9px; font-weight: 800; text-transform: uppercase; margin-bottom: 5px; }
+        .card-body h3 { font-size: 14px; font-weight: 700; color: var(--navy); margin-bottom: 10px; line-height: 1.3; }
 
-        .btn-book {
-            display: block; width: 100%; text-align: center;
-            background: var(--primary-gradient); color: white;
-            padding: 16px; border-radius: 16px; text-decoration: none;
-            font-weight: 700; font-size: 1rem; transition: 0.3s;
+        .book-btn {
+            margin-top: auto;
+            background: linear-gradient(45deg, #ff8c42, #ff6b35);
+            color: white; text-align: center; text-decoration: none;
+            padding: 10px; border-radius: 12px; font-size: 12px; font-weight: 700;
         }
-        .btn-book:hover { transform: scale(1.02); box-shadow: 0 10px 20px rgba(79, 70, 229, 0.2); }
 
-        footer { text-align: center; padding: 60px; color: var(--text-grey); font-size: 0.9rem; border-top: 1px solid #f1f5f9; }
-
-        @media (max-width: 600px) {
-            .pkg-header h1 { font-size: 2.2rem; }
-            .pkg-container { padding: 30px 5%; }
-        }
+        footer { text-align: center; padding: 40px 20px; font-size: 11px; color: #94a3b8; }
     </style>
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo">BHARAT YATRA</div>
-        <a href="index.html" class="back-btn">RETURN HOME</a>
-    </nav>
+    <!-- 🏔️ PREMIUM HEADER -->
+    <div class="header-section">
+        <div class="nav-icons">
+            <a href="index.html" class="back-btn"><i class="fas fa-chevron-left"></i></a>
+            <i class="fas fa-heart" style="color: white; opacity: 0.5;"></i>
+        </div>
+        <div class="header-text">
+            <h1>Discover Your <br> Next Adventure</h1>
+            <p>Expertly curated holiday packages just for you</p>
+        </div>
 
-    <header class="pkg-header">
-        <span>Verified Destinations</span>
-        <h1>Dream Holiday Deals</h1>
-        <p>Premium travel experiences curated by Nirmal Rajput. Experience luxury, comfort, and discovery.</p>
-    </header>
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Where do you want to go?">
+        </div>
+    </div>
 
-    <section class="pkg-container">
-        <div class="pkg-grid">
+    <!-- 📋 2-COLUMN GRID (10 CARDS) -->
+    <div class="container">
+        <div class="grid-layout">
             
-            <div class="pkg-card">
-                <div class="pkg-img-box">
-                    <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800" class="pkg-img" alt="Goa">
-                    <div class="price-badge">₹12,499</div>
+            <!-- Card 1 -->
+            <div class="package-card">
+                <div class="img-area">
+                    <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=400" alt="Goa">
+                    <div class="price-tag">₹12,499</div>
                 </div>
-                <div class="pkg-content">
-                    <span class="pkg-tag">Beach & Fun</span>
-                    <h3 class="pkg-title">Goa Beach Extravaganza</h3>
-                    <div class="pkg-details">
-                        <span><i class="fas fa-check-circle"></i> 4-Star Beach Resort</span>
-                        <span><i class="fas fa-check-circle"></i> Private Yacht Cruise</span>
-                    </div>
-                    <a href="javascript:void(0)" class="btn-book" onclick="sendToWhatsApp('Goa Extravaganza', '12,499')">Book Now</a>
+                <div class="card-body">
+                    <span class="cate">Beach</span>
+                    <h3>Goa Paradise Stay</h3>
+                    <a href="#" class="book-btn" onclick="inquiry('Goa Paradise', '12,499')">Book Now</a>
                 </div>
             </div>
 
-            <div class="pkg-card">
-                <div class="pkg-img-box">
-                    <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800" class="pkg-img" alt="Manali">
-                    <div class="price-badge">₹9,499</div>
+            <!-- Card 2 -->
+            <div class="package-card">
+                <div class="img-area">
+                    <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=400" alt="Manali">
+                    <div class="price-tag">₹9,499</div>
                 </div>
-                <div class="pkg-content">
-                    <span class="pkg-tag">Himalayas</span>
-                    <h3 class="pkg-title">Magical Manali & Rohtang</h3>
-                    <div class="pkg-details">
-                        <span><i class="fas fa-check-circle"></i> Luxury Mountain Cottage</span>
-                        <span><i class="fas fa-check-circle"></i> Snow Adventure Tour</span>
-                    </div>
-                    <a href="javascript:void(0)" class="btn-book" onclick="sendToWhatsApp('Magical Manali', '9,499')">Book Now</a>
+                <div class="card-body">
+                    <span class="cate">Mountains</span>
+                    <h3>Manali Hills</h3>
+                    <a href="#" class="book-btn" onclick="inquiry('Manali Hills', '9,499')">Book Now</a>
                 </div>
             </div>
 
-            <div class="pkg-card">
-                <div class="pkg-img-box">
-                    <img src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=800" class="pkg-img" alt="Kashmir">
-                    <div class="price-badge">₹18,500</div>
+            <!-- Card 3 -->
+            <div class="package-card">
+                <div class="img-area">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSArmtBam6dAdSqw_pgqdXUSd2KN1AK1iGW9g&s" alt="Kashmir">
+                    <div class="price-tag">₹18,500</div>
                 </div>
-                <div class="pkg-content">
-                    <span class="pkg-tag">Heaven on Earth</span>
-                    <h3 class="pkg-title">Kashmir Valley Paradise</h3>
-                    <div class="pkg-details">
-                        <span><i class="fas fa-check-circle"></i> Deluxe Houseboat Stay</span>
-                        <span><i class="fas fa-check-circle"></i> Shikara Ride Included</span>
-                    </div>
-                    <a href="javascript:void(0)" class="btn-book" onclick="sendToWhatsApp('Kashmir Valley', '18,500')">Book Now</a>
+                <div class="card-body">
+                    <span class="cate">Temple</span>
+                    <h3>Kedarnath</h3>
+                    <a href="#" class="book-btn" onclick="inquiry('Kashmir Valley', '18,500')">Book Now</a>
                 </div>
             </div>
 
-            <div class="pkg-card">
-                <div class="pkg-img-box">
-                    <img src="https://www.remotelands.com/travelogues/app/uploads/2020/03/Jaisalmer-1.jpg" class="pkg-img" alt="Jaisalmer">
-                    <div class="price-badge">₹8,999</div>
+            <!-- Card 4 -->
+            <div class="package-card">
+                <div class="img-area">
+                    <img src="data:image/jpeg;base64,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" alt="Agra">
+                    <div class="price-tag">₹4,999</div>
                 </div>
-                <div class="pkg-content">
-                    <span class="pkg-tag">Desert Life</span>
-                    <h3 class="pkg-title">Jaisalmer Sand Dunes</h3>
-                    <div class="pkg-details">
-                        <span><i class="fas fa-check-circle"></i> Swiss Tent Camping</span>
-                        <span><i class="fas fa-check-circle"></i> Camel & Jeep Safari</span>
-                    </div>
-                    <a href="javascript:void(0)" class="btn-book" onclick="sendToWhatsApp('Jaisalmer Desert', '8,999')">Book Now</a>
+                <div class="card-body">
+                    <span class="cate">Heritage</span>
+                    <h3>Agra Taj Tour</h3>
+                    <a href="#" class="book-btn" onclick="inquiry('Agra Taj', '4,999')">Book Now</a>
                 </div>
             </div>
 
-            <div class="pkg-card">
-                <div class="pkg-img-box">
-                    <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2022/07/Shri-Kedarnath-Dham.jpg" class="pkg-img" alt="Kedarnath">
-                    <div class="price-badge">₹15,200</div>
+            <!-- Card 5 -->
+            <div class="package-card">
+                <div class="img-area">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAvNB-1-MoNVsJfOGwPQTasqCPB9r3zuZjOg&s" alt="Jaislmer">
+                    <div class="price-tag">₹19,999</div>
                 </div>
-                <div class="pkg-content">
-                    <span class="pkg-tag">Spiritual Journey</span>
-                    <h3 class="pkg-title">Kedarnath Holy Trek</h3>
-                    <div class="pkg-details">
-                        <span><i class="fas fa-check-circle"></i> VIP Darshan Assistance</span>
-                        <span><i class="fas fa-check-circle"></i> Helicopter/Trek Options</span>
-                    </div>
-                    <a href="javascript:void(0)" class="btn-book" onclick="sendToWhatsApp('Kedarnath Spiritual', '15,200')">Book Now</a>
+                <div class="card-body">
+                    <span class="cate">desert</span>
+                    <h3>Jaislmer</h3>
+                    <a href="#" class="book-btn" onclick="inquiry('Jaislmer', '19,999')">Book Now</a>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="package-card">
+                <div class="img-area">
+                    <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2022/02/The-Jaswant-Thada-Jodhpur.jpg" alt="Jodhpur">
+                    <div class="price-tag">₹7,499</div>
+                </div>
+                <div class="card-body">
+                    <span class="cate">Desert</span>
+                    <h3>Jodhpur Forts</h3>
+                    <a href="#" class="book-btn" onclick="inquiry('Jodhpur Forts', '7,499')">Book Now</a>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="package-card">
+                <div class="img-area">
+                    <img src="https://www.thomascook.in/blog/wp-content/uploads/2019/11/tirupati-balaji-temple-1.jpg-1.jpg" alt="Shimla">
+                    <div class="price-tag">₹13,500</div>
+                </div>
+                <div class="card-body">
+                    <span class="cate">Temple</span>
+                    <h3>Tirupati</h3>
+                    <a href="#" class="book-btn" onclick="inquiry('Shimla Snow', '8,500')">Book Now</a>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="package-card">
+                <div class="img-area">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEomEtpvQUdi3wkYI55EkgLOQayZnAuINREw&s" alt="Munnar">
+                    <div class="price-tag">₹14,999</div>
+                </div>
+                <div class="card-body">
+                    <span class="cate">Temple</span>
+                    <h3>Rameshwaram</h3>
+                    <a href="#" class="book-btn" onclick="inquiry('Munnar Green', '11,999')">Book Now</a>
+                </div>
+            </div>
+
+            <!-- Card 9 -->
+            <div class="package-card">
+                <div class="img-area">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2023/10/351764703/NT/OS/NB/199238502/02-night-3-days-mathura-vrindavan-gokul-tour.jpg" alt="Udaipur">
+                    <div class="price-tag">₹9,999</div>
+                </div>
+                <div class="card-body">
+                    <span class="cate">Temple</span>
+                    <h3>Prem-Madir Vrindavan</h3>
+                    <a href="#" class="book-btn" onclick="inquiry('Udaipur Royal', '13,499')">Book Now</a>
+                </div>
+            </div>
+
+            <!-- Card 10 -->
+            <div class="package-card">
+                <div class="img-area">
+                    <img src="https://www.reisemoto.com/cdn/shop/articles/Tracing_the_History_of_Leh_Uttarakhand_to_Leh_Bike_Route_via_Manali.png?v=1767766282" alt="Ladakh">
+                    <div class="price-tag">₹22,999</div>
+                </div>
+                <div class="card-body">
+                    <span class="cate">Epic</span>
+                    <h3>Leh Ladakh Bike</h3>
+                    <a href="#" class="book-btn" onclick="inquiry('Ladakh Bike', '22,999')">Book Now</a>
                 </div>
             </div>
 
         </div>
-    </section>
+    </div>
 
     <footer>
-        &copy; 2026 Bharat Yatra Travel Agency Ltd. | Trusted & Secure Payments
+        &copy; 2026 Bharat Yatra Travel Agency | Designed by Nirmal Rajput
     </footer>
 
     <script>
-        function sendToWhatsApp(pkg, price) {
+        function inquiry(name, price) {
             const phone = "919009629736";
-            const msg = `Hello Nirmal! 👋%0A%0AI am interested in the *${pkg}* package.%0A💰 Price: ₹${price}/-%0APlease share more details.`;
-            window.open(`https://wa.me/${phone}?text=${msg}`, '_blank');
+            const text = `Hi Nirmal! I'm interested in the *${name}* package for ₹${price}. Please share details.`;
+            window.open(`https://wa.me/${phone}?text=${encodeURIComponent(text)}`, '_blank');
         }
     </script>
 
